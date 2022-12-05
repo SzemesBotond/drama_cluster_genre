@@ -1,0 +1,9 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"christian","Christian","MALE","false","18","285","5201",,"7","22","0.5952380952380952","1","0.5478080506667028"
+"sybil","Sybil","FEMALE","false","2","51","658",,"1","2","0","0.5384615384615384","0.1421923915302457"
+"theobald","Theobald","MALE","false","5","122","2281",,"4","8","0.047619047619047616","0.7","0.4089072561835911"
+"luise","Luise","FEMALE","false","1","19","136",,"2","2","0","0.5833333333333334","0.2483304096823911"
+"graf","Graf","MALE","false","6","64","1366",,"4","9","0.047619047619047616","0.7","0.4214812190239512"
+"marianne","Marianne","FEMALE","false","5","86","819",,"3","9","0.023809523809523808","0.6363636363636364","0.30934531544662913"
+"der_diener","Der Diener","MALE","false","3","4","6",,"3","6","0","0.6363636363636364","0.3577324882082551"
+"jungfer","Eine Jungfer","FEMALE","false","3","13","80",,"2","6","0","0.5833333333333334","0.2224883178611395"

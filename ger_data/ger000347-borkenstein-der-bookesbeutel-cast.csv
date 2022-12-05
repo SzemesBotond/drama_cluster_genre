@@ -1,0 +1,10 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"agneta","Agneta","FEMALE","false","18","118","3661",,"8","40","0.10714285714285714","1","0.36115071519035297"
+"susanna","Susanna","FEMALE","false","9","44","1616",,"8","23","0.10714285714285714","1","0.3611507151903529"
+"zwo_maegde","Zwo Mägde","FEMALE","true","1","0","13",,"2","2","0","0.5714285714285714","0.1021274167966634"
+"sittenreich","Sittenreich","MALE","false","15","81","3271",,"7","38","0","0.8888888888888888","0.34849923782160414"
+"grobian","Grobian","MALE","false","14","132","4394",,"7","30","0","0.8888888888888888","0.3484992378216041"
+"ehrenwehrt","Ehrenwehrt","MALE","false","7","55","1169",,"7","23","0","0.8888888888888888","0.34849923782160414"
+"carolina","Carolina","FEMALE","false","8","41","725",,"7","24","0","0.8888888888888888","0.34849923782160414"
+"charlotte","Charlotte","FEMALE","false","5","32","1137",,"7","16","0","0.8888888888888888","0.34849923782160414"
+"gutherz","Gutherz","MALE","false","7","59","1412",,"7","20","0","0.8888888888888888","0.34849923782160414"

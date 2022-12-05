@@ -1,0 +1,9 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"anton","Anton","MALE","false","9","43","2363",,"4","15","0.015873015873015872","0.7","0.34874846772809"
+"lindenberg","Lindenberg","MALE","false","12","70","2547",,"5","17","0.055555555555555546","0.7777777777777778","0.40935173671573977"
+"rosalie","Rosalie","FEMALE","false","3","24","397",,"4","5","0.015873015873015872","0.7","0.33985231929293913"
+"adolph","Baron Adolph","MALE","false","6","38","1180",,"7","13","0.3333333333333333","1","0.48772692546857316"
+"felden","Junker Felden","MALE","false","5","40","909",,"5","10","0.055555555555555546","0.7777777777777778","0.40204219549630976"
+"marie","Marie","FEMALE","false","5","17","360",,"4","9","0.047619047619047616","0.7","0.3078442101675052"
+"baader","Baader","MALE","false","1","4","23",,"3","3","0","0.6363636363636364","0.26685555597497684"
+"ein_ziegenhirt","Ein Ziegenhirt","MALE","false","1","6","182",,"2","2","0","0.5833333333333334","0.17265757064617238"

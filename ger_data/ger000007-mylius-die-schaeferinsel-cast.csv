@@ -1,0 +1,9 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"montan","Montan","MALE","false","14","161","3279",,"7","35","0","1","0.3535533905932738"
+"chloe","Chloe","FEMALE","false","16","113","1239",,"7","39","0","1","0.3535533905932738"
+"doris","Doris","FEMALE","false","9","74","870",,"7","27","0","1","0.3535533905932738"
+"silvander","Silvander","MALE","false","14","153","2156",,"7","32","0","1","0.3535533905932738"
+"mops","Mops","MALE","false","11","84","1013",,"7","22","0","1","0.3535533905932738"
+"sylvia","Sylvia","FEMALE","false","7","42","452",,"7","24","0","1","0.3535533905932738"
+"damoet","Damöt","MALE","false","8","41","459",,"7","24","0","1","0.3535533905932738"
+"corydon","Corydon","MALE","false","6","97","1552",,"7","19","0","1","0.3535533905932738"

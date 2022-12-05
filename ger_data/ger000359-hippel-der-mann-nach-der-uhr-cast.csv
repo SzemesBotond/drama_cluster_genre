@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"orbil","Orbil","MALE","false","10","127","3610",,"5","16","0","1","0.408248290463863"
+"wilhelmine","Wilhelmine","FEMALE","false","6","56","577",,"5","11","0","1","0.408248290463863"
+"lisette","Lisette","FEMALE","false","10","93","1226",,"5","16","0","1","0.408248290463863"
+"johann","Johann","MALE","false","8","45","741",,"5","17","0","1","0.408248290463863"
+"valer","Valer","MALE","false","7","51","763",,"5","16","0","1","0.408248290463863"
+"der_magister","Der Magister","MALE","false","3","35","887",,"5","8","0","1","0.408248290463863"

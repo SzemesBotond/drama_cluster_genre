@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"martin_krumm","Martin Krumm","MALE","false","5","56","1499",,"4","6","0.3333333333333333","0.75","0.3162287222827538"
+"michel_stich","Michel Stich","MALE","false","1","5","154",,"1","1","0","0.46153846153846156","0.07107152487037675"
+"der_reisende","Der Reisende","MALE","false","15","105","2510",,"5","21","0.08888888888888888","0.8571428571428571","0.44532721088985866"
+"christoph","Christoph","MALE","false","10","64","2078",,"4","20","0","0.6666666666666666","0.38729785648722254"
+"das_fraeulein","Das Fräulein","FEMALE","false","7","29","658",,"5","16","0.08888888888888888","0.8571428571428571","0.44532721088985866"
+"der_baron","Der Baron","MALE","false","7","53","1368",,"4","17","0","0.6666666666666666","0.38729785648722254"
+"lisette","Lisette","FEMALE","false","10","68","1269",,"5","19","0.08888888888888888","0.8571428571428571","0.44532721088985866"

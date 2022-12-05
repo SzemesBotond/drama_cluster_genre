@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"marie","Marie von Gersdorf","FEMALE","false","8","90","1711",,"4","9","0.06666666666666667","0.8333333333333334","0.47207791823550505"
+"fanny","Fanny Schmidt","FEMALE","false","6","33","617",,"4","5","0.4","0.8333333333333334","0.41418610890659535"
+"franz","Franz Kutzer","MALE","false","1","14","267",,"1","1","0","0.5","0.11223720941688563"
+"laura","Laura von Walther","FEMALE","false","9","106","1755",,"4","12","0.06666666666666667","0.8333333333333334","0.47207791823550505"
+"dernburg","Max von Dernburg","MALE","false","6","94","1877",,"4","9","0.06666666666666667","0.8333333333333334","0.47207791823550505"
+"friedrich","Friedrich von Walther","MALE","false","5","38","648",,"3","8","0","0.625","0.3837707562522446"

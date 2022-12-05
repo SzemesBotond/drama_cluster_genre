@@ -1,0 +1,11 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"der_graf","Der Graf","MALE","false","3","102","3959",,"8","14","0.016666666666666666","0.9","0.3210098003074574"
+"bertha","Bertha","FEMALE","false","4","143","3154",,"8","16","0.016666666666666666","0.9","0.3210098003074574"
+"ahnfrau_gestalt","Die Ahnfrau (Die Gestalt)","FEMALE","false","2","14","85",,"8","10","0.009259259259259259","0.9","0.325697405426291"
+"guenther","Günther","MALE","false","4","46","1218",,"9","20","0.03518518518518518","1","0.34934184133734403"
+"jaromir","Jaromir","MALE","false","4","117","6443",,"9","17","0.03518518518518518","1","0.34934184133734403"
+"hauptmann","Hauptmann","MALE","false","3","52","1002",,"9","16","0.03518518518518518","1","0.34934184133734403"
+"walter","Walter","MALE","false","1","2","8",,"5","5","0","0.6923076923076923","0.2120716044573078"
+"soldat","Ein Soldat","MALE","false","3","9","488",,"8","13","0.009259259259259259","0.9","0.325697405426291"
+"boleslav","Boleslav","MALE","false","2","25","617",,"8","11","0.009259259259259259","0.9","0.325697405426291"
+"chor_gesang","Chor/Gesang","UNKNOWN","true","1","2","64",,"6","6","0","0.75","0.25411706901521663"

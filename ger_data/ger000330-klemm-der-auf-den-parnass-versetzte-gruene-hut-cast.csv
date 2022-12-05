@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"apollo-leander","Apollo (Leander)","MALE","false","22","94","2823",,"6","59","0","1","0.3779644730092272"
+"thalia-isabelle","Thalia (Isabelle)","FEMALE","false","17","58","1025",,"6","53","0","1","0.3779644730092272"
+"critik-clarisse","Critik (Clarisse)","FEMALE","false","18","92","1469",,"6","49","0","1","0.3779644730092272"
+"merkur-clitander","Merkur (Clitander)","MALE","false","12","45","993",,"6","39","0","1","0.3779644730092272"
+"momus-cleon","Momus (Cleon)","MALE","false","10","57","812",,"6","35","0","1","0.3779644730092272"
+"prehauser-hannswurst","Prehauser (Hannswurst)","MALE","false","14","144","2772",,"6","38","0","1","0.3779644730092272"
+"odoardo-lysimon","Odoardo (Lysimon)","MALE","false","19","126","1691",,"6","49","0","1","0.3779644730092272"

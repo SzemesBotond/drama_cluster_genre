@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"la_bella_cenci","La bella Cenci (Beatrice)","FEMALE","false","5","453","7554",,"5","18","0.025","1","0.42844498358911093"
+"url","Url","MALE","false","4","612","6558",,"4","14","0","0.8333333333333334","0.3645130890306312"
+"hollrieder","Hollrieder","MALE","false","5","663","8981",,"5","18","0.025","1","0.42844498358911093"
+"musmann","Musmann","MALE","false","5","241","2224",,"5","18","0.025","1","0.42844498358911093"
+"lipsius","Lipsius","MALE","false","3","163","1335",,"5","12","0.025","1","0.42844498358911093"
+"der_praesident_der_sezession","Der Präsident der Sezession","MALE","false","1","68","1514",,"4","4","0","0.8333333333333334","0.3645130890306312"

@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"herbert","Herbert von Buch","MALE","false","13","94","1689",,"5","21","0.25","1","0.515139983142255"
+"victor","Victor Taschenberg","MALE","false","2","5","107",,"2","3","0","0.625","0.2841218454406607"
+"xaver","Graf Xaver Nicolowitsch","MALE","false","2","8","139",,"2","3","0","0.625","0.2841218454406607"
+"hildegard","Hildegard von Eichstädt","FEMALE","false","10","115","1998",,"5","18","0.25","1","0.515139983142255"
+"werlitz","Baron Friedrich von Werlitz","MALE","false","6","90","2861",,"3","12","0","0.7142857142857143","0.39230801000182325"
+"ilse","Ilse Müller","FEMALE","false","4","49","932",,"3","9","0","0.7142857142857143","0.3923080100018233"

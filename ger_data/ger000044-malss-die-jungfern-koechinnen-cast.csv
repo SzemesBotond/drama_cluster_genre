@@ -1,0 +1,12 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"madame_hammel","Madame Hammel","FEMALE","false","14","78","1268",,"10","38","0.2","1","0.31921234973372337"
+"kohlentraeger","Kohlenträger","MALE","false","1","3","62",,"1","1","0","0.5263157894736842","0.03542434794979182"
+"herr_hammel","Herr Hammel","MALE","false","8","37","705",,"9","29","0","0.9090909090909091","0.3156736344443608"
+"frenz","Frenz","FEMALE","false","23","148","2154",,"9","63","0","0.9090909090909091","0.3156736344443608"
+"peter","Peter","MALE","false","10","65","1681",,"9","44","0","0.9090909090909091","0.3156736344443608"
+"frau_hannlapps","Frau Hannlapps","FEMALE","false","5","36","640",,"9","28","0","0.9090909090909091","0.3156736344443608"
+"dorthee","Dorthee","FEMALE","false","13","52","1064",,"9","50","0","0.9090909090909091","0.3156736344443608"
+"lissbeth","Lißbeth","FEMALE","false","7","15","197",,"9","40","0","0.9090909090909091","0.3156736344443608"
+"susann","Susann","FEMALE","false","7","9","142",,"9","40","0","0.9090909090909091","0.3156736344443608"
+"schwaebin","Schwäbin","FEMALE","false","4","16","114",,"9","30","0","0.9090909090909091","0.3156736344443608"
+"schmidt","Schmidt","MALE","false","4","3","67",,"9","27","0","0.9090909090909091","0.3156736344443608"

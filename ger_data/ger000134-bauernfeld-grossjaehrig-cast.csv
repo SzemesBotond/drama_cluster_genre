@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"blase","Blase","MALE","false","13","199","3078",,"5","32","0","0.8571428571428571","0.39365169104430775"
+"auguste","Auguste","FEMALE","false","15","184","1886",,"5","33","0","0.8571428571428571","0.39365169104430775"
+"spitz","Spitz","MALE","false","11","99","1196",,"6","26","0.13333333333333333","1","0.420331591958613"
+"amalie","Amalie","FEMALE","false","9","77","567",,"5","26","0","0.8571428571428571","0.39365169104430775"
+"schmerl","Schmerl","MALE","false","8","162","2308",,"5","21","0","0.8571428571428571","0.39365169104430775"
+"hermann","Hermann","MALE","false","10","148","1761",,"6","22","0.13333333333333333","1","0.420331591958613"
+"bedienter","Bedienter","MALE","false","2","7","60",,"2","2","0","0.6","0.16369511341180393"

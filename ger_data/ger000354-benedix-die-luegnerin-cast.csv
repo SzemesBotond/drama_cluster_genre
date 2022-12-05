@@ -1,0 +1,9 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"langenberg","Langenberg","MALE","false","3","41","649",,"6","9","0","0.875","0.3696904911327283"
+"constanze","Constanze","FEMALE","false","8","129","1609",,"7","26","0.11904761904761904","1","0.3876067083050869"
+"gustchen","Gustchen","FEMALE","false","6","32","298",,"6","23","0","0.875","0.3696904911327283"
+"backes","Backes","MALE","false","4","29","240",,"6","19","0","0.875","0.3696904911327283"
+"hahnenbein","Hahnenbein","MALE","false","4","23","238",,"6","19","0","0.875","0.3696904911327282"
+"moritz","Moritz","MALE","false","6","73","1546",,"7","23","0.11904761904761904","1","0.3876067083050869"
+"frau_greiner","Frau Greiner","FEMALE","false","1","8","168",,"2","2","0","0.5833333333333334","0.1271486656792015"
+"hauptmann","Hauptmann","MALE","false","2","43","515",,"6","11","0","0.875","0.3696904911327283"

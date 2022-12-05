@@ -1,0 +1,9 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"lottchen","Lottchen","FEMALE","false","28","139","5789",,"7","46","0.06349206349206349","1","0.38588216865665903"
+"cleon","Cleon","MALE","false","12","82","3446",,"6","23","0","0.875","0.3600661676509434"
+"siegmund","Siegmund","MALE","false","17","62","1725",,"7","32","0.06349206349206349","1","0.38588216865665903"
+"damis","Damis","MALE","false","15","79","2062",,"6","27","0","0.875","0.3600661676509434"
+"julchen","Julchen","FEMALE","false","25","160","4869",,"6","39","0","0.875","0.3600661676509434"
+"der_magister","Der Magister","MALE","false","7","38","2187",,"6","15","0","0.875","0.3600661676509434"
+"simon","Simon","MALE","false","11","47","1522",,"7","23","0.06349206349206349","1","0.3858821686566591"
+"der_bediente","Der Bediente","MALE","false","1","1","12",,"3","3","0","0.6363636363636364","0.18626399381295417"

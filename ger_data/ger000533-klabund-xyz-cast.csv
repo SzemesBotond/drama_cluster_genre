@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"y","Y","FEMALE","false","3","465","5225",,"5","8","0.2","1","0.4999999355819319"
+"diener","Diener","MALE","false","1","45","496",,"3","3","0","0.7142857142857143","0.35355343614372065"
+"lautsprecher_buddha","Lautsprecher/Buddha","UNKNOWN","false","1","3","157",,"3","3","0","0.7142857142857143","0.35355343614372065"
+"x","X","MALE","false","3","360","3284",,"5","8","0.2","1","0.4999999355819319"
+"z","Z","MALE","false","2","248","2007",,"3","5","0","0.7142857142857143","0.35355343614372065"
+"kakadu","Kakadu","UNKNOWN","false","1","1","1",,"3","3","0","0.7142857142857143","0.35355343614372065"

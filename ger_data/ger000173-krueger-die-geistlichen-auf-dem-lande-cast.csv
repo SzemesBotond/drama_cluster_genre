@@ -1,0 +1,10 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"peter","Peter","MALE","false","9","111","3363",,"8","21","0.052976190476190475","1","0.37596217591463293"
+"cathrine","Cathrine","FEMALE","false","8","87","2576",,"6","14","0","0.8","0.3151505362052099"
+"muffel","Muffel","MALE","false","13","152","4047",,"7","31","0.014285714285714285","0.8888888888888888","0.3488350365433477"
+"tempelstolz","Tempelstolz","MALE","false","8","63","1950",,"7","23","0.026785714285714284","0.8888888888888888","0.3422776755764951"
+"wahrmund","Herr Wahrmund","MALE","false","6","36","2661",,"5","11","0","0.7272727272727273","0.26539155637641815"
+"wilhelmine","Fräulein Wilhelmine","FEMALE","false","16","60","2459",,"7","35","0.014285714285714285","0.8888888888888888","0.34883503654334774"
+"frau_von_birkenhayn","Frau von Birkenhayn","FEMALE","false","11","68","1973",,"8","30","0.052976190476190475","1","0.37596217591463293"
+"herr_von_roseneck","Herr von Roseneck","MALE","false","12","92","3211",,"8","28","0.052976190476190475","1","0.3759621759146329"
+"brigitte","Brigitte","FEMALE","false","3","32","1122",,"4","5","0","0.6666666666666666","0.2137264970466439"

@@ -1,0 +1,9 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"jacob","Jacob","MALE","false","4","25","435",,"2","5","0","0.5833333333333334","0.12969406857145976"
+"cathrine","Cathrine","FEMALE","false","7","48","689",,"5","8","0.07142857142857142","0.7777777777777778","0.3098685062691065"
+"richard","Richard","MALE","false","9","77","1283",,"5","18","0","0.7777777777777778","0.34908104777515564"
+"jungwitz","Jungwitz","MALE","false","14","94","1450",,"7","25","0.19047619047619047","1","0.41573476671681403"
+"charlotte","Charlotte","FEMALE","false","9","64","403",,"6","15","0.023809523809523808","0.875","0.3960683465056881"
+"praatgern","Frau Praatgern","FEMALE","false","9","62","2043",,"6","16","0.023809523809523808","0.875","0.3960683465056881"
+"leonore","Leonore","FEMALE","false","6","43","607",,"5","12","0","0.7777777777777778","0.34908104777515564"
+"laconius","Laconius","MALE","false","3","12","57",,"6","7","0.023809523809523808","0.875","0.3960683465056881"

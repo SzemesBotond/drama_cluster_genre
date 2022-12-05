@@ -1,0 +1,10 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"herr_gotthart","Herr Gotthart","MALE","false","16","182","3862",,"8","31","0.10535714285714284","1","0.39871102493735694"
+"dr_muskat","Dr. Muskat","MALE","false","4","48","1216",,"6","12","0.035714285714285705","0.8","0.3251393001355945"
+"dr_krebsstein","Dr. Krebsstein","MALE","false","2","43","1171",,"3","4","0","0.6153846153846154","0.17674653578351365"
+"heinrich","Heinrich","MALE","false","12","194","3941",,"7","22","0.033928571428571426","0.8888888888888888","0.3746678432137731"
+"kathrine","Kathrine","FEMALE","false","5","40","603",,"4","8","0","0.6666666666666666","0.2435353784858388"
+"ernst_gotthart","Ernst Gotthart","MALE","false","20","256","4335",,"8","38","0.10535714285714284","1","0.39871102493735694"
+"jungfer_froehlichin","Jungfer Fröhlichin","FEMALE","false","13","164","3904",,"7","32","0.033928571428571426","0.8888888888888888","0.3746678432137731"
+"frau_kreuzin","Frau Kreuzin","FEMALE","false","7","42","950",,"6","21","0.007142857142857143","0.8","0.3415394919270102"
+"herr_froehlich","Herr Fröhlich","MALE","false","4","17","304",,"5","12","0","0.7272727272727273","0.29731034994723177"

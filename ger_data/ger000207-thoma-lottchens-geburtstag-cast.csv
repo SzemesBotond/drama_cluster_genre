@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"frau_giselius","Frau Giselius","FEMALE","false","9","169","1405",,"5","18","0.15000000000000002","1","0.4611371533500853"
+"professor_giselius","Professor Giselius","MALE","false","9","178","2252",,"4","18","0","0.8333333333333334","0.41893485189381474"
+"babette","Babette","FEMALE","false","2","8","102",,"2","3","0","0.625","0.2195126903085156"
+"coelestine","Cölestine","FEMALE","false","6","67","667",,"5","15","0.15000000000000002","1","0.4611371533500853"
+"dr_appel","Dr. Appel","MALE","false","5","87","767",,"4","12","0","0.8333333333333334","0.41893485189381474"
+"lottchen","Lottchen","FEMALE","false","1","10","146",,"4","4","0","0.8333333333333334","0.41893485189381474"

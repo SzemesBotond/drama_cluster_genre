@@ -1,0 +1,9 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"guldberg","Guldberg","MALE","false","27","222","4796","Q951499","7","85","0","1","0.3535533905932738"
+"ranzau","Graf Ranzau","MALE","false","23","158","2638","Q11999684","7","72","0","1","0.3535533905932738"
+"koeller","Köller","MALE","false","19","131","1822","Q11971832","7","61","0","1","0.3535533905932738"
+"lorenz","Lorenz","MALE","false","7","30","466",,"7","31","0","1","0.3535533905932738"
+"koenigin","Königin","FEMALE","false","14","117","2105","Q57668","7","44","0","1","0.3535533905932738"
+"gallen","Gräfin Gallen","FEMALE","false","19","98","974",,"7","59","0","1","0.3535533905932738"
+"koenig","König","MALE","false","12","57","458","Q156572","7","49","0","1","0.3535533905932738"
+"struensee","Struensee","MALE","false","25","194","4668","Q61879","7","69","0","1","0.3535533905932738"

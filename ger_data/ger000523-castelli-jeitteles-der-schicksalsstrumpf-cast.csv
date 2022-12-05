@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"kunigunde","Kunigunde","FEMALE","false","13","118","2763",,"5","17","0.18333333333333335","1","0.4897167204571476"
+"veit","Veit","MALE","false","2","19","717",,"2","2","0","0.625","0.25145306483152535"
+"das_schicksal_dolch","Das Schicksal/Dolch","UNKNOWN","false","10","49","2393",,"4","11","0.03333333333333333","0.8333333333333334","0.43834791865221784"
+"roderich_ii","Roderich II.","MALE","false","10","98","2572",,"3","14","0","0.7142857142857143","0.36399005879933966"
+"roderich_i","Roderich I.","MALE","false","14","79","2636",,"5","19","0.18333333333333335","1","0.4897167204571476"
+"moralino","Moralino","MALE","false","2","5","333",,"3","3","0","0.7142857142857143","0.36399005879933966"

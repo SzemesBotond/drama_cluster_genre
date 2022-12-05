@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"herr_reinhart","Herr Reinhart","MALE","false","1","32","707",,"1","1","0","0.5454545454545454","0.10280482780716153"
+"jungfer_lottchen","Jungfer Lottchen","FEMALE","false","7","80","1720",,"6","16","0.3777777777777777","1","0.4599621896651714"
+"der_junge_reinhart","Der junge Reinhart","MALE","false","7","79","1731",,"5","17","0.04444444444444444","0.8571428571428571","0.4411819113121394"
+"herr_vielwitz","Herr Vielwitz","MALE","false","7","79","1569",,"5","18","0.04444444444444444","0.8571428571428571","0.4411819113121394"
+"paul","Paul","MALE","false","1","1","3",,"3","3","0","0.6666666666666666","0.30001837770681805"
+"herr_sinnreich","Herr Sinnreich","MALE","false","3","52","954",,"4","10","0","0.75","0.38637544355074177"
+"herr_jambus","Herr Jambus","MALE","false","3","44","733",,"4","9","0","0.75","0.38637544355074177"

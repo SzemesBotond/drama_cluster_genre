@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"orgon","Herr Orgon","MALE","false","15","97","3458",,"6","47","0","1","0.3779644730092272"
+"philipp","Philipp","MALE","false","18","131","3463",,"6","43","0","1","0.3779644730092272"
+"lisette","Lisette","FEMALE","false","15","88","2299",,"6","38","0","1","0.3779644730092272"
+"timant","Timant","MALE","false","18","143","5918",,"6","45","0","1","0.3779644730092272"
+"damon","Damon","MALE","false","14","92","4074",,"6","40","0","1","0.3779644730092272"
+"geronte","Herr Geronte","MALE","false","12","68","2381",,"6","43","0","1","0.3779644730092272"
+"climene","Climene","FEMALE","false","14","79","2419",,"6","42","0","1","0.3779644730092272"

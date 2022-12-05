@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"dorn","Dorn","MALE","false","4","49","1560",,"5","10","0","1","0.408248290463863"
+"foerster","Förster","MALE","false","4","32","353",,"5","10","0","1","0.408248290463863"
+"johann","Johann","MALE","false","3","18","508",,"5","9","0","1","0.408248290463863"
+"friederike","Friederike","FEMALE","false","3","19","492",,"5","9","0","1","0.408248290463863"
+"eduard","Eduard","MALE","false","1","4","291",,"5","5","0","1","0.408248290463863"
+"leonore","Leonore","FEMALE","false","1","4","189",,"5","5","0","1","0.408248290463863"

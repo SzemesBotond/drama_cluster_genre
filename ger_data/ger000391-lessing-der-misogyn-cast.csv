@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"wumshaeter","Wumshäter","MALE","false","15","150","4101",,"6","34","0.03333333333333333","1","0.4046820920252955"
+"lisette","Lisette","FEMALE","false","8","48","850",,"6","15","0.03333333333333333","1","0.4046820920252955"
+"valer","Valer","MALE","false","12","77","1927",,"6","28","0.03333333333333333","1","0.4046820920252955"
+"hilaria_als_lelio","Hilaria (verkleidet als Lelio)","FEMALE","false","11","76","1917",,"6","23","0.03333333333333333","1","0.4046820920252955"
+"laura","Laura","FEMALE","false","12","71","1780",,"5","26","0","0.8571428571428571","0.35945275802189197"
+"solbist","Solbist","MALE","false","3","48","1603",,"4","5","0","0.75","0.29413780286972885"
+"leander","Leander","MALE","false","3","7","88",,"5","11","0","0.8571428571428571","0.35945275802189197"

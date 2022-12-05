@@ -1,0 +1,10 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"urban","Urban","MALE","false","5","24","575",,"8","15","0.23809523809523805","1","0.4630510534944922"
+"haeser","Haeser","MALE","false","5","11","161",,"8","15","0.23809523809523805","1","0.4630510534944922"
+"alter_herr_1","Alter Herr (I)","MALE","false","1","1","25",,"4","4","0","0.6666666666666666","0.29190842080646706"
+"zweiter_alter_herr","Zweiter alter Herr","MALE","false","1","1","23",,"4","4","0","0.6666666666666666","0.29190842080646706"
+"dr_langenbeck","Dr. Langenbeck","MALE","false","4","9","189",,"5","11","0.023809523809523808","0.7272727272727273","0.32949492795511265"
+"junge_dame","Junge Dame","FEMALE","false","1","1","15",,"4","4","0","0.6666666666666666","0.2805255246140352"
+"alter_herr_3","Alter Herr (III)","MALE","false","1","2","17",,"4","4","0","0.6666666666666666","0.2805255246140352"
+"alte_dame","Alte Dame","FEMALE","false","1","1","14",,"4","4","0","0.6666666666666666","0.2805255246140352"
+"polizist","Polizist","MALE","false","1","1","14",,"3","3","0","0.6153846153846154","0.2368454644103354"

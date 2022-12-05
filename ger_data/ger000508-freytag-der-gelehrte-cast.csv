@@ -1,0 +1,9 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"klaus","Klaus","MALE","false","4","18","429",,"2","4","0","0.5833333333333334","0.1707899408859789"
+"romberg","Romberg","MALE","false","2","25","505",,"2","3","0","0.5833333333333334","0.1707899408859789"
+"walter","Walter","MALE","false","11","87","3066",,"7","15","0.5634920634920634","1","0.523944452567309"
+"leontine","Leontine","FEMALE","false","6","38","1421",,"4","9","0.015873015873015872","0.7","0.40897929613706474"
+"reginald","Reginald","MALE","false","5","17","531",,"5","8","0.08730158730158728","0.7777777777777778","0.45654183959792116"
+"diener","Diener","MALE","false","2","2","7",,"3","4","0","0.6363636363636364","0.3415776200171804"
+"minister","Minister","MALE","false","2","16","451",,"2","2","0","0.5833333333333334","0.24103681428952958"
+"stimmen","Stimmen","UNKNOWN","true","1","1","5",,"3","3","0","0.6363636363636364","0.3415776200171804"

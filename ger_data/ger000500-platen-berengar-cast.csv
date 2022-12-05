@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"loredano","Loredano","MALE","false","2","18","504",,"5","10","0","1","0.408248290463863"
+"flordelis","Flordelis","FEMALE","false","3","75","1198",,"5","12","0","1","0.408248290463863"
+"dorine","Dorine","FEMALE","false","2","36","459",,"5","10","0","1","0.408248290463863"
+"pandolf","Pandolf","MALE","false","2","23","256",,"5","10","0","1","0.408248290463863"
+"birbante","Birbante","MALE","false","3","37","618",,"5","12","0","1","0.408248290463863"
+"guido","Guido","MALE","false","3","23","431",,"5","12","0","1","0.408248290463863"

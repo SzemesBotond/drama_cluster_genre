@@ -1,0 +1,13 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"fraeulein_amalie","Fräulein Amalie","FEMALE","false","24","295","4357",,"10","53","0.13333333333333333","0.9166666666666666","0.34474635619261756"
+"fraeulein_karoline","Fräulein Karoline","FEMALE","false","14","171","3540",,"8","35","0","0.7857142857142857","0.3222861190741783"
+"dr_hippokras","Dr. Hippokras","MALE","false","11","102","1428",,"9","29","0.04242424242424242","0.8461538461538461","0.3357743772099933"
+"frau_von_tiefenborn","Frau von Tiefenborn","FEMALE","false","17","158","2791",,"9","33","0.18181818181818182","0.8461538461538461","0.32662096519581246"
+"heinrich","Heinrich","MALE","false","3","4","28",,"1","3","0","0.4782608695652174","0.03985762113874507"
+"herr_von_kaltenbrunn","Herr von Kaltenbrunn","MALE","false","14","135","2821",,"9","37","0.04242424242424242","0.8461538461538461","0.3357743772099933"
+"herr_von_kreuzweg","Herr von Kreuzweg","MALE","false","9","47","665",,"8","25","0","0.7857142857142857","0.3222861190741783"
+"landrat_von_ziegendorf","Landrat von Ziegendorf","MALE","false","10","76","1512",,"9","21","0.07272727272727272","0.8461538461538461","0.33125809805680256"
+"kammerherr_von_ziegendorf","Kammerherr von Ziegendorf","MALE","false","3","58","1084",,"3","6","0","0.55","0.1240191528060677"
+"herr_von_wagehals","Herr von Wagehals","MALE","false","3","42","1019",,"8","10","0","0.7857142857142857","0.3222861190741783"
+"ein_diener","Ein Diener","MALE","false","1","2","50",,"2","2","0","0.5238095238095238","0.08249334675950813"
+"notarius","Notarius","MALE","false","1","28","695",,"8","8","0","0.7857142857142857","0.3222861190741783"

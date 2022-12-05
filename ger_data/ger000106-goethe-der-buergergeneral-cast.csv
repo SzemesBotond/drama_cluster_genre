@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"goerge","Görge","MALE","false","9","99","841",,"6","24","0.03333333333333333","1","0.4046820920252955"
+"roese","Röse","FEMALE","false","8","102","806",,"6","22","0.03333333333333333","1","0.4046820920252955"
+"edelmann","Edelmann","MALE","false","4","59","557",,"5","14","0","0.8571428571428571","0.35945275802189197"
+"maerten","Märten","MALE","false","12","343","1897",,"6","25","0.03333333333333333","1","0.4046820920252955"
+"schnaps","Schnaps","MALE","false","5","286","1964",,"5","10","0","0.8571428571428571","0.35945275802189197"
+"richter","Richter","MALE","false","3","33","463",,"6","13","0.03333333333333333","1","0.4046820920252955"
+"ein_bauer","Ein Bauer","MALE","false","1","1","19",,"4","4","0","0.75","0.29413780286972885"

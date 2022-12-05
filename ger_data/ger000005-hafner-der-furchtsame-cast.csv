@@ -1,0 +1,10 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"valere","Valere","MALE","false","11","94","2347",,"8","29","0","1","0.33333333333333337"
+"hanswurst","Hanswurst","MALE","false","20","116","3745",,"8","37","0","1","0.33333333333333337"
+"hausmeister","Hausmeister","MALE","false","12","55","1114",,"8","35","0","1","0.33333333333333337"
+"friseur","Friseur","MALE","false","9","28","1570",,"8","22","0","1","0.33333333333333337"
+"lisette","Lisette","FEMALE","false","10","69","1495",,"8","28","0","1","0.33333333333333337"
+"henriette","Henriette","FEMALE","false","12","51","1371",,"8","32","0","1","0.33333333333333337"
+"hasenkopf","Herr von Hasenkopf","MALE","false","14","113","3764",,"8","37","0","1","0.33333333333333337"
+"heinzenfeld","Heinzenfeld","MALE","false","8","30","820",,"8","26","0","1","0.33333333333333337"
+"alcantor","Alcantor","MALE","false","11","40","2903",,"8","18","0","1","0.33333333333333337"

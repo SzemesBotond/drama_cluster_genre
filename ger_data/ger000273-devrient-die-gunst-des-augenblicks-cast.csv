@@ -1,0 +1,9 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"landrath","Landrath","MALE","false","26","231","4146",,"7","50","0.3333333333333333","1","0.423984527986587"
+"ernestine","Ernestine","FEMALE","false","18","124","1954",,"5","40","0","0.7777777777777778","0.37445704616268455"
+"herr_von_kiel","Herr von Kiel","MALE","false","19","174","2809",,"5","42","0","0.7777777777777778","0.3744570461626846"
+"elise","Elise","FEMALE","false","21","248","3494",,"6","46","0.04761904761904761","0.875","0.4114163179494484"
+"kommerzienrath","Kommerzienrath","MALE","false","10","90","1449",,"5","28","0","0.7777777777777778","0.37445704616268455"
+"martin","Martin","MALE","false","7","72","805",,"6","18","0.04761904761904761","0.875","0.4114163179494484"
+"reitknecht","Reitknecht","MALE","false","1","12","94",,"1","1","0","0.5384615384615384","0.07955198873347394"
+"bauer","Bauer","MALE","false","2","9","42",,"3","5","0","0.6363636363636364","0.23393928593489471"

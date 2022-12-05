@@ -1,0 +1,11 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"stueve","Stüve","MALE","false","6","137","2330",,"9","30","0.013888888888888888","1","0.33205500649623315"
+"kleewitz","Kleewitz","MALE","false","5","28","65",,"9","28","0.013888888888888888","1","0.33205500649623315"
+"frau_von_kleewitz","Frau von Kleewitz","FEMALE","false","5","23","52",,"9","28","0.013888888888888888","1","0.33205500649623315"
+"scheibler","Scheibler","MALE","false","6","115","707",,"9","30","0.013888888888888888","1","0.33205500649623315"
+"schaffner","Schaffner","MALE","false","5","18","79",,"9","27","0.013888888888888888","1","0.33205500649623315"
+"zugfuehrer","Zugführer","MALE","false","2","27","310",,"8","13","0","0.9","0.3072912007873506"
+"filser","Filser","MALE","false","3","207","2427",,"9","20","0.013888888888888888","1","0.33205500649623315"
+"frau_filser","Frau Filser","FEMALE","false","1","17","247",,"6","6","0","0.75","0.23484716247109252"
+"gsottmaier","Gsottmaier","MALE","false","2","106","1013",,"8","14","0","0.9","0.3072912007873506"
+"die_rekruten","Die Rekruten","MALE","false","1","1","13",,"8","8","0","0.9","0.3072912007873506"

@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"ulfo","Ulfo","MALE","false","11","77","3526","Q1710670","4","16","0","0.75","0.41190210882385325"
+"estrithe","Estrithe","FEMALE","false","16","73","4960",,"6","23","0.43333333333333335","1","0.47468641351775537"
+"gunilde","Gunilde","FEMALE","false","1","9","256",,"1","1","0","0.5454545454545454","0.1116054254333529"
+"godewin","Godewin","MALE","false","11","40","1950","Q318142","4","20","0","0.75","0.41190210882385325"
+"canut","Canut","MALE","false","11","43","2321","Q134128","5","20","0.1","0.8571428571428571","0.45344128436976405"
+"haqvin","Haqvin","MALE","false","2","3","243",,"2","3","0","0.6","0.21821548456509066"
+"godschalk","Godschalk","MALE","false","4","14","460",,"4","9","0","0.75","0.41190210882385325"

@@ -1,0 +1,11 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"maja","Maja","FEMALE","false","8","73","1824",,"6","18","0.11574074074074071","0.75","0.41004701821270156"
+"gadhi","Gadhi","MALE","false","9","72","2664",,"6","19","0.11574074074074071","0.75","0.41004701821270173"
+"stimmen_1","Stimmen von außen (1)","UNKNOWN","true","1","1","2",,"2","2","0","0.47368421052631576","0.16445427297334517"
+"erster_indianer","Erster Indianer","MALE","false","2","9","52",,"5","7","0.027777777777777773","0.6923076923076923","0.38060520451165986"
+"zweiter_indianer","Zweiter Indianer","MALE","false","1","3","9",,"3","3","0","0.5625","0.24362050868401217"
+"die_indianer","Die Indianer","UNKNOWN","true","3","6","18",,"5","10","0.027777777777777773","0.6923076923076923","0.38060520451165986"
+"benascar","Benascar","MALE","false","10","62","1049",,"8","20","0.49074074074074076","0.9","0.45366283507565197"
+"stimmen_5","Stimmen von außen (5)","UNKNOWN","true","1","1","1",,"1","1","0","0.5","0.09097397112581637"
+"das_kind","Das Kind","MALE","false","1","2","10",,"3","3","0","0.6","0.25542824311867224"
+"bramine","Bramine","MALE","false","1","1","4",,"1","1","0","0.5","0.09097397112581637"

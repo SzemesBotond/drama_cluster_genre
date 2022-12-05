@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"oront","Oront","MALE","false","6","81","2161",,"5","13","0","1","0.408248290463863"
+"arist","Arist","MALE","false","8","70","1643",,"5","14","0","1","0.408248290463863"
+"cleant","Cleant","MALE","false","5","27","351",,"5","11","0","1","0.408248290463863"
+"damon","Damon","MALE","false","3","34","565",,"5","10","0","1","0.408248290463863"
+"sophia","Sophia","FEMALE","false","1","7","152",,"5","5","0","1","0.408248290463863"
+"die_magd","Die Magd","FEMALE","false","1","1","10",,"5","5","0","1","0.408248290463863"

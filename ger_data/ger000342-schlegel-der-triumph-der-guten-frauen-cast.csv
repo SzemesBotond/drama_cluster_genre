@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"cathrine","Cathrine","FEMALE","false","26","163","3298",,"6","41","0.21111111111111114","1","0.4599690515946614"
+"philinte","Philinte","FEMALE","false","21","183","4166",,"4","36","0","0.75","0.3749614580993718"
+"nicander","Nicander","MALE","false","20","195","4239",,"5","32","0.1","0.8571428571428571","0.40882462511392587"
+"juliane","Juliane","FEMALE","false","26","206","3929",,"5","43","0.04444444444444444","0.8571428571428571","0.4261058845801074"
+"agenor","Agenor","MALE","false","16","168","3361",,"5","28","0.04444444444444444","0.8571428571428571","0.4261058845801074"
+"heinrich","Heinrich","MALE","false","3","27","356",,"2","3","0","0.6","0.18928763084252168"
+"agathe","Agathe","FEMALE","false","2","11","232",,"3","5","0","0.6666666666666666","0.28588904399782855"

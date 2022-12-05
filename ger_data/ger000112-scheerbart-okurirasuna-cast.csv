@@ -1,0 +1,11 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"erster_rat","Erster Rat","MALE","false","4","20","237",,"9","26","0","1","0.31622776601683794"
+"zweiter_rat","Zweiter Rat","MALE","false","4","19","334",,"9","26","0","1","0.31622776601683794"
+"graf_abgrund","Graf Abgrund","MALE","false","5","46","1262",,"9","29","0","1","0.31622776601683794"
+"dritter_rat","Dritter Rat","MALE","false","2","2","58",,"9","16","0","1","0.31622776601683794"
+"vierter_rat","Vierter Rat","MALE","false","2","2","70",,"9","16","0","1","0.31622776601683794"
+"fuenfter_rat","Fünfter Rat","MALE","false","2","3","71",,"9","16","0","1","0.31622776601683794"
+"sechster_rat","Sechster Rat","MALE","false","4","6","131",,"9","26","0","1","0.31622776601683794"
+"okurirasuna","Okurirasûna","FEMALE","false","5","66","1498",,"9","29","0","1","0.31622776601683794"
+"lekafoliram","Lekafolirâm","FEMALE","false","3","20","187",,"9","18","0","1","0.31622776601683794"
+"mesmeimonio","Mesmeimônio","FEMALE","false","3","13","118",,"9","18","0","1","0.31622776601683794"

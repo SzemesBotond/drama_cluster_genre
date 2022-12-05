@@ -1,0 +1,7 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"schnapps","Schnapps","MALE","false","6","41","1164",,"5","13","0","1","0.408248290463863"
+"knallerpaller","Knallerpaller","MALE","false","6","94","2071",,"5","15","0","1","0.408248290463863"
+"maerten","Märten","MALE","false","8","108","2009",,"5","18","0","1","0.408248290463863"
+"roese","Röse","FEMALE","false","7","48","683",,"5","18","0","1","0.408248290463863"
+"herr_von_lilienstern","Herr von Lilienstern","MALE","false","3","26","542",,"5","9","0","1","0.408248290463863"
+"guerge","Gürge","MALE","false","3","34","480",,"5","9","0","1","0.408248290463863"

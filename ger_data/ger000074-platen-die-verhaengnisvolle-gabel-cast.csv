@@ -1,0 +1,8 @@
+id,name,gender,isGroup,numOfScenes,numOfSpeechActs,numOfWords,wikidataId,degree,weightedDegree,betweenness,closeness,eigenvector
+"damon","Damon","MALE","false","4","78","2205",,"6","15","0.03333333333333333","1","0.4046820920252955"
+"phyllis","Phyllis","FEMALE","false","3","77","1502",,"5","11","0","0.8571428571428571","0.35945275802189197"
+"sirmio","Sirmio","MALE","false","4","53","719",,"5","14","0","0.8571428571428571","0.35945275802189197"
+"schmuhl","Schmuhl","MALE","false","5","96","4800",,"6","18","0.03333333333333333","1","0.4046820920252955"
+"mopsus","Mopsus","MALE","false","4","110","2332",,"6","15","0.03333333333333333","1","0.4046820920252955"
+"salome","Salome","FEMALE","false","2","13","622",,"6","9","0.03333333333333333","1","0.4046820920252955"
+"wirth","Der Wirth","MALE","false","1","16","832",,"4","4","0","0.75","0.29413780286972885"
