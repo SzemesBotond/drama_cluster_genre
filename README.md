@@ -23,6 +23,7 @@ Comparing k-means and 1000 random clasterization (genre difference and standanrd
 
 Computing the cumulative changes of some network metrics 
 
-6.)
+6.) Cumulative Figures
+
 figures for plotting the cumulative changes
 
