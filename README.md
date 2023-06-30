@@ -16,9 +16,10 @@ Computes the differences between genres without specific acts based on the outpu
 
 Substracts one act from 5-act-plays and computes basic netwrok properties based on the TEI XML files of the plays provided by the DraCor collection.
 
-4.)
+4.) k-means_year_genre.R
 Comparing k-means and 1000 random clasterization (genre difference and standanrd deviation of time).
 
-5.) cumulative changes
+5.) cumulative_changes.R
+
 Computing the cumulative changes of some network metrics + figures of the results
 
