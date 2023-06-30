@@ -15,3 +15,10 @@ Computes the differences between genres without specific acts based on the outpu
 3.) removed_act_analysis
 
 Substracts one act from 5-act-plays and computes basic netwrok properties based on the TEI XML files of the plays provided by the DraCor collection.
+
+4.)
+Comparing k-means and 1000 random clasterization (genre difference and standanrd deviation of time).
+
+5.) cumulative changes
+Computing the cumulative changes of some network metrics + figures of the results
+
