@@ -1,6 +1,12 @@
 Clustering Dramatic Genres According to Structural Properties
 Extracting structural features of dramas based on DraCor metadata, run classification methods and signifiant tests
 
+> For python code create virtual environment and install requirements
+> 1) `python -m venv venv`
+> 2) activate (win: `venv\Scripts\activate`, mac/linux: `source venv/bin/activate`)
+> 3) pip install -r requirements.txt
+
+
 1.) drama_cluster_genre.R
 
 Extracts all the features of the analysis based on the data downloaded from DraCor collection 
