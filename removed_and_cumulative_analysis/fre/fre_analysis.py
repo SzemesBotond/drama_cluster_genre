@@ -11,13 +11,13 @@ from bs4 import BeautifulSoup
 
 # Change these variables if needed!
 # List of dramas to exclude (bad/different structure)
-BLACKLIST = ['anonyme-vende']
+BLACKLIST = ['anonyme-vende', 'moliere-divertissement-chambord', 'dumas-don-juan', 'moliere-princesse-d-elide']
 
 # Tags to consider as acts
-ACT_TAGS = ['act', 'acte', 'ate']  # These are for sure act tags
+ACT_TAGS = ['act', 'acte', 'ate', 'partie', 'tableau']  # These are for sure act tags
 
 # The tags in here will be considered as extra "act" tags
-POSSIBLE_ACT_TAGS = ['partie', 'critique', 'tableau', 'intermede']
+POSSIBLE_ACT_TAGS = ['critique', 'intermede']
 
 # If True: Only tags that are in ACT_TAGS are considered as part of the 5-act structure. If False: Both ACT_TAGS
 # and POSSIBLE_ACT_TAGS are considered part of the 5-act structure. "prologue" tags are not considered part of the 5
@@ -26,8 +26,7 @@ POSSIBLE_ACT_TAGS = ['partie', 'critique', 'tableau', 'intermede']
 STRICT_ACTS = True
 
 # Tags to consider as scenes
-SCENE_TAGS = ['scene', 'ecene', 'zcene', 'scne', 'type', 'vaudeville', 'ballet', 'divertissement', 'epilogue',
-              'couplet', 'couplets', 'marche']
+SCENE_TAGS = ['scene', 'ecene', 'zcene', 'scne', 'type', 'ballet', 'marche', 'divertissement']  # 'vaudeville'
 
 # Metadata from dracor
 METADATA_FILENAME = 'fredracor-metadata.csv'
@@ -39,12 +38,13 @@ XML_DIRECTORY = '/home/misinagy/Projects/fredracor/tei'
 OUTPUT_CSV_NAME = 'fredracor_cumulative.csv'
 
 
-def read_genres(metadata_filepath):
+def filter_and_read_genres(metadata_filepath):
+    # TODO number of speakers should be taken from here, not filtered later.
     comedies_and_tragedies = {}
     with open(metadata_filepath) as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if row['normalizedGenre'] in ['Tragedy', 'Comedy']:
+            if row['normalizedGenre'] in ['Tragedy', 'Comedy'] and int(row['numOfSpeakers']) > 5:
                 comedies_and_tragedies[row['name']] = row['normalizedGenre']
     return comedies_and_tragedies
 
@@ -117,16 +117,12 @@ def soup_creation(fredracor_tei_files, comedies_and_tragedies: dict):
                 # This is the number of acts that are named as <div type="act"> + number of possible act tags
                 acts_and_possible_acts_len = div_type_tag_count(soup, ACT_TAGS + POSSIBLE_ACT_TAGS)
 
-                cast_list = soup.find('profileDesc').find('listPerson').find_all('person')
-                if cast_list is None:
-                    raise ValueError('No cast list found!')
-
                 if STRICT_ACTS:
                     act_condition = acts_len == 5
                 else:
                     act_condition = acts_and_possible_acts_len == 5
 
-                if act_condition and len(cast_list) > 5:
+                if act_condition:
                     fre_soups[xml_path.stem] = soup
 
     print(f'{len(fre_soups)} collected')
@@ -148,10 +144,10 @@ def edge_list_extractor(list_of_soup_segments, name):
     # iterate over n acts
     for c, act in enumerate(list_of_soup_segments, start=1):
         if act is None:
-            if c == 1 or c == len(list_of_soup_segments):
-                continue
-            else:
-                raise ValueError(f'ACT {c} IS NONE IN {name}')
+            # if c == 1 or c == len(list_of_soup_segments):
+            #     continue
+            # else:
+            raise ValueError(f'ACT {c} IS NONE IN {name}')
 
         all_scene_type_tags = []
         for scene_type_tag in SCENE_TAGS:
@@ -199,11 +195,6 @@ def network_creation(fre_soups: dict, comedies_and_tragedies: dict):
         for act_tag_type in act_tags:
             all_acts.extend(soup.find_all('div', {'type': act_tag_type}))
 
-        # Prologue
-        prologue = soup.body.find_all('div', type="prologue")
-        if len(prologue) > 0:
-            all_acts = prologue + all_acts
-
         edge_list, lonely_nodes_main = edge_list_extractor(all_acts, name)
         # create network from edge list
         whole_drama = nx.from_edgelist(set(edge_list))
@@ -217,26 +208,12 @@ def network_creation(fre_soups: dict, comedies_and_tragedies: dict):
 
         # Cumulative calculation
         print(f'Processing {name}')
-        # create iterations for 1, 1-2, 1-2-3, ... acts
-        if len(prologue) > 0:
-            edge_list_in_iteration_out, lonely_nodes_main = edge_list_extractor(all_acts[:1], name)
-            n_acts_whole = nx.from_edgelist(set(edge_list_in_iteration_out))
 
-            # add those with independent scenes
-            for lonely_node in lonely_nodes_main:
-                if lonely_node not in n_acts_whole.nodes:
-                    n_acts_whole.add_node(lonely_node)
-
-            cumulative_G_list_fre[name]['prologue'] = n_acts_whole
-
-            get_cumulative_snippets(name, 2, cumulative_G_list_fre, 'prologue_', all_acts)
-
-
-        get_cumulative_snippets(name, 1, cumulative_G_list_fre, '', all_acts)
+        get_cumulative_snippets(name, 1, cumulative_G_list_fre, all_acts)
     return cumulative_G_list_fre
 
 
-def get_cumulative_snippets(name: str, start: int, networks_collector: dict, pro_label: str, all_acts: list):
+def get_cumulative_snippets(name: str, start: int, networks_collector: dict, all_acts: list):
     """This function creates the networks which include a certain number of acts, starting from the first unit to the
     last."""
     current_iteration_rounds = []
@@ -259,7 +236,7 @@ def get_cumulative_snippets(name: str, start: int, networks_collector: dict, pro
             if l_node not in n_acts_w.nodes:
                 n_acts_w.add_node(l_node)
 
-        label = f"{pro_label}acts_{'-'.join([str(i) for i in current_iteration_rounds])}"
+        label = f"acts_{'-'.join([str(i) for i in current_iteration_rounds])}"
 
         networks_collector[name][label] = n_acts_w
 
@@ -274,9 +251,6 @@ def calc_metrics_and_write_csvs(cumulative_G_list_fre: dict, csv_filename: str):
         for n in metric_names:
             acts_string = f"acts_{'-'.join([str(n) for n in range(1, act + 1)])}_{n}"
             column_names.append(acts_string)  # for normal results
-            column_names.append(f"prologue_{acts_string}")  # for results with prologue
-    for n in metric_names:
-        column_names.append(f"prologue_{n}")
 
     with open(csv_filename, 'w', newline='') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=column_names)
@@ -284,17 +258,6 @@ def calc_metrics_and_write_csvs(cumulative_G_list_fre: dict, csv_filename: str):
 
         for name, drama_data in cumulative_G_list_fre.items():
             write_row_dict = {'title': name, 'title_pretty': drama_data['title_pretty'], 'genre': drama_data['genre']}
-
-            density, diameter, average_clustering = None, None, None
-            if drama_data.get('prologue') is not None:
-                if len(drama_data['prologue'].nodes()) > 0:
-                    density = nx.density(drama_data['prologue'])
-                    diameter = nx.diameter(get_largest_G(drama_data['prologue']))
-                    average_clustering = nx.average_clustering(drama_data['prologue'])
-
-            write_row_dict[f"prologue_density"] = density
-            write_row_dict[f'prologue_diameter'] = diameter
-            write_row_dict[f'prologue_average_clustering'] = average_clustering
 
             for act in range(1, 5 + 1):
                 acts_name = f"acts_{'-'.join([str(n) for n in range(1, act + 1)])}"
@@ -320,7 +283,7 @@ def main():
     """
     To change running parameters, look at top of script for global variables.
     """
-    comedies_and_tragedies = read_genres(METADATA_FILENAME)  # Set this to the dracor metadata CSV file
+    comedies_and_tragedies = filter_and_read_genres(METADATA_FILENAME)  # Set this to the dracor metadata CSV file
     fredracor_tei_files = XML_DIRECTORY  # Set this to the location of the XML files
     fre_soups = soup_creation(fredracor_tei_files, comedies_and_tragedies)
     cumulative_G_list_fre = network_creation(fre_soups, comedies_and_tragedies)
