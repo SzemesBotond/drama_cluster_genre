@@ -90,10 +90,10 @@ def get_largest_G(input_G, name=None, strict=True):
         return input_G
 
 
-def div_type_tag_count(s: BeautifulSoup, tag_names: list):
+def div_type_tag_count(soup_tag, tag_names: list):
     total = 0
     for tag_name in tag_names:
-        total += len(s.find_all('div', {'type': tag_name}))
+        total += len(soup_tag.find_all('div', {'type': tag_name}, recursive=False))
     return total
 
 
@@ -111,19 +111,26 @@ def soup_creation(fredracor_tei_files, comedies_and_tragedies: dict):
                 # Filter 5 act, 5+ actor, Tragedy and Comedy dramas from GerDracor
                 soup = BeautifulSoup(fh.read(), 'lxml-xml')
 
+                body = soup.body
+
+                # This is the number of div tags on the act level
+                all_divs_len = len(body.find_all('div', recursive=False))
+
                 # This is the number of acts that are named as <div type="act">
-                acts_len = div_type_tag_count(soup, ACT_TAGS)
+                acts_len = div_type_tag_count(body, ACT_TAGS)
+                is_whole = all_divs_len == 5
 
                 # This is the number of acts that are named as <div type="act"> + number of possible act tags
-                acts_and_possible_acts_len = div_type_tag_count(soup, ACT_TAGS + POSSIBLE_ACT_TAGS)
+                acts_and_possible_acts_len = div_type_tag_count(body, ACT_TAGS + POSSIBLE_ACT_TAGS)
 
                 if STRICT_ACTS:
                     act_condition = acts_len == 5
                 else:
                     act_condition = acts_and_possible_acts_len == 5
 
+
                 if act_condition:
-                    fre_soups[xml_path.stem] = soup
+                    fre_soups[xml_path.stem] = (soup, is_whole)
 
     print(f'{len(fre_soups)} collected')
     return fre_soups
@@ -180,7 +187,7 @@ def network_creation(fre_soups: dict, comedies_and_tragedies: dict):
     cumulative_G_list_fre = defaultdict(dict)
 
     print('Creating whole and cumulative networks')
-    for name, soup in fre_soups.items():
+    for name, (soup, is_whole) in fre_soups.items():
 
         # Metadata annotation for dict
         cumulative_G_list_fre[name]['genre'] = comedies_and_tragedies[name]
@@ -205,6 +212,7 @@ def network_creation(fre_soups: dict, comedies_and_tragedies: dict):
                 whole_drama.add_node(lonely_node)
 
         cumulative_G_list_fre[name]['whole'] = whole_drama
+        cumulative_G_list_fre[name]['is_whole'] = is_whole
 
         # Cumulative calculation
         print(f'Processing {name}')
@@ -244,7 +252,7 @@ def get_cumulative_snippets(name: str, start: int, networks_collector: dict, all
 def calc_metrics_and_write_csvs(cumulative_G_list_fre: dict, csv_filename: str):
     print(f'Writing outputs to {csv_filename}')
     # Write csvs
-    column_names = ['title', 'title_pretty', 'genre']
+    column_names = ['title', 'title_pretty', 'genre', 'is_whole']
     metric_names = ['density', 'diameter', 'average_clustering']
 
     for act in range(1, 5 + 1):
@@ -257,7 +265,8 @@ def calc_metrics_and_write_csvs(cumulative_G_list_fre: dict, csv_filename: str):
         writer.writeheader()
 
         for name, drama_data in cumulative_G_list_fre.items():
-            write_row_dict = {'title': name, 'title_pretty': drama_data['title_pretty'], 'genre': drama_data['genre']}
+            write_row_dict = {'title': name, 'title_pretty': drama_data['title_pretty'], 'genre': drama_data['genre'],
+                              'is_whole': drama_data['is_whole']}
 
             for act in range(1, 5 + 1):
                 acts_name = f"acts_{'-'.join([str(n) for n in range(1, act + 1)])}"
