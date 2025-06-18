@@ -145,6 +145,8 @@ def edge_list_extractor(list_of_soup_segments, name):
     5 and genre in ['Tragedy', 'Comedy']
     """
 
+    scenes_whole = True  # Truns False if number of scenes extracted and number of 'div' tags on scene hierarchy are
+                         #  not the same
     lonely_nodes = []
     edge_list_in_iteration = []
 
@@ -156,11 +158,16 @@ def edge_list_extractor(list_of_soup_segments, name):
             # else:
             raise ValueError(f'ACT {c} IS NONE IN {name}')
 
+        number_of_div_tags = len(act.find_all('div', recursive=False))
+
         all_scene_type_tags = []
         for scene_type_tag in SCENE_TAGS:
             scene_type_tags = act.find_all('div', {'type': scene_type_tag})
             if len(scene_type_tags) > 0:
                 all_scene_type_tags.extend(scene_type_tags)
+
+        if len(all_scene_type_tags) != number_of_div_tags:
+            scenes_whole = False
 
         # IF IT HAS SCENES
         if len(all_scene_type_tags) > 0:
@@ -177,7 +184,7 @@ def edge_list_extractor(list_of_soup_segments, name):
             act_edge_list, lonely_nodes = one_appearance_unit_edge_list(act, lonely_nodes)
             edge_list_in_iteration += act_edge_list
 
-    return edge_list_in_iteration, lonely_nodes
+    return edge_list_in_iteration, lonely_nodes, scenes_whole
 
 
 def network_creation(fre_soups: dict, comedies_and_tragedies: dict):
@@ -187,7 +194,7 @@ def network_creation(fre_soups: dict, comedies_and_tragedies: dict):
     cumulative_G_list_fre = defaultdict(dict)
 
     print('Creating whole and cumulative networks')
-    for name, (soup, is_whole) in fre_soups.items():
+    for name, (soup, acts_whole) in fre_soups.items():
 
         # Metadata annotation for dict
         cumulative_G_list_fre[name]['genre'] = comedies_and_tragedies[name]
@@ -202,7 +209,7 @@ def network_creation(fre_soups: dict, comedies_and_tragedies: dict):
         for act_tag_type in act_tags:
             all_acts.extend(soup.find_all('div', {'type': act_tag_type}))
 
-        edge_list, lonely_nodes_main = edge_list_extractor(all_acts, name)
+        edge_list, lonely_nodes_main, scenes_whole = edge_list_extractor(all_acts, name)
         # create network from edge list
         whole_drama = nx.from_edgelist(set(edge_list))
 
@@ -212,6 +219,8 @@ def network_creation(fre_soups: dict, comedies_and_tragedies: dict):
                 whole_drama.add_node(lonely_node)
 
         cumulative_G_list_fre[name]['whole'] = whole_drama
+
+        is_whole = acts_whole is True and scenes_whole is True
         cumulative_G_list_fre[name]['is_whole'] = is_whole
 
         # Cumulative calculation
@@ -234,7 +243,7 @@ def get_cumulative_snippets(name: str, start: int, networks_collector: dict, all
         else:
             current_iteration_rounds.append(iteration_round)
 
-        edgelist, lonely = edge_list_extractor(acts_included, name)
+        edgelist, lonely, _ = edge_list_extractor(acts_included, name)
 
         # create network from edge list
         n_acts_w = nx.from_edgelist(set(edgelist))
