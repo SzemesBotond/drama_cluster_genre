@@ -1,0 +1,97 @@
+import sys
+import logging
+import argparse
+from pathlib import Path
+from datetime import datetime
+
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
+from dracor_input_handling.input_handler import yield_corpora_tei
+
+from shakespeare_analysis import (
+    load_shakespeare_soups,
+    build_shakespeare_networks,
+    build_shakespeare_cumulative,
+    write_shakespeare_removed_csv,
+    write_shakespeare_cumulative_csv,
+)
+
+ALL_ACTS = ['1', '2', '3', '4', '5']
+
+
+def cumulative_filename(acts):
+    if acts == ALL_ACTS:
+        suffix = 'all_acts'
+    else:
+        suffix = f'{acts[0]}-{acts[-1]}_acts'
+    return f'shakedracor_cumulative_{suffix}.csv'
+
+
+def setup_logging():
+    logs_dir = Path(__file__).parent / 'logs'
+    logs_dir.mkdir(exist_ok=True)
+
+    log_file = logs_dir / f"shake_{datetime.now().strftime('%Y-%m-%d_%H-%M')}.log"
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s  %(levelname)s  %(message)s',
+        datefmt='%Y-%m-%d %H:%M',
+        handlers=[
+            logging.FileHandler(log_file),
+            logging.StreamHandler(),
+        ],
+    )
+    return log_file
+
+
+def parse_args():
+    parser = argparse.ArgumentParser(description='Shakespeare co-appearance network analysis')
+    parser.add_argument(
+        '--input',
+        required=True,
+        help='Path or URL to Shakespeare TEI files (default: %(default)s)',
+    )
+    parser.add_argument(
+        '--cumulative_acts',
+        default='1,2,3,4,5',
+        help='Comma-separated act numbers for cumulative analysis, e.g. "2,3,4,5" (default: %(default)s)',
+    )
+    return parser.parse_args()
+
+
+def main():
+    log_file = setup_logging()
+    logger = logging.getLogger(__name__)
+
+    args = parse_args()
+    acts = args.cumulative_acts.split(',')
+
+    outputs_dir = Path(__file__).parent / 'outputs'
+    outputs_dir.mkdir(exist_ok=True)
+
+    logger.info('Starting Shakespeare analysis')
+    logger.info('Input: %s', args.input)
+    logger.info('Cumulative acts: %s', ', '.join(acts))
+    logger.info('Output directory: %s', outputs_dir)
+    logger.info('Log file: %s', log_file)
+
+    dracor_tei_generator = yield_corpora_tei(args.input)
+    soups = load_shakespeare_soups(dracor_tei_generator)
+    logger.info('Loaded %d plays', len(soups))
+
+    logger.info('Building removed-act networks')
+    G_list = build_shakespeare_networks(soups)
+    write_shakespeare_removed_csv(G_list, outputs_dir / 'shakedracor_removed_acts.csv')
+
+    logger.info('Building cumulative networks')
+    cumulative = build_shakespeare_cumulative(soups, acts=acts)
+    write_shakespeare_cumulative_csv(
+        cumulative, outputs_dir / cumulative_filename(acts), acts=acts
+    )
+
+    logger.info('Done')
+
+
+if __name__ == '__main__':
+    main()
