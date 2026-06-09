@@ -27,8 +27,11 @@ def cumulative_filename(acts):
     return f'shakedracor_cumulative_{suffix}.csv'
 
 
-def setup_logging():
-    logs_dir = Path(__file__).parent / 'logs'
+def setup_logging(output_dir=None):
+    if output_dir:
+        logs_dir = Path(output_dir)
+    else:
+        logs_dir = Path(__file__).parent / 'logs'
     logs_dir.mkdir(exist_ok=True)
 
     log_file = logs_dir / f"shake_{datetime.now().strftime('%Y-%m-%d_%H-%M')}.log"
@@ -57,18 +60,26 @@ def parse_args():
         default='1,2,3,4,5',
         help='Comma-separated act numbers for cumulative analysis, e.g. "2,3,4,5" (default: %(default)s)',
     )
+    parser.add_argument(
+        '--output_dir',
+        help='Output directory (default: %(default)s)',
+    )
+
     return parser.parse_args()
 
 
 def main():
-    log_file = setup_logging()
+    args = parse_args()
+    if args.output_dir:
+        outputs_dir = Path(args.output_dir)
+    else:
+        outputs_dir = Path(__file__).parent / 'outputs'
+    outputs_dir.mkdir(exist_ok=True)
+
+    log_file = setup_logging(args.output_dir)
     logger = logging.getLogger(__name__)
 
-    args = parse_args()
     acts = args.cumulative_acts.split(',')
-
-    outputs_dir = Path(__file__).parent / 'outputs'
-    outputs_dir.mkdir(exist_ok=True)
 
     logger.info('Starting Shakespeare analysis')
     logger.info('Input: %s', args.input)

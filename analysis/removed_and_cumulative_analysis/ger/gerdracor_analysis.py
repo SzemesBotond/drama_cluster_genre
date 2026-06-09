@@ -10,6 +10,16 @@ from bs4 import BeautifulSoup
 logger = logging.getLogger(__name__)
 
 
+def iter_find_bs(tag, tag_names: list):
+    for tag_name in tag_names:
+        if isinstance(tag_name, str):
+            tag = tag.find(tag_name)
+        elif isinstance(tag_name, tuple):
+            tag = tag.find(tag_name[0], tag_name[1])  # to handle e.g. find('div', {'type': 'scene'})
+        if tag is None:
+            return None
+    return tag
+
 def get_largest_G(input_G, name=None):
     """Extract the largest connected component of a networkx Graph."""
     if len(input_G.nodes) == 0:
@@ -41,7 +51,7 @@ def one_appearance_unit_edge_list(unit, lonely_nodes):
     return edge_list, lonely_nodes
 
 
-def load_gerdracor_soups(tei_dir):
+def load_gerdracor_soups(dracor_tei_generator):
     """
     Parse GerDracor TEI XML files, keeping only dramas that have:
       - exactly 5 acts
@@ -49,29 +59,43 @@ def load_gerdracor_soups(tei_dir):
       - genre Tragedy or Comedy
     """
     soups = {}
-    for xml_path in Path(tei_dir).glob('*.xml'):
-        with open(xml_path, 'r') as fh:
-            soup = BeautifulSoup(fh.read(), 'lxml-xml')
+    for xml_name, xml in dracor_tei_generator:
 
+        # Convert xml text into BeautifulSoup object
+        soup = BeautifulSoup(xml, 'lxml-xml')
+
+        # Find acts
         acts = soup.find_all('div', {'type': 'act'})
-        cast_list = soup.find('profileDesc').find('listPerson').find_all('person')
-        genre_tag = soup.find('textClass').find('keywords').find('term', {'type': 'genreTitle'})
-        genre = genre_tag.get_text(strip=True)
+        if len(acts) == 0:
+            logger.warning('No acts found in %s', xml_name)
+            continue
 
-        if cast_list is None:
-            raise ValueError(f'No cast list found in {xml_path}!')
+        # Find cast members
+        list_person = iter_find_bs(soup, ['profileDesc', 'listPerson'])
+        if list_person:
+            cast_list = list_person.find_all('person')
+        else:
+            logger.warning('No cast members found in %s', xml_name)
+            continue
+
+        # Find genre
+        genre_tag = iter_find_bs(soup, ('textClass', 'keywords', ('term', {'type': 'genreTitle'})))
+        if genre_tag:
+            genre = genre_tag.get_text(strip=True)
+        else:
+            logger.warning('No genre found in %s', xml_name)
+            continue
 
         if len(acts) == 5 and len(cast_list) > 5 and genre in ['Tragedy', 'Comedy']:
-            logger.info('Loaded %s (%s, %d cast members)', xml_path.stem, genre, len(cast_list))
-            soups[xml_path.stem] = soup
+            logger.info('Loaded %s (%s, %d cast members)', xml_name, genre, len(cast_list))
+            soups[xml_name] = soup
         else:
             logger.debug(
                 'Skipped %s — acts: %d, cast: %d, genre: %s',
-                xml_path.stem, len(acts), len(cast_list), genre,
+                xml_name, len(acts), len(cast_list), genre,
             )
 
     return soups
-
 
 def edge_list_extractor(list_of_soup_segments, name=None):
     """

@@ -2,6 +2,7 @@
 
 Co-appearance network analysis across three DRaCor corpora. Each subproject is self-contained and runs with `python main.py [args]`.
 
+> Requires Python 3.6+ and requirements.txt at root of repository to be installed into venv. 
 ### `--input` flag
 
 All subprojects accept `--input` in three forms:
@@ -27,7 +28,7 @@ TEI input: `/home/misinagy/Projects/shakedracor/tei`
 
 `--cumulative_acts` — comma-separated act numbers to include, e.g. `2,3,4,5` (default: `1,2,3,4,5`)
 
-Outputs to `shake/outputs/`.
+`--output_dir` — directory where all output files are written (default: `shake/outputs/`)
 
 ---
 
@@ -36,7 +37,7 @@ Builds cumulative co-appearance networks and structural stats for GerDracor play
 
 TEI input: `gerdracor/tei` (relative to working directory)
 
-Outputs to `ger/outputs/`.
+`--output_dir` — directory where all output files are written (default: `ger/outputs/`)
 
 ---
 

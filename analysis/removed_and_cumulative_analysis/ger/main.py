@@ -6,8 +6,8 @@ from datetime import datetime
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
+from dracor_input_handling.input_handler import yield_corpora_tei
 
-from schemas_and_mappings import GERDRACOR_TEI_FILES
 from gerdracor_analysis import (
     load_gerdracor_soups,
     build_gerdracor_cumulative,
@@ -26,8 +26,11 @@ def cumulative_filename(acts):
     return f'gerdracor_cumulative_{suffix}.csv'
 
 
-def setup_logging():
-    logs_dir = Path(__file__).parent / 'logs'
+def setup_logging(output_dir=None):
+    if output_dir:
+        logs_dir = Path(output_dir)
+    else:
+        logs_dir = Path(__file__).parent / 'logs'
     logs_dir.mkdir(exist_ok=True)
 
     log_file = logs_dir / f"ger_{datetime.now().strftime('%Y-%m-%d_%H-%M')}.log"
@@ -48,8 +51,8 @@ def parse_args():
     parser = argparse.ArgumentParser(description='GerDracor co-appearance network analysis')
     parser.add_argument(
         '--input',
-        default=GERDRACOR_TEI_FILES,
-        help='Path to GerDracor TEI files (default: %(default)s)',
+        required=True,
+        help='Path to GerDracor TEI files or URI of dracor corpora API',
     )
     parser.add_argument(
         '--cumulative_acts',
@@ -60,18 +63,25 @@ def parse_args():
             '(default: %(default)s)'
         ),
     )
+    parser.add_argument(
+        '--output_dir',
+        help='Output directory (default: %(default)s)',
+    )
     return parser.parse_args()
 
 
 def main():
-    log_file = setup_logging()
+    args = parse_args()
+    if args.output_dir:
+        outputs_dir = Path(args.output_dir)
+    else:
+        outputs_dir = Path(__file__).parent / 'outputs'
+    outputs_dir.mkdir(exist_ok=True)
+
+    log_file = setup_logging(args.output_dir)
     logger = logging.getLogger(__name__)
 
-    args = parse_args()
     acts = args.cumulative_acts.split(',')
-
-    outputs_dir = Path(__file__).parent / 'outputs'
-    outputs_dir.mkdir(exist_ok=True)
 
     logger.info('Starting GerDracor analysis')
     logger.info('Input: %s', args.input)
@@ -79,7 +89,8 @@ def main():
     logger.info('Output directory: %s', outputs_dir)
     logger.info('Log file: %s', log_file)
 
-    soups = load_gerdracor_soups(args.input)
+    dracor_tei_generator = yield_corpora_tei(args.input)
+    soups = load_gerdracor_soups(dracor_tei_generator)
     logger.info('Loaded %d qualifying GerDracor dramas', len(soups))
 
     logger.info('Building cumulative networks')
