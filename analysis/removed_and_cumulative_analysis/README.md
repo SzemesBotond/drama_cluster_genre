@@ -42,13 +42,17 @@ TEI input: `gerdracor/tei` (relative to working directory)
 ---
 
 ### `fre/` — French DRaCor
-Builds cumulative co-appearance networks for FreDracor plays.
+Builds cumulative co-appearance networks for FreDracor plays (5-act, 5+ speakers, Comedy/Tragedy).
 
-TEI input: `/home/misinagy/Projects/fredracor/tei`
+`--input` — path or URL to TEI files (default: `/home/misinagy/Projects/fredracor/tei`)
 
-Settings (blacklist, act/scene tag mappings, strict mode) are at the top of `fre_analysis.py`.
+`--metadata` — path to fredracor metadata CSV (default: `fredracor-metadata.csv`)
 
-Output: `fredracor_cumulative.csv`
+`--cumulative_acts` — comma-separated act numbers to include, e.g. `2,3,4,5` (default: `1,2,3,4,5`)
+
+`--output_dir` — directory where all output files are written (default: `fre/outputs/`)
+
+Settings (blacklist, act/scene tag mappings, strict mode) are in `schemas_and_mappings.py`.
 
 ---
 
