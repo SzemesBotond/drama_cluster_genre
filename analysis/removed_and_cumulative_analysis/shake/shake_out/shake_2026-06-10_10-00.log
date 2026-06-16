@@ -1,0 +1,50 @@
+2026-06-10 10:00  INFO  Starting Shakespeare analysis
+2026-06-10 10:00  INFO  Input: http://localhost:8088/api/v1/corpora/shake
+2026-06-10 10:00  INFO  Cumulative acts: 1, 2, 3, 4, 5
+2026-06-10 10:00  INFO  Output directory: shake_out
+2026-06-10 10:00  INFO  Log file: shake_out\shake_2026-06-10_10-00.log
+2026-06-10 10:00  INFO  Loading SHAKE soups
+2026-06-10 10:00  INFO  Getting input from http://localhost:8088/api/v1/corpora/shake
+2026-06-10 10:00  INFO  Loaded 37 plays
+2026-06-10 10:00  INFO  Building removed-act networks
+2026-06-10 10:00  INFO  Removed-act metrics written to shake_out\shakedracor_removed_acts.csv (37 plays)
+2026-06-10 10:00  INFO  Building cumulative networks
+2026-06-10 10:00  INFO  Cumulative networks built for a-midsummer-nights-dream (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for alls-well-that-ends-well (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for antony-and-cleopatra (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for as-you-like-it (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for coriolanus (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for cymbeline (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for hamlet (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for henry-iv-part-1 (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for henry-iv-part-2 (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for henry-v (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for henry-vi-part-1 (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for henry-vi-part-2 (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for henry-vi-part-3 (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for henry-viii (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for julius-caesar (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for king-john (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for king-lear (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for loves-labors-lost (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for macbeth (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for measure-for-measure (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for much-ado-about-nothing (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for othello (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for pericles (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for richard-ii (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for richard-iii (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for romeo-and-juliet (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for the-comedy-of-errors (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for the-merchant-of-venice (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for the-merry-wives-of-windsor (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for the-taming-of-the-shrew (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for the-tempest (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for the-winters-tale (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for timon-of-athens (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for titus-andronicus (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for troilus-and-cressida (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for twelfth-night (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative networks built for two-gentlemen-of-verona (acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Cumulative metrics written to shake_out\shakedracor_cumulative_all_acts.csv (37 plays, acts 1, 2, 3, 4, 5)
+2026-06-10 10:00  INFO  Done

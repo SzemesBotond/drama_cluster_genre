@@ -221,7 +221,7 @@ def write_gerdracor_cumulative_csv(cumulative_G_list, filename, acts=None):
         for metric in metric_names:
             column_names.append(f'{label}_{metric}')
 
-    with open(filename, 'w', newline='') as csvfile:
+    with open(filename, 'w', newline='', encoding="utf-8") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=column_names)
         writer.writeheader()
 
@@ -280,7 +280,7 @@ def write_gerdracor_stats_csv(soups, filename):
 
     fieldnames = ['name', 'prologue', 'acts', 'scenes', 'all_acts_have_scenes',
                   'configurations', 'locations']
-    with open(filename, 'w', newline='') as csvfile:
+    with open(filename, 'w', newline='', encoding="utf-8") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         writer.writeheader()
         for row in stats:

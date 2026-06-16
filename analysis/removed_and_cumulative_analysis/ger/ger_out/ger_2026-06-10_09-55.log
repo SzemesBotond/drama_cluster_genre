@@ -1,0 +1,1143 @@
+2026-06-10 09:55  INFO  Starting GerDracor analysis
+2026-06-10 09:55  INFO  Input: http://localhost:8088/api/v1/corpora/ger
+2026-06-10 09:55  INFO  Cumulative depths: 1, 2, 3, 4, 5
+2026-06-10 09:55  INFO  Output directory: ger_out
+2026-06-10 09:55  INFO  Log file: ger_out\ger_2026-06-10_09-55.log
+2026-06-10 09:55  INFO  Getting input from http://localhost:8088/api/v1/corpora/ger
+2026-06-10 09:55  WARNING  No acts found in anonym-amalie-und-charlotte-baronessen-von-habenichts
+2026-06-10 09:55  WARNING  No acts found in anonym-das-ehrenmaal-des-patrioten
+2026-06-10 09:55  WARNING  No acts found in anonym-das-lustlager
+2026-06-10 09:55  WARNING  No acts found in anonym-das-muenchner-spiel-vom-sterbenden-menschen
+2026-06-10 09:55  WARNING  No acts found in anonym-das-urtheil-des-paris
+2026-06-10 09:55  WARNING  No acts found in anonym-der-berliner-kuckkastenmann
+2026-06-10 09:55  INFO  Loaded anonym-der-deutsche-student (Tragedy, 19 cast members)
+2026-06-10 09:55  WARNING  No acts found in anonym-der-gerettete-selbstmoerder
+2026-06-10 09:55  WARNING  No acts found in anonym-der-von-der-liebe-betrogene-philosoph
+2026-06-10 09:55  WARNING  No acts found in anonym-die-gedruckten-theater-regeln
+2026-06-10 09:55  WARNING  No acts found in anonym-die-gespenster
+2026-06-10 09:55  WARNING  No acts found in anonym-die-grands-von-frankreich-in-ihrer-wahren-gestalt
+2026-06-10 09:55  WARNING  No genre found in anonym-die-mainzer-illuminaten
+2026-06-10 09:55  WARNING  No acts found in anonym-die-verhandelte-braut
+2026-06-10 09:55  WARNING  No acts found in anonym-die-weiber-list
+2026-06-10 09:55  WARNING  No acts found in anonym-emilie-oder-die-philosophisch-verliebten
+2026-06-10 09:55  WARNING  No acts found in achat-ein-april-scherz
+2026-06-10 09:55  WARNING  No acts found in adolph-am-ersten-mai
+2026-06-10 09:55  WARNING  No acts found in alberti-im-suff
+2026-06-10 09:55  WARNING  No genre found in albrecht-theresgen
+2026-06-10 09:55  WARNING  No acts found in alexander-die-verpfaendung
+2026-06-10 09:55  WARNING  No acts found in andre-der-comoedienfeind
+2026-06-10 09:55  WARNING  No acts found in angely-prinz-tu-ta-tu
+2026-06-10 09:55  WARNING  No acts found in arnim-jerusalem
+2026-06-10 09:55  INFO  Loaded ayrer-comedia-von-zweyen-bruedern-auss-syracusa (Comedy, 15 cast members)
+2026-06-10 09:55  WARNING  No acts found in ayrer-fassnachtspil-wie-einem-weib-jhr-eygener-mann
+2026-06-10 09:55  WARNING  No acts found in babo-das-winterquartier-in-amerika
+2026-06-10 09:55  WARNING  No acts found in babo-die-maler
+2026-06-10 09:55  WARNING  No acts found in ball-die-nase-des-michelangelo
+2026-06-10 09:55  WARNING  No acts found in barlach-der-blaue-boll
+2026-06-10 09:55  WARNING  No acts found in beer-der-paria
+2026-06-10 09:55  INFO  Loaded beer-struensee (Tragedy, 57 cast members)
+2026-06-10 09:55  WARNING  No acts found in beil-dieterich-von-ruben
+2026-06-10 09:55  WARNING  No acts found in benedix-die-luegnerin
+2026-06-10 09:55  WARNING  No acts found in benedix-eigensinn
+2026-06-10 09:55  WARNING  No acts found in benedix-johanna-sebus
+2026-06-10 09:55  WARNING  No acts found in benedix-unerschuetterlich
+2026-06-10 09:55  WARNING  No acts found in beyer-der-hausherr-in-der-klemme
+2026-06-10 09:55  INFO  Loaded bleibtreu-ein-faust-der-that (Tragedy, 21 cast members)
+2026-06-10 09:55  INFO  Loaded bleibtreu-weltgericht (Tragedy, 46 cast members)
+2026-06-10 09:55  WARNING  No acts found in bodmer-odoardo-galotti-vater-der-emilia
+2026-06-10 09:55  WARNING  No acts found in bodmer-polytimet
+2026-06-10 09:55  WARNING  No acts found in borchert-draussen-vor-der-tuer
+2026-06-10 09:55  INFO  Loaded brachvogel-narziss (Tragedy, 29 cast members)
+2026-06-10 09:55  WARNING  No acts found in brandes-ariadne-auf-naxos
+2026-06-10 09:55  INFO  Loaded brandes-hans-von-zanow-oder-der-landjunker-in-berlin (Comedy, 17 cast members)
+2026-06-10 09:55  WARNING  No acts found in brandes-ino
+2026-06-10 09:55  INFO  Loaded braun-von-braunthal-faust (Tragedy, 26 cast members)
+2026-06-10 09:55  INFO  Loaded braun-mutter-maria (Tragedy, 86 cast members)
+2026-06-10 09:55  INFO  Loaded brawe-brutus (Tragedy, 7 cast members)
+2026-06-10 09:55  INFO  Loaded brawe-der-freygeist (Tragedy, 6 cast members)
+2026-06-10 09:55  WARNING  No acts found in bredow-goerne-der-lauf-der-welt
+2026-06-10 09:55  INFO  Loaded bredow-goerne-hypatia (Tragedy, 21 cast members)
+2026-06-10 09:55  INFO  Loaded breithaupt-der-renegat (Tragedy, 7 cast members)
+2026-06-10 09:55  INFO  Loaded brentano-ponce-de-leon (Comedy, 36 cast members)
+2026-06-10 09:55  WARNING  No acts found in busoni-doktor-faust
+2026-06-10 09:55  WARNING  No acts found in boesenberg-die-amerikanische-waise
+2026-06-10 09:55  WARNING  No acts found in boettger-das-kaffee-haus-zu-paris
+2026-06-10 09:55  WARNING  No acts found in buechner-woyzeck
+2026-06-10 09:55  WARNING  No acts found in bueschel-die-neue-messaline
+2026-06-10 09:55  WARNING  No acts found in bueschel-julus-und-rhea
+2026-06-10 09:55  WARNING  No acts found in chlumberg-wunder-um-verdun
+2026-06-10 09:55  WARNING  No acts found in chezy-der-neue-narziss
+2026-06-10 09:55  INFO  Loaded collin-balboa (Tragedy, 12 cast members)
+2026-06-10 09:55  INFO  Loaded collin-coriolan (Tragedy, 14 cast members)
+2026-06-10 09:55  WARNING  No acts found in costenoble-die-katze-laesst-das-mausen-nicht
+2026-06-10 09:55  INFO  Loaded cronegk-codrus (Tragedy, 10 cast members)
+2026-06-10 09:55  INFO  Loaded cronegk-der-misstrauische (Comedy, 7 cast members)
+2026-06-10 09:55  INFO  Loaded dehmel-michel-michael (Comedy, 20 cast members)
+2026-06-10 09:55  WARNING  No genre found in dobruska-die-zwo-amaryllen
+2026-06-10 09:55  WARNING  No acts found in dohm-der-seelenretter
+2026-06-10 09:55  WARNING  No acts found in dohm-die-ritter-vom-goldenen-kalb
+2026-06-10 09:55  WARNING  No acts found in dohm-ein-schuss-ins-schwarze
+2026-06-10 09:55  WARNING  No acts found in dohm-vom-stamm-der-asra
+2026-06-10 09:55  WARNING  No acts found in droste-huelshoff-perdu
+2026-06-10 09:55  WARNING  No acts found in milius-hydropathie-auf-der-eisenbahn
+2026-06-10 09:55  WARNING  No acts found in ebner-eschenbach-bettelbriefe
+2026-06-10 09:55  WARNING  No genre found in ebner-eschenbach-die-schauspielerin
+2026-06-10 09:55  WARNING  No acts found in ebner-eschenbach-es-wandelt-niemand-ungestraft-unter-palmen
+2026-06-10 09:55  WARNING  No acts found in ebner-eschenbach-ihre-schwester
+2026-06-10 09:55  WARNING  No acts found in eckardt-die-vergiftete-traube
+2026-06-10 09:55  WARNING  No acts found in eckartshausen-der-pudelhund
+2026-06-10 09:55  WARNING  No acts found in eichendorff-das-incognito
+2026-06-10 09:55  INFO  Loaded eichendorff-der-letzte-held-von-marienburg (Tragedy, 52 cast members)
+2026-06-10 09:55  WARNING  No acts found in engel-der-diamant
+2026-06-10 09:55  WARNING  No acts found in engel-der-edelknabe
+2026-06-10 09:55  INFO  Loaded engel-eid-und-pflicht (Tragedy, 11 cast members)
+2026-06-10 09:55  WARNING  No acts found in engelke-wala
+2026-06-10 09:55  INFO  Loaded essig-der-frauenmut (Comedy, 28 cast members)
+2026-06-10 09:55  INFO  Loaded essig-ueberteufel (Tragedy, 18 cast members)
+2026-06-10 09:55  WARNING  No acts found in fock-cili-cohrs
+2026-06-10 09:55  WARNING  No acts found in frank-sturm-im-wasserglas
+2026-06-10 09:55  WARNING  No acts found in frech-von-ehrimfeld-die-gefahr
+2026-06-10 09:55  WARNING  No acts found in freisleben-der-weihnachtstag
+2026-06-10 09:55  WARNING  No acts found in freytag-der-gelehrte
+2026-06-10 09:55  WARNING  No acts found in gellert-das-band
+2026-06-10 09:55  WARNING  No acts found in gengenbach-der-nollhart
+2026-06-10 09:55  WARNING  No acts found in glassbrenner-die-juengste-walpurgisnacht
+2026-06-10 09:55  WARNING  No acts found in gleim-der-bloede-schaefer
+2026-06-10 09:55  WARNING  No acts found in gleim-philotas
+2026-06-10 09:55  INFO  Loaded goethe-clavigo (Tragedy, 9 cast members)
+2026-06-10 09:55  WARNING  No acts found in goethe-das-jahrmarktsfest-zu-plundersweilern
+2026-06-10 09:55  WARNING  No acts found in goethe-der-buergergeneral
+2026-06-10 09:55  INFO  Loaded goethe-der-grosskophta (Comedy, 24 cast members)
+2026-06-10 09:55  WARNING  No acts found in goethe-die-laune-des-verliebten
+2026-06-10 09:55  WARNING  No acts found in goethe-die-mitschuldigen
+2026-06-10 09:55  INFO  Loaded goethe-die-natuerliche-tochter (Tragedy, 11 cast members)
+2026-06-10 09:55  WARNING  No acts found in goethe-die-wette
+2026-06-10 09:55  INFO  Loaded goethe-egmont (Tragedy, 29 cast members)
+2026-06-10 09:55  WARNING  No acts found in goethe-erwin-und-elmire
+2026-06-10 09:55  INFO  Loaded goethe-faust-der-tragoedie-zweiter-teil (Tragedy, 143 cast members)
+2026-06-10 09:55  WARNING  No acts found in goethe-faust-eine-tragoedie
+2026-06-10 09:55  WARNING  No acts found in goethe-faust-in-urspruenglicher-gestalt
+2026-06-10 09:55  WARNING  No acts found in goethe-goetter-helden-und-wieland
+2026-06-10 09:55  WARNING  No acts found in goethe-pandora
+2026-06-10 09:55  WARNING  No acts found in goethe-proserpina
+2026-06-10 09:55  INFO  Loaded gotter-die-erbschleicher (Comedy, 10 cast members)
+2026-06-10 09:55  WARNING  No acts found in gotter-medea
+2026-06-10 09:55  INFO  Loaded gottsched-der-sterbende-cato (Tragedy, 10 cast members)
+2026-06-10 09:55  INFO  Loaded gottschedin-das-testament (Comedy, 12 cast members)
+2026-06-10 09:55  WARNING  No acts found in gottschedin-der-witzling
+2026-06-10 09:55  INFO  Loaded gottschedin-die-pietisterey-im-fischbein-rocke (Comedy, 16 cast members)
+2026-06-10 09:55  WARNING  No acts found in grabbe-die-hermannsschlacht
+2026-06-10 09:55  INFO  Loaded grabbe-herzog-theodor-von-gothland (Tragedy, 41 cast members)
+2026-06-10 09:55  INFO  Loaded grabbe-kaiser-friedrich-barbarossa (Tragedy, 60 cast members)
+2026-06-10 09:55  INFO  Loaded grabbe-kaiser-heinrich-der-sechste (Tragedy, 72 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-des-meeres-und-der-liebe-wellen (Tragedy, 9 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-die-ahnfrau (Tragedy, 9 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-die-juedin-von-toledo (Tragedy, 15 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-ein-bruderzwist-in-habsburg (Tragedy, 38 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-ein-treuer-diener-seines-herrn (Tragedy, 35 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-koenig-ottokars-glueck-und-ende (Tragedy, 51 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-libussa (Tragedy, 29 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-medea (Tragedy, 12 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-sappho (Tragedy, 8 cast members)
+2026-06-10 09:55  INFO  Loaded grillparzer-weh-dem-der-luegt (Comedy, 16 cast members)
+2026-06-10 09:55  WARNING  No acts found in grohmann-der-physiognomist-oder-keine-regel-ohn-ausnahme
+2026-06-10 09:55  WARNING  No acts found in gronemann-hamans-flucht
+2026-06-10 09:55  INFO  Loaded gryphius-cardenio-und-celinde (Tragedy, 16 cast members)
+2026-06-10 09:55  INFO  Loaded gryphius-carolus-stuardus (Tragedy, 51 cast members)
+2026-06-10 09:55  INFO  Loaded gryphius-catharina-von-georgien (Tragedy, 20 cast members)
+2026-06-10 09:55  INFO  Loaded gryphius-horribilicribrifax-teutsch (Comedy, 21 cast members)
+2026-06-10 09:55  INFO  Loaded gryphius-leo-armenius-oder-fuersten-mord (Tragedy, 31 cast members)
+2026-06-10 09:55  INFO  Loaded gryphius-papinianus (Tragedy, 27 cast members)
+2026-06-10 09:55  INFO  Loaded gutzkow-das-urbild-des-tartueffe (Comedy, 17 cast members)
+2026-06-10 09:55  INFO  Loaded gutzkow-richard-savage (Tragedy, 27 cast members)
+2026-06-10 09:55  INFO  Loaded gutzkow-uriel-acosta (Tragedy, 15 cast members)
+2026-06-10 09:55  INFO  Loaded gutzkow-zopf-und-schwert (Comedy, 19 cast members)
+2026-06-10 09:55  WARNING  No acts found in goentgen-anna-bell
+2026-06-10 09:55  INFO  Loaded hallmann-mariamne (Tragedy, 61 cast members)
+2026-06-10 09:55  WARNING  No acts found in hartleben-die-sittliche-forderung
+2026-06-10 09:55  INFO  Loaded hartleben-rosenmontag (Tragedy, 22 cast members)
+2026-06-10 09:55  INFO  Loaded hauptmann-carl-tobias-buntschuh (Tragedy, 23 cast members)
+2026-06-10 09:55  INFO  Loaded hauptmann-florian-geyer (Tragedy, 84 cast members)
+2026-06-10 09:55  INFO  Loaded hebbel-agnes-bernauer (Tragedy, 27 cast members)
+2026-06-10 09:55  INFO  Loaded hebbel-der-diamant (Comedy, 23 cast members)
+2026-06-10 09:55  WARNING  No acts found in hebbel-der-gehoernte-siegfried
+2026-06-10 09:55  INFO  Loaded hebbel-genoveva (Tragedy, 18 cast members)
+2026-06-10 09:55  INFO  Loaded hebbel-gyges-und-sein-ring (Tragedy, 8 cast members)
+2026-06-10 09:55  INFO  Loaded hebbel-herodes-und-mariamne (Tragedy, 26 cast members)
+2026-06-10 09:55  INFO  Loaded hebbel-judith (Tragedy, 51 cast members)
+2026-06-10 09:55  INFO  Loaded hebbel-kriemhilds-rache (Tragedy, 21 cast members)
+2026-06-10 09:55  INFO  Loaded hebbel-siegfrieds-tod (Tragedy, 17 cast members)
+2026-06-10 09:55  WARNING  No acts found in hebbel-trauerspiel-in-sizilien
+2026-06-10 09:55  WARNING  No acts found in heine-almansor
+2026-06-10 09:55  WARNING  No acts found in heine-william-ratcliff
+2026-06-10 09:55  INFO  Loaded heiseler-die-kinder-godunofs (Tragedy, 29 cast members)
+2026-06-10 09:55  INFO  Loaded heiseler-peter-und-alexej (Tragedy, 26 cast members)
+2026-06-10 09:55  WARNING  No acts found in helldorff-der-zwischenact
+2026-06-10 09:55  WARNING  No genre found in hensel-die-entfuehrung-oder-die-zaertliche-mutter
+2026-06-10 09:55  WARNING  No acts found in herzenskron-hoang-puff
+2026-06-10 09:55  WARNING  No acts found in herzl-der-fluechtling
+2026-06-10 09:55  WARNING  No acts found in heyne-der-stammbaum
+2026-06-10 09:55  WARNING  No acts found in heyne-die-beiden-billets
+2026-06-10 09:55  INFO  Loaded heyse-don-juans-ende (Tragedy, 13 cast members)
+2026-06-10 09:55  WARNING  No acts found in hillern-guten-abend
+2026-06-10 09:55  WARNING  No acts found in hippel-der-mann-nach-der-uhr
+2026-06-10 09:55  WARNING  No acts found in hofmannsthal-der-abenteurer-und-die-saengerin
+2026-06-10 09:55  INFO  Loaded hofmannsthal-der-turm (Tragedy, 89 cast members)
+2026-06-10 09:55  INFO  Loaded hofmannsthal-der-unbestechliche (Comedy, 13 cast members)
+2026-06-10 09:55  WARNING  No acts found in holtei-die-kalkbrenner
+2026-06-10 09:55  INFO  Loaded holz-ignorabimus (Tragedy, 7 cast members)
+2026-06-10 09:55  INFO  Loaded holz-sonnenfinsternis (Tragedy, 6 cast members)
+2026-06-10 09:55  INFO  Loaded holz-sozialaristokraten (Comedy, 16 cast members)
+2026-06-10 09:55  WARNING  No acts found in horvath-geschichten-aus-dem-wiener-wald
+2026-06-10 09:55  WARNING  No acts found in horvath-kasimir-und-karoline
+2026-06-10 09:55  WARNING  No acts found in houwald-die-freistatt
+2026-06-10 09:55  WARNING  No acts found in huber-die-torte
+2026-06-10 09:55  INFO  Loaded iffland-das-gewissen (Tragedy, 10 cast members)
+2026-06-10 09:55  INFO  Loaded iffland-figaro-in-deutschland (Comedy, 16 cast members)
+2026-06-10 09:55  WARNING  No acts found in iffland-liebe-und-wille
+2026-06-10 09:55  INFO  Loaded immermann-andreas-hofer (Tragedy, 34 cast members)
+2026-06-10 09:55  INFO  Loaded immermann-das-gericht-von-st-petersburg (Tragedy, 31 cast members)
+2026-06-10 09:55  WARNING  No acts found in immermann-eudoxia
+2026-06-10 09:55  WARNING  No acts found in immermann-merlin
+2026-06-10 09:55  WARNING  No acts found in kaffka-der-transport
+2026-06-10 09:55  WARNING  No acts found in kannengiesser-die-vierbeinigten-philosophen
+2026-06-10 09:55  WARNING  No acts found in kleist-der-zerbrochene-krug
+2026-06-10 09:55  INFO  Loaded kleist-die-familie-schroffenstein (Tragedy, 26 cast members)
+2026-06-10 09:55  WARNING  No acts found in kleist-penthesilea
+2026-06-10 09:55  WARNING  No acts found in kleist-robert-guiskard
+2026-06-10 09:55  WARNING  No acts found in klemm-der-besuch
+2026-06-10 09:55  INFO  Loaded klingemann-faust (Tragedy, 17 cast members)
+2026-06-10 09:55  INFO  Loaded klinger-das-leidende-weib (Tragedy, 26 cast members)
+2026-06-10 09:55  INFO  Loaded klinger-die-zwillinge (Tragedy, 7 cast members)
+2026-06-10 09:55  WARNING  No acts found in klopstock-hermanns-schlacht
+2026-06-10 09:55  WARNING  No acts found in kobell-der-roaga
+2026-06-10 09:55  WARNING  No acts found in koller-der-zauberstein
+2026-06-10 09:55  WARNING  No acts found in kotzebue-blind-geladen
+2026-06-10 09:55  WARNING  No acts found in kotzebue-das-koestlichste
+2026-06-10 09:55  WARNING  No acts found in kotzebue-das-posthaus-in-treuenbrietzen
+2026-06-10 09:55  WARNING  No acts found in kotzebue-das-unsichtbare-maedchen
+2026-06-10 09:55  WARNING  No acts found in kotzebue-der-arme-poet
+2026-06-10 09:55  WARNING  No acts found in kotzebue-der-freimaurer
+2026-06-10 09:55  WARNING  No acts found in kotzebue-der-hyperboreische-esel
+2026-06-10 09:55  WARNING  No acts found in kotzebue-der-verschwiegene-wider-willen
+2026-06-10 09:55  WARNING  No acts found in kotzebue-der-weibliche-jacobiner-clubb
+2026-06-10 09:55  INFO  Loaded kotzebue-der-wirrwarr (Comedy, 10 cast members)
+2026-06-10 09:55  WARNING  No acts found in kotzebue-die-alten-liebschaften
+2026-06-10 09:55  INFO  Loaded kotzebue-die-spanier-in-peru (Tragedy, 44 cast members)
+2026-06-10 09:55  WARNING  No acts found in kotzebue-maedchenfreundschaft
+2026-06-10 09:55  INFO  Loaded kotzebue-pagenstreiche (Comedy, 16 cast members)
+2026-06-10 09:55  WARNING  No acts found in kotzebue-wer-weiss-wozu-das-gut-ist
+2026-06-10 09:55  INFO  Loaded kraus-die-letzten-tage-der-menschheit (Tragedy, 865 cast members)
+2026-06-10 09:55  WARNING  No acts found in kraus-traumstueck
+2026-06-10 09:55  INFO  Loaded krueger-die-candidaten (Comedy, 10 cast members)
+2026-06-10 09:55  WARNING  No acts found in koerner-die-blumen
+2026-06-10 09:55  WARNING  No acts found in koerner-die-braut
+2026-06-10 09:55  INFO  Loaded koerner-zriny (Tragedy, 18 cast members)
+2026-06-10 09:55  WARNING  No acts found in lachmann-salome
+2026-06-10 09:55  WARNING  No acts found in laddey-maentelchen-nach-dem-winde
+2026-06-10 09:55  INFO  Loaded lasker-schueler-ichundich (Tragedy, 30 cast members)
+2026-06-10 09:55  INFO  Loaded lassalle-franz-von-sickingen (Tragedy, 58 cast members)
+2026-06-10 09:55  INFO  Loaded laube-gottsched-und-gellert (Comedy, 14 cast members)
+2026-06-10 09:55  INFO  Loaded laube-monaldeschi (Tragedy, 11 cast members)
+2026-06-10 09:55  INFO  Loaded laube-struensee (Tragedy, 8 cast members)
+2026-06-10 09:56  WARNING  No acts found in lautensack-die-pfarrhauskomoedie
+2026-06-10 09:56  WARNING  No acts found in lautensack-hahnenkampf
+2026-06-10 09:56  WARNING  No acts found in lautensack-medusa
+2026-06-10 09:56  WARNING  No acts found in lawaetz-die-diamanten
+2026-06-10 09:56  WARNING  No acts found in leisewitz-der-besuch-um-mitternacht
+2026-06-10 09:56  WARNING  No acts found in leisewitz-die-pfandung
+2026-06-10 09:56  INFO  Loaded leisewitz-julius-von-tarent (Tragedy, 16 cast members)
+2026-06-10 09:56  INFO  Loaded lenz-der-hofmeister (Comedy, 24 cast members)
+2026-06-10 09:56  INFO  Loaded lenz-der-neue-menoza (Comedy, 23 cast members)
+2026-06-10 09:56  INFO  Loaded lenz-die-freunde-machen-den-philosophen (Comedy, 17 cast members)
+2026-06-10 09:56  WARNING  No acts found in lessing-damon
+2026-06-10 09:56  INFO  Loaded lessing-der-freigeist (Comedy, 11 cast members)
+2026-06-10 09:56  WARNING  No acts found in lessing-der-schatz
+2026-06-10 09:56  WARNING  No acts found in lessing-die-juden
+2026-06-10 09:56  INFO  Loaded lessing-emilia-galotti (Tragedy, 13 cast members)
+2026-06-10 09:56  INFO  Loaded lessing-minna-von-barnhelm (Comedy, 13 cast members)
+2026-06-10 09:56  INFO  Loaded lessing-miss-sara-sampson (Tragedy, 11 cast members)
+2026-06-10 09:56  WARNING  No acts found in lessing-philotas
+2026-06-10 09:56  WARNING  No acts found in lieberkuehn-die-lissabonner
+2026-06-10 09:56  INFO  Loaded linhart-miss-jenny-love (Tragedy, 13 cast members)
+2026-06-10 09:56  INFO  Loaded ludwig-der-erbfoerster (Tragedy, 17 cast members)
+2026-06-10 09:56  INFO  Loaded ludwig-die-makkabaeer (Tragedy, 28 cast members)
+2026-06-10 09:56  WARNING  No acts found in maler-mueller-fausts-leben-dramatisiert
+2026-06-10 09:56  WARNING  No acts found in malss-die-jungfern-koechinnen
+2026-06-10 09:56  WARNING  No acts found in moritz-blunt-oder-der-gast
+2026-06-10 09:56  WARNING  No acts found in moser-krieg-oder-frieden
+2026-06-10 09:56  INFO  Loaded moeller-der-graf-von-walltron-oder-die-subordination (Tragedy, 19 cast members)
+2026-06-10 09:56  WARNING  No acts found in muehsam-staatsraeson
+2026-06-10 09:56  WARNING  No acts found in muellner-der-neun-und-zwanzigste-februar
+2026-06-10 09:56  INFO  Loaded muellner-koenig-yngurd (Tragedy, 31 cast members)
+2026-06-10 09:56  WARNING  No acts found in nestroy-judith-und-holofernes
+2026-06-10 09:56  INFO  Loaded neuber-das-schaeferfest (Comedy, 17 cast members)
+2026-06-10 09:56  WARNING  No acts found in neuber-ein-deutsches-vorspiel
+2026-06-10 09:56  INFO  Loaded panizza-das-liebeskonzil (Comedy, 35 cast members)
+2026-06-10 09:56  INFO  Loaded panizza-nero (Tragedy, 52 cast members)
+2026-06-10 09:56  WARNING  No acts found in pelzel-apolls-gericht-oder-das-bestrafte-vorurtheil-vindebonens
+2026-06-10 09:56  WARNING  No acts found in pelzel-yariko
+2026-06-10 09:56  WARNING  No acts found in pfeffel-der-einsiedler
+2026-06-10 09:56  WARNING  No acts found in pfeffel-der-schatz
+2026-06-10 09:56  WARNING  No acts found in pfeffel-serena
+2026-06-10 09:56  WARNING  No acts found in pfeffel-vorspiel-ueber-die-buergerliche-tragoedie
+2026-06-10 09:56  INFO  Loaded pfeil-lucie-woodvil (Tragedy, 8 cast members)
+2026-06-10 09:56  WARNING  No acts found in platen-berengar
+2026-06-10 09:56  INFO  Loaded platen-der-romantische-oedipus (Comedy, 21 cast members)
+2026-06-10 09:56  INFO  Loaded platen-die-verhaengnisvolle-gabel (Comedy, 7 cast members)
+2026-06-10 09:56  INFO  Loaded pollinger-antonio-del-bassanio (Tragedy, 11 cast members)
+2026-06-10 09:56  WARNING  No acts found in preusse-herzmutterchen
+2026-06-10 09:56  WARNING  No acts found in georg-von-preussen-sappho
+2026-06-10 09:56  INFO  Loaded quistorp-der-hypochondrist (Comedy, 9 cast members)
+2026-06-10 09:56  WARNING  No acts found in rache-belsazar
+2026-06-10 09:56  WARNING  No acts found in rambach-die-kuhpocken
+2026-06-10 09:56  WARNING  No acts found in raupach-der-bettler
+2026-06-10 09:56  WARNING  No acts found in reil-der-erste-may
+2026-06-10 09:56  WARNING  No acts found in reinhardt-die-braut-des-echos
+2026-06-10 09:56  INFO  Loaded reitzenstein-die-negersclaven (Tragedy, 30 cast members)
+2026-06-10 09:56  WARNING  No acts found in sachs-das-kaelberbrueten
+2026-06-10 09:56  INFO  Loaded sachs-ein-comedi-von-dem-reichen-sterbenden-menschen-der-hecastus-genannt (Comedy, 19 cast members)
+2026-06-10 09:56  WARNING  No acts found in sachs-eulenspiegel-mit-dem-blauen-hosentuch
+2026-06-10 09:56  WARNING  No acts found in gasser-ramirus
+2026-06-10 09:56  WARNING  No acts found in sander-die-hoftrauer-oder-das-testament
+2026-06-10 09:56  WARNING  No acts found in scheerbart-das-dumme-luder
+2026-06-10 09:56  WARNING  No acts found in scheerbart-das-gift
+2026-06-10 09:56  WARNING  No acts found in scheerbart-das-mirakel
+2026-06-10 09:56  WARNING  No acts found in scheerbart-der-alte-petrus
+2026-06-10 09:56  WARNING  No acts found in scheerbart-der-herr-vom-jenseits
+2026-06-10 09:56  WARNING  No acts found in scheerbart-der-regierungswechsel
+2026-06-10 09:56  WARNING  No acts found in scheerbart-der-schornsteinfeger
+2026-06-10 09:56  WARNING  No acts found in scheerbart-die-puppe-und-die-dauerwurst
+2026-06-10 09:56  WARNING  No acts found in scheerbart-die-urgrossmutter
+2026-06-10 09:56  WARNING  No acts found in scheerbart-die-welt-geht-unter
+2026-06-10 09:56  INFO  Loaded scheerbart-es-lebe-europa (Tragedy, 9 cast members)
+2026-06-10 09:56  INFO  Loaded scheerbart-herr-kammerdiener-kneetschke (Tragedy, 9 cast members)
+2026-06-10 09:56  WARNING  No acts found in scheerbart-lachende-gespenster
+2026-06-10 09:56  INFO  Loaded scheerbart-okurirasuna (Comedy, 10 cast members)
+2026-06-10 09:56  WARNING  No acts found in schildbach-glueck-durch-unglueck
+2026-06-10 09:56  INFO  Loaded schiller-die-jungfrau-von-orleans (Tragedy, 43 cast members)
+2026-06-10 09:56  INFO  Loaded schiller-die-verschwoerung-des-fiesco-zu-genua (Tragedy, 28 cast members)
+2026-06-10 09:56  INFO  Loaded schiller-kabale-und-liebe (Tragedy, 17 cast members)
+2026-06-10 09:56  INFO  Loaded schiller-maria-stuart (Tragedy, 19 cast members)
+2026-06-10 09:56  WARNING  No acts found in schiller-wallensteins-lager
+2026-06-10 09:56  INFO  Loaded schiller-wallensteins-tod (Tragedy, 33 cast members)
+2026-06-10 09:56  INFO  Loaded schlegel-dueval-und-charmille (Tragedy, 9 cast members)
+2026-06-10 09:56  INFO  Loaded schlegel-canut (Tragedy, 7 cast members)
+2026-06-10 09:56  INFO  Loaded schlegel-der-geschaeftige-muessiggaenger (Comedy, 15 cast members)
+2026-06-10 09:56  INFO  Loaded schlegel-der-triumph-der-guten-frauen (Comedy, 7 cast members)
+2026-06-10 09:56  WARNING  No acts found in schlegel-die-entfuehrte-dose
+2026-06-10 09:56  WARNING  No acts found in schlegel-die-stumme-schoenheit
+2026-06-10 09:56  WARNING  No acts found in schlosser-die-maskerade
+2026-06-10 09:56  INFO  Loaded schnitzler-professor-bernhardi (Comedy, 23 cast members)
+2026-06-10 09:56  WARNING  No acts found in schnitzler-reigen
+2026-06-10 09:56  WARNING  No acts found in schrader-der-hohlweg
+2026-06-10 09:56  INFO  Loaded schuecking-elisabeth (Tragedy, 14 cast members)
+2026-06-10 09:56  WARNING  No acts found in schuetz-die-katze-laesst-das-mausen-nicht
+2026-06-10 09:56  WARNING  No acts found in seemann-dulk-die-waende
+2026-06-10 09:56  WARNING  No acts found in sessa-unser-verkehr
+2026-06-10 09:56  INFO  Loaded seume-miltiades (Tragedy, 13 cast members)
+2026-06-10 09:56  WARNING  No acts found in sievers-die-schatzgraeber
+2026-06-10 09:56  WARNING  No acts found in solbrig-die-dorfschule
+2026-06-10 09:56  WARNING  No acts found in sonnleithner-dir-wie-mir
+2026-06-10 09:56  WARNING  No acts found in sorge-der-sieg-des-christos
+2026-06-10 09:56  INFO  Loaded steltzer-franziska-montenegro (Tragedy, 13 cast members)
+2026-06-10 09:56  WARNING  No acts found in stephanie-der-schauspieldirektor
+2026-06-10 09:56  WARNING  No acts found in stramm-die-haidebraut
+2026-06-10 09:56  WARNING  No acts found in stramm-erwachen
+2026-06-10 09:56  WARNING  No acts found in stramm-geschehen
+2026-06-10 09:56  WARNING  No acts found in stramm-kraefte
+2026-06-10 09:56  WARNING  No acts found in stramm-rudimentaer
+2026-06-10 09:56  WARNING  No acts found in stramm-sancta-susanna
+2026-06-10 09:56  INFO  Loaded sturz-julie (Tragedy, 10 cast members)
+2026-06-10 09:56  INFO  Loaded sudermann-der-bettler-von-syrakus (Tragedy, 62 cast members)
+2026-06-10 09:56  WARNING  No acts found in thoma-die-medaille
+2026-06-10 09:56  WARNING  No acts found in thoma-erster-klasse
+2026-06-10 09:56  WARNING  No acts found in thoma-lottchens-geburtstag
+2026-06-10 09:56  INFO  Loaded thon-adelheit-von-rastenberg (Tragedy, 11 cast members)
+2026-06-10 09:56  WARNING  No acts found in tieck-die-theegesellschaft
+2026-06-10 09:56  INFO  Loaded tieck-karl-von-berneck (Tragedy, 19 cast members)
+2026-06-10 09:56  WARNING  No acts found in tieck-leben-und-tod-der-heiligen-genoveva
+2026-06-10 09:56  WARNING  No acts found in toller-masse-mensch
+2026-06-10 09:56  WARNING  No acts found in treitschke-das-bauerngut
+2026-06-10 09:56  INFO  Loaded toerring-agnes-bernauerin (Tragedy, 23 cast members)
+2026-06-10 09:56  INFO  Loaded uhland-ernst-herzog-von-schwaben (Tragedy, 18 cast members)
+2026-06-10 09:56  WARNING  No acts found in vanoni-der-friseur
+2026-06-10 09:56  WARNING  No acts found in voss-die-tapetenwand
+2026-06-10 09:56  INFO  Loaded voss-faust (Tragedy, 50 cast members)
+2026-06-10 09:56  WARNING  No acts found in wagner-voltaire-am-abend-seiner-apotheose
+2026-06-10 09:56  WARNING  No acts found in wagner-das-rheingold
+2026-06-10 09:56  WARNING  No acts found in wallenrodt-noch-jemands-ankunft-auf-st-helena
+2026-06-10 09:56  WARNING  No acts found in wedekind-der-kammersaenger
+2026-06-10 09:56  WARNING  No acts found in wedekind-die-zensur
+2026-06-10 09:56  WARNING  No acts found in wedekind-tod-und-teufel
+2026-06-10 09:56  WARNING  No acts found in weidmann-der-dorfbarbier
+2026-06-10 09:56  WARNING  No acts found in weidmann-der-selbstmord-oder-der-unglueckliche-lottospieler
+2026-06-10 09:56  INFO  Loaded weise-masaniello (Tragedy, 71 cast members)
+2026-06-10 09:56  WARNING  No acts found in weisse-die-ueberschwemmung-oder-die-edelmuethige-eifersucht
+2026-06-10 09:56  INFO  Loaded weissenthurn-das-manuscript (Comedy, 15 cast members)
+2026-06-10 09:56  INFO  Loaded weissenthurn-welche-ist-die-braut (Comedy, 20 cast members)
+2026-06-10 09:56  WARNING  No acts found in werner-der-vierundzwanzigste-februar
+2026-06-10 09:56  INFO  Loaded wezel-der-graf-von-wickham (Tragedy, 8 cast members)
+2026-06-10 09:56  WARNING  No acts found in wezel-die-falsche-vergiftung
+2026-06-10 09:56  INFO  Loaded wieland-lady-johanna-gray (Tragedy, 8 cast members)
+2026-06-10 09:56  INFO  Loaded wilbrandt-gracchus-der-volkstribun (Tragedy, 20 cast members)
+2026-06-10 09:56  INFO  Loaded wildgans-armut (Tragedy, 11 cast members)
+2026-06-10 09:56  INFO  Loaded wildgans-dies-irae (Tragedy, 12 cast members)
+2026-06-10 09:56  WARNING  No acts found in wolf-cyankali
+2026-06-10 09:56  WARNING  No acts found in wolfram-faust
+2026-06-10 09:56  WARNING  No genre found in wolzogen-der-leukadische-fels
+2026-06-10 09:56  WARNING  No genre found in ziese-siebenstein
+2026-06-10 09:56  WARNING  No acts found in zweig-jeremias
+2026-06-10 09:56  INFO  Loaded d-arien-natur-und-liebe-im-streit (Tragedy, 23 cast members)
+2026-06-10 09:56  WARNING  No acts found in d-elpons-der-ahnherr
+2026-06-10 09:56  INFO  Loaded 149 qualifying GerDracor dramas
+2026-06-10 09:56  INFO  Building cumulative networks
+2026-06-10 09:56  INFO  anonym-der-deutsche-student  depth 1 (acts_1): 5 edges
+2026-06-10 09:56  INFO  anonym-der-deutsche-student  depth 2 (acts_1-2): 19 edges
+2026-06-10 09:56  INFO  anonym-der-deutsche-student  depth 3 (acts_1-2-3): 31 edges
+2026-06-10 09:56  INFO  anonym-der-deutsche-student  depth 4 (acts_1-2-3-4): 35 edges
+2026-06-10 09:56  INFO  anonym-der-deutsche-student  depth 5 (acts_1-2-3-4-5): 39 edges
+2026-06-10 09:56  INFO  ayrer-comedia-von-zweyen-bruedern-auss-syracusa  depth 1 (acts_1): 10 edges
+2026-06-10 09:56  INFO  ayrer-comedia-von-zweyen-bruedern-auss-syracusa  depth 2 (acts_1-2): 31 edges
+2026-06-10 09:56  INFO  ayrer-comedia-von-zweyen-bruedern-auss-syracusa  depth 3 (acts_1-2-3): 58 edges
+2026-06-10 09:56  INFO  ayrer-comedia-von-zweyen-bruedern-auss-syracusa  depth 4 (acts_1-2-3-4): 59 edges
+2026-06-10 09:56  INFO  ayrer-comedia-von-zweyen-bruedern-auss-syracusa  depth 5 (acts_1-2-3-4-5): 59 edges
+2026-06-10 09:56  INFO  beer-struensee  depth 1 (acts_1): 32 edges
+2026-06-10 09:56  INFO  beer-struensee  depth 2 (acts_1-2): 69 edges
+2026-06-10 09:56  INFO  beer-struensee  depth 3 (acts_1-2-3): 114 edges
+2026-06-10 09:56  INFO  beer-struensee  depth 4 (acts_1-2-3-4): 194 edges
+2026-06-10 09:56  INFO  beer-struensee  depth 5 (acts_1-2-3-4-5): 197 edges
+2026-06-10 09:56  INFO  bleibtreu-ein-faust-der-that  depth 1 (acts_1): 36 edges
+2026-06-10 09:56  INFO  bleibtreu-ein-faust-der-that  depth 2 (acts_1-2): 90 edges
+2026-06-10 09:56  INFO  bleibtreu-ein-faust-der-that  depth 3 (acts_1-2-3): 152 edges
+2026-06-10 09:56  INFO  bleibtreu-ein-faust-der-that  depth 4 (acts_1-2-3-4): 158 edges
+2026-06-10 09:56  INFO  bleibtreu-ein-faust-der-that  depth 5 (acts_1-2-3-4-5): 227 edges
+2026-06-10 09:56  INFO  bleibtreu-weltgericht  depth 1 (acts_1): 136 edges
+2026-06-10 09:56  INFO  bleibtreu-weltgericht  depth 2 (acts_1-2): 153 edges
+2026-06-10 09:56  INFO  bleibtreu-weltgericht  depth 3 (acts_1-2-3): 183 edges
+2026-06-10 09:56  INFO  bleibtreu-weltgericht  depth 4 (acts_1-2-3-4): 282 edges
+2026-06-10 09:56  INFO  bleibtreu-weltgericht  depth 5 (acts_1-2-3-4-5): 602 edges
+2026-06-10 09:56  INFO  brachvogel-narziss  depth 1 (acts_1): 63 edges
+2026-06-10 09:56  INFO  brachvogel-narziss  depth 2 (acts_1-2): 70 edges
+2026-06-10 09:56  INFO  brachvogel-narziss  depth 3 (acts_1-2-3): 166 edges
+2026-06-10 09:56  INFO  brachvogel-narziss  depth 4 (acts_1-2-3-4): 188 edges
+2026-06-10 09:56  INFO  brachvogel-narziss  depth 5 (acts_1-2-3-4-5): 253 edges
+2026-06-10 09:56  INFO  brandes-hans-von-zanow-oder-der-landjunker-in-berlin  depth 1 (acts_1): 21 edges
+2026-06-10 09:56  INFO  brandes-hans-von-zanow-oder-der-landjunker-in-berlin  depth 2 (acts_1-2): 37 edges
+2026-06-10 09:56  INFO  brandes-hans-von-zanow-oder-der-landjunker-in-berlin  depth 3 (acts_1-2-3): 41 edges
+2026-06-10 09:56  INFO  brandes-hans-von-zanow-oder-der-landjunker-in-berlin  depth 4 (acts_1-2-3-4): 57 edges
+2026-06-10 09:56  INFO  brandes-hans-von-zanow-oder-der-landjunker-in-berlin  depth 5 (acts_1-2-3-4-5): 70 edges
+2026-06-10 09:56  INFO  braun-von-braunthal-faust  depth 1 (acts_1): 76 edges
+2026-06-10 09:56  INFO  braun-von-braunthal-faust  depth 2 (acts_1-2): 114 edges
+2026-06-10 09:56  INFO  braun-von-braunthal-faust  depth 3 (acts_1-2-3): 143 edges
+2026-06-10 09:56  INFO  braun-von-braunthal-faust  depth 4 (acts_1-2-3-4): 158 edges
+2026-06-10 09:56  INFO  braun-von-braunthal-faust  depth 5 (acts_1-2-3-4-5): 166 edges
+2026-06-10 09:56  INFO  braun-mutter-maria  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  braun-mutter-maria  depth 2 (acts_1-2): 217 edges
+2026-06-10 09:56  INFO  braun-mutter-maria  depth 3 (acts_1-2-3): 724 edges
+2026-06-10 09:56  INFO  braun-mutter-maria  depth 4 (acts_1-2-3-4): 1936 edges
+2026-06-10 09:56  INFO  braun-mutter-maria  depth 5 (acts_1-2-3-4-5): 2034 edges
+2026-06-10 09:56  INFO  brawe-brutus  depth 1 (acts_1): 4 edges
+2026-06-10 09:56  INFO  brawe-brutus  depth 2 (acts_1-2): 7 edges
+2026-06-10 09:56  INFO  brawe-brutus  depth 3 (acts_1-2-3): 7 edges
+2026-06-10 09:56  INFO  brawe-brutus  depth 4 (acts_1-2-3-4): 11 edges
+2026-06-10 09:56  INFO  brawe-brutus  depth 5 (acts_1-2-3-4-5): 14 edges
+2026-06-10 09:56  INFO  brawe-der-freygeist  depth 1 (acts_1): 3 edges
+2026-06-10 09:56  INFO  brawe-der-freygeist  depth 2 (acts_1-2): 6 edges
+2026-06-10 09:56  INFO  brawe-der-freygeist  depth 3 (acts_1-2-3): 7 edges
+2026-06-10 09:56  INFO  brawe-der-freygeist  depth 4 (acts_1-2-3-4): 7 edges
+2026-06-10 09:56  INFO  brawe-der-freygeist  depth 5 (acts_1-2-3-4-5): 7 edges
+2026-06-10 09:56  INFO  bredow-goerne-hypatia  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  bredow-goerne-hypatia  depth 2 (acts_1-2): 21 edges
+2026-06-10 09:56  INFO  bredow-goerne-hypatia  depth 3 (acts_1-2-3): 34 edges
+2026-06-10 09:56  INFO  bredow-goerne-hypatia  depth 4 (acts_1-2-3-4): 39 edges
+2026-06-10 09:56  INFO  bredow-goerne-hypatia  depth 5 (acts_1-2-3-4-5): 90 edges
+2026-06-10 09:56  INFO  breithaupt-der-renegat  depth 1 (acts_1): 5 edges
+2026-06-10 09:56  INFO  breithaupt-der-renegat  depth 2 (acts_1-2): 8 edges
+2026-06-10 09:56  INFO  breithaupt-der-renegat  depth 3 (acts_1-2-3): 12 edges
+2026-06-10 09:56  INFO  breithaupt-der-renegat  depth 4 (acts_1-2-3-4): 14 edges
+2026-06-10 09:56  INFO  breithaupt-der-renegat  depth 5 (acts_1-2-3-4-5): 14 edges
+2026-06-10 09:56  INFO  brentano-ponce-de-leon  depth 1 (acts_1): 41 edges
+2026-06-10 09:56  INFO  brentano-ponce-de-leon  depth 2 (acts_1-2): 54 edges
+2026-06-10 09:56  INFO  brentano-ponce-de-leon  depth 3 (acts_1-2-3): 84 edges
+2026-06-10 09:56  INFO  brentano-ponce-de-leon  depth 4 (acts_1-2-3-4): 99 edges
+2026-06-10 09:56  INFO  brentano-ponce-de-leon  depth 5 (acts_1-2-3-4-5): 179 edges
+2026-06-10 09:56  INFO  collin-balboa  depth 1 (acts_1): 18 edges
+2026-06-10 09:56  INFO  collin-balboa  depth 2 (acts_1-2): 28 edges
+2026-06-10 09:56  INFO  collin-balboa  depth 3 (acts_1-2-3): 42 edges
+2026-06-10 09:56  INFO  collin-balboa  depth 4 (acts_1-2-3-4): 43 edges
+2026-06-10 09:56  INFO  collin-balboa  depth 5 (acts_1-2-3-4-5): 45 edges
+2026-06-10 09:56  INFO  collin-coriolan  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  collin-coriolan  depth 2 (acts_1-2): 38 edges
+2026-06-10 09:56  INFO  collin-coriolan  depth 3 (acts_1-2-3): 53 edges
+2026-06-10 09:56  INFO  collin-coriolan  depth 4 (acts_1-2-3-4): 58 edges
+2026-06-10 09:56  INFO  collin-coriolan  depth 5 (acts_1-2-3-4-5): 62 edges
+2026-06-10 09:56  INFO  cronegk-codrus  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  cronegk-codrus  depth 2 (acts_1-2): 11 edges
+2026-06-10 09:56  INFO  cronegk-codrus  depth 3 (acts_1-2-3): 17 edges
+2026-06-10 09:56  INFO  cronegk-codrus  depth 4 (acts_1-2-3-4): 31 edges
+2026-06-10 09:56  INFO  cronegk-codrus  depth 5 (acts_1-2-3-4-5): 35 edges
+2026-06-10 09:56  INFO  cronegk-der-misstrauische  depth 1 (acts_1): 16 edges
+2026-06-10 09:56  INFO  cronegk-der-misstrauische  depth 2 (acts_1-2): 23 edges
+2026-06-10 09:56  INFO  cronegk-der-misstrauische  depth 3 (acts_1-2-3): 29 edges
+2026-06-10 09:56  INFO  cronegk-der-misstrauische  depth 4 (acts_1-2-3-4): 38 edges
+2026-06-10 09:56  INFO  cronegk-der-misstrauische  depth 5 (acts_1-2-3-4-5): 38 edges
+2026-06-10 09:56  INFO  dehmel-michel-michael  depth 1 (acts_1): 21 edges
+2026-06-10 09:56  INFO  dehmel-michel-michael  depth 2 (acts_1-2): 201 edges
+2026-06-10 09:56  INFO  dehmel-michel-michael  depth 3 (acts_1-2-3): 295 edges
+2026-06-10 09:56  INFO  dehmel-michel-michael  depth 4 (acts_1-2-3-4): 436 edges
+2026-06-10 09:56  INFO  dehmel-michel-michael  depth 5 (acts_1-2-3-4-5): 441 edges
+2026-06-10 09:56  INFO  eichendorff-der-letzte-held-von-marienburg  depth 1 (acts_1): 97 edges
+2026-06-10 09:56  INFO  eichendorff-der-letzte-held-von-marienburg  depth 2 (acts_1-2): 226 edges
+2026-06-10 09:56  INFO  eichendorff-der-letzte-held-von-marienburg  depth 3 (acts_1-2-3): 280 edges
+2026-06-10 09:56  INFO  eichendorff-der-letzte-held-von-marienburg  depth 4 (acts_1-2-3-4): 341 edges
+2026-06-10 09:56  INFO  eichendorff-der-letzte-held-von-marienburg  depth 5 (acts_1-2-3-4-5): 398 edges
+2026-06-10 09:56  INFO  engel-eid-und-pflicht  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  engel-eid-und-pflicht  depth 2 (acts_1-2): 9 edges
+2026-06-10 09:56  INFO  engel-eid-und-pflicht  depth 3 (acts_1-2-3): 14 edges
+2026-06-10 09:56  INFO  engel-eid-und-pflicht  depth 4 (acts_1-2-3-4): 28 edges
+2026-06-10 09:56  INFO  engel-eid-und-pflicht  depth 5 (acts_1-2-3-4-5): 32 edges
+2026-06-10 09:56  INFO  essig-der-frauenmut  depth 1 (acts_1): 21 edges
+2026-06-10 09:56  INFO  essig-der-frauenmut  depth 2 (acts_1-2): 28 edges
+2026-06-10 09:56  INFO  essig-der-frauenmut  depth 3 (acts_1-2-3): 116 edges
+2026-06-10 09:56  INFO  essig-der-frauenmut  depth 4 (acts_1-2-3-4): 123 edges
+2026-06-10 09:56  INFO  essig-der-frauenmut  depth 5 (acts_1-2-3-4-5): 335 edges
+2026-06-10 09:56  INFO  essig-ueberteufel  depth 1 (acts_1): 21 edges
+2026-06-10 09:56  INFO  essig-ueberteufel  depth 2 (acts_1-2): 36 edges
+2026-06-10 09:56  INFO  essig-ueberteufel  depth 3 (acts_1-2-3): 44 edges
+2026-06-10 09:56  INFO  essig-ueberteufel  depth 4 (acts_1-2-3-4): 138 edges
+2026-06-10 09:56  INFO  essig-ueberteufel  depth 5 (acts_1-2-3-4-5): 162 edges
+2026-06-10 09:56  INFO  goethe-clavigo  depth 1 (acts_1): 21 edges
+2026-06-10 09:56  INFO  goethe-clavigo  depth 2 (acts_1-2): 28 edges
+2026-06-10 09:56  INFO  goethe-clavigo  depth 3 (acts_1-2-3): 28 edges
+2026-06-10 09:56  INFO  goethe-clavigo  depth 4 (acts_1-2-3-4): 34 edges
+2026-06-10 09:56  INFO  goethe-clavigo  depth 5 (acts_1-2-3-4-5): 44 edges
+2026-06-10 09:56  INFO  goethe-der-grosskophta  depth 1 (acts_1): 49 edges
+2026-06-10 09:56  INFO  goethe-der-grosskophta  depth 2 (acts_1-2): 67 edges
+2026-06-10 09:56  INFO  goethe-der-grosskophta  depth 3 (acts_1-2-3): 81 edges
+2026-06-10 09:56  INFO  goethe-der-grosskophta  depth 4 (acts_1-2-3-4): 82 edges
+2026-06-10 09:56  INFO  goethe-der-grosskophta  depth 5 (acts_1-2-3-4-5): 115 edges
+2026-06-10 09:56  INFO  goethe-die-natuerliche-tochter  depth 1 (acts_1): 10 edges
+2026-06-10 09:56  INFO  goethe-die-natuerliche-tochter  depth 2 (acts_1-2): 12 edges
+2026-06-10 09:56  INFO  goethe-die-natuerliche-tochter  depth 3 (acts_1-2-3): 15 edges
+2026-06-10 09:56  INFO  goethe-die-natuerliche-tochter  depth 4 (acts_1-2-3-4): 17 edges
+2026-06-10 09:56  INFO  goethe-die-natuerliche-tochter  depth 5 (acts_1-2-3-4-5): 23 edges
+2026-06-10 09:56  INFO  goethe-egmont  depth 1 (acts_1): 14 edges
+2026-06-10 09:56  INFO  goethe-egmont  depth 2 (acts_1-2): 152 edges
+2026-06-10 09:56  INFO  goethe-egmont  depth 3 (acts_1-2-3): 154 edges
+2026-06-10 09:56  INFO  goethe-egmont  depth 4 (acts_1-2-3-4): 168 edges
+2026-06-10 09:56  INFO  goethe-egmont  depth 5 (acts_1-2-3-4-5): 175 edges
+2026-06-10 09:56  INFO  goethe-faust-der-tragoedie-zweiter-teil  depth 1 (acts_1): 1308 edges
+2026-06-10 09:56  INFO  goethe-faust-der-tragoedie-zweiter-teil  depth 2 (acts_1-2): 1683 edges
+2026-06-10 09:56  INFO  goethe-faust-der-tragoedie-zweiter-teil  depth 3 (acts_1-2-3): 1781 edges
+2026-06-10 09:56  INFO  goethe-faust-der-tragoedie-zweiter-teil  depth 4 (acts_1-2-3-4): 1926 edges
+2026-06-10 09:56  INFO  goethe-faust-der-tragoedie-zweiter-teil  depth 5 (acts_1-2-3-4-5): 2044 edges
+2026-06-10 09:56  INFO  gotter-die-erbschleicher  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  gotter-die-erbschleicher  depth 2 (acts_1-2): 17 edges
+2026-06-10 09:56  INFO  gotter-die-erbschleicher  depth 3 (acts_1-2-3): 26 edges
+2026-06-10 09:56  INFO  gotter-die-erbschleicher  depth 4 (acts_1-2-3-4): 26 edges
+2026-06-10 09:56  INFO  gotter-die-erbschleicher  depth 5 (acts_1-2-3-4-5): 37 edges
+2026-06-10 09:56  INFO  gottsched-der-sterbende-cato  depth 1 (acts_1): 8 edges
+2026-06-10 09:56  INFO  gottsched-der-sterbende-cato  depth 2 (acts_1-2): 15 edges
+2026-06-10 09:56  INFO  gottsched-der-sterbende-cato  depth 3 (acts_1-2-3): 19 edges
+2026-06-10 09:56  INFO  gottsched-der-sterbende-cato  depth 4 (acts_1-2-3-4): 28 edges
+2026-06-10 09:56  INFO  gottsched-der-sterbende-cato  depth 5 (acts_1-2-3-4-5): 30 edges
+2026-06-10 09:56  INFO  gottschedin-das-testament  depth 1 (acts_1): 7 edges
+2026-06-10 09:56  INFO  gottschedin-das-testament  depth 2 (acts_1-2): 15 edges
+2026-06-10 09:56  INFO  gottschedin-das-testament  depth 3 (acts_1-2-3): 16 edges
+2026-06-10 09:56  INFO  gottschedin-das-testament  depth 4 (acts_1-2-3-4): 22 edges
+2026-06-10 09:56  INFO  gottschedin-das-testament  depth 5 (acts_1-2-3-4-5): 53 edges
+2026-06-10 09:56  INFO  gottschedin-die-pietisterey-im-fischbein-rocke  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  gottschedin-die-pietisterey-im-fischbein-rocke  depth 2 (acts_1-2): 14 edges
+2026-06-10 09:56  INFO  gottschedin-die-pietisterey-im-fischbein-rocke  depth 3 (acts_1-2-3): 22 edges
+2026-06-10 09:56  INFO  gottschedin-die-pietisterey-im-fischbein-rocke  depth 4 (acts_1-2-3-4): 41 edges
+2026-06-10 09:56  INFO  gottschedin-die-pietisterey-im-fischbein-rocke  depth 5 (acts_1-2-3-4-5): 58 edges
+2026-06-10 09:56  INFO  grabbe-herzog-theodor-von-gothland  depth 1 (acts_1): 59 edges
+2026-06-10 09:56  INFO  grabbe-herzog-theodor-von-gothland  depth 2 (acts_1-2): 166 edges
+2026-06-10 09:56  INFO  grabbe-herzog-theodor-von-gothland  depth 3 (acts_1-2-3): 390 edges
+2026-06-10 09:56  INFO  grabbe-herzog-theodor-von-gothland  depth 4 (acts_1-2-3-4): 538 edges
+2026-06-10 09:56  INFO  grabbe-herzog-theodor-von-gothland  depth 5 (acts_1-2-3-4-5): 618 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-friedrich-barbarossa  depth 1 (acts_1): 267 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-friedrich-barbarossa  depth 2 (acts_1-2): 643 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-friedrich-barbarossa  depth 3 (acts_1-2-3): 698 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-friedrich-barbarossa  depth 4 (acts_1-2-3-4): 891 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-friedrich-barbarossa  depth 5 (acts_1-2-3-4-5): 967 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-heinrich-der-sechste  depth 1 (acts_1): 83 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-heinrich-der-sechste  depth 2 (acts_1-2): 210 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-heinrich-der-sechste  depth 3 (acts_1-2-3): 341 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-heinrich-der-sechste  depth 4 (acts_1-2-3-4): 419 edges
+2026-06-10 09:56  INFO  grabbe-kaiser-heinrich-der-sechste  depth 5 (acts_1-2-3-4-5): 494 edges
+2026-06-10 09:56  INFO  grillparzer-des-meeres-und-der-liebe-wellen  depth 1 (acts_1): 55 edges
+2026-06-10 09:56  INFO  grillparzer-des-meeres-und-der-liebe-wellen  depth 2 (acts_1-2): 55 edges
+2026-06-10 09:56  INFO  grillparzer-des-meeres-und-der-liebe-wellen  depth 3 (acts_1-2-3): 55 edges
+2026-06-10 09:56  INFO  grillparzer-des-meeres-und-der-liebe-wellen  depth 4 (acts_1-2-3-4): 56 edges
+2026-06-10 09:56  INFO  grillparzer-des-meeres-und-der-liebe-wellen  depth 5 (acts_1-2-3-4-5): 56 edges
+2026-06-10 09:56  INFO  grillparzer-die-ahnfrau  depth 1 (acts_1): 10 edges
+2026-06-10 09:56  INFO  grillparzer-die-ahnfrau  depth 2 (acts_1-2): 19 edges
+2026-06-10 09:56  INFO  grillparzer-die-ahnfrau  depth 3 (acts_1-2-3): 21 edges
+2026-06-10 09:56  INFO  grillparzer-die-ahnfrau  depth 4 (acts_1-2-3-4): 30 edges
+2026-06-10 09:56  INFO  grillparzer-die-ahnfrau  depth 5 (acts_1-2-3-4-5): 41 edges
+2026-06-10 09:56  INFO  grillparzer-die-juedin-von-toledo  depth 1 (acts_1): 28 edges
+2026-06-10 09:56  INFO  grillparzer-die-juedin-von-toledo  depth 2 (acts_1-2): 45 edges
+2026-06-10 09:56  INFO  grillparzer-die-juedin-von-toledo  depth 3 (acts_1-2-3): 64 edges
+2026-06-10 09:56  INFO  grillparzer-die-juedin-von-toledo  depth 4 (acts_1-2-3-4): 75 edges
+2026-06-10 09:56  INFO  grillparzer-die-juedin-von-toledo  depth 5 (acts_1-2-3-4-5): 81 edges
+2026-06-10 09:56  INFO  grillparzer-ein-bruderzwist-in-habsburg  depth 1 (acts_1): 34 edges
+2026-06-10 09:56  INFO  grillparzer-ein-bruderzwist-in-habsburg  depth 2 (acts_1-2): 149 edges
+2026-06-10 09:56  INFO  grillparzer-ein-bruderzwist-in-habsburg  depth 3 (acts_1-2-3): 189 edges
+2026-06-10 09:56  INFO  grillparzer-ein-bruderzwist-in-habsburg  depth 4 (acts_1-2-3-4): 226 edges
+2026-06-10 09:56  INFO  grillparzer-ein-bruderzwist-in-habsburg  depth 5 (acts_1-2-3-4-5): 266 edges
+2026-06-10 09:56  INFO  grillparzer-ein-treuer-diener-seines-herrn  depth 1 (acts_1): 120 edges
+2026-06-10 09:56  INFO  grillparzer-ein-treuer-diener-seines-herrn  depth 2 (acts_1-2): 180 edges
+2026-06-10 09:56  INFO  grillparzer-ein-treuer-diener-seines-herrn  depth 3 (acts_1-2-3): 210 edges
+2026-06-10 09:56  INFO  grillparzer-ein-treuer-diener-seines-herrn  depth 4 (acts_1-2-3-4): 253 edges
+2026-06-10 09:56  INFO  grillparzer-ein-treuer-diener-seines-herrn  depth 5 (acts_1-2-3-4-5): 281 edges
+2026-06-10 09:56  INFO  grillparzer-koenig-ottokars-glueck-und-ende  depth 1 (acts_1): 253 edges
+2026-06-10 09:56  INFO  grillparzer-koenig-ottokars-glueck-und-ende  depth 2 (acts_1-2): 324 edges
+2026-06-10 09:56  INFO  grillparzer-koenig-ottokars-glueck-und-ende  depth 3 (acts_1-2-3): 486 edges
+2026-06-10 09:56  INFO  grillparzer-koenig-ottokars-glueck-und-ende  depth 4 (acts_1-2-3-4): 545 edges
+2026-06-10 09:56  INFO  grillparzer-koenig-ottokars-glueck-und-ende  depth 5 (acts_1-2-3-4-5): 721 edges
+2026-06-10 09:56  INFO  grillparzer-libussa  depth 1 (acts_1): 50 edges
+2026-06-10 09:56  INFO  grillparzer-libussa  depth 2 (acts_1-2): 279 edges
+2026-06-10 09:56  INFO  grillparzer-libussa  depth 3 (acts_1-2-3): 289 edges
+2026-06-10 09:56  INFO  grillparzer-libussa  depth 4 (acts_1-2-3-4): 296 edges
+2026-06-10 09:56  INFO  grillparzer-libussa  depth 5 (acts_1-2-3-4-5): 299 edges
+2026-06-10 09:56  INFO  grillparzer-medea  depth 1 (acts_1): 28 edges
+2026-06-10 09:56  INFO  grillparzer-medea  depth 2 (acts_1-2): 32 edges
+2026-06-10 09:56  INFO  grillparzer-medea  depth 3 (acts_1-2-3): 32 edges
+2026-06-10 09:56  INFO  grillparzer-medea  depth 4 (acts_1-2-3-4): 43 edges
+2026-06-10 09:56  INFO  grillparzer-medea  depth 5 (acts_1-2-3-4-5): 48 edges
+2026-06-10 09:56  INFO  grillparzer-sappho  depth 1 (acts_1): 13 edges
+2026-06-10 09:56  INFO  grillparzer-sappho  depth 2 (acts_1-2): 19 edges
+2026-06-10 09:56  INFO  grillparzer-sappho  depth 3 (acts_1-2-3): 20 edges
+2026-06-10 09:56  INFO  grillparzer-sappho  depth 4 (acts_1-2-3-4): 26 edges
+2026-06-10 09:56  INFO  grillparzer-sappho  depth 5 (acts_1-2-3-4-5): 31 edges
+2026-06-10 09:56  INFO  grillparzer-weh-dem-der-luegt  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  grillparzer-weh-dem-der-luegt  depth 2 (acts_1-2): 26 edges
+2026-06-10 09:56  INFO  grillparzer-weh-dem-der-luegt  depth 3 (acts_1-2-3): 29 edges
+2026-06-10 09:56  INFO  grillparzer-weh-dem-der-luegt  depth 4 (acts_1-2-3-4): 69 edges
+2026-06-10 09:56  INFO  grillparzer-weh-dem-der-luegt  depth 5 (acts_1-2-3-4-5): 91 edges
+2026-06-10 09:56  INFO  gryphius-cardenio-und-celinde  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  gryphius-cardenio-und-celinde  depth 2 (acts_1-2): 12 edges
+2026-06-10 09:56  INFO  gryphius-cardenio-und-celinde  depth 3 (acts_1-2-3): 22 edges
+2026-06-10 09:56  INFO  gryphius-cardenio-und-celinde  depth 4 (acts_1-2-3-4): 73 edges
+2026-06-10 09:56  INFO  gryphius-cardenio-und-celinde  depth 5 (acts_1-2-3-4-5): 80 edges
+2026-06-10 09:56  INFO  gryphius-carolus-stuardus  depth 1 (acts_1): 4 edges
+2026-06-10 09:56  INFO  gryphius-carolus-stuardus  depth 2 (acts_1-2): 11 edges
+2026-06-10 09:56  INFO  gryphius-carolus-stuardus  depth 3 (acts_1-2-3): 23 edges
+2026-06-10 09:56  INFO  gryphius-carolus-stuardus  depth 4 (acts_1-2-3-4): 73 edges
+2026-06-10 09:56  INFO  gryphius-carolus-stuardus  depth 5 (acts_1-2-3-4-5): 167 edges
+2026-06-10 09:56  INFO  gryphius-catharina-von-georgien  depth 1 (acts_1): 8 edges
+2026-06-10 09:56  INFO  gryphius-catharina-von-georgien  depth 2 (acts_1-2): 12 edges
+2026-06-10 09:56  INFO  gryphius-catharina-von-georgien  depth 3 (acts_1-2-3): 13 edges
+2026-06-10 09:56  INFO  gryphius-catharina-von-georgien  depth 4 (acts_1-2-3-4): 42 edges
+2026-06-10 09:56  INFO  gryphius-catharina-von-georgien  depth 5 (acts_1-2-3-4-5): 53 edges
+2026-06-10 09:56  INFO  gryphius-horribilicribrifax-teutsch  depth 1 (acts_1): 8 edges
+2026-06-10 09:56  INFO  gryphius-horribilicribrifax-teutsch  depth 2 (acts_1-2): 28 edges
+2026-06-10 09:56  INFO  gryphius-horribilicribrifax-teutsch  depth 3 (acts_1-2-3): 37 edges
+2026-06-10 09:56  INFO  gryphius-horribilicribrifax-teutsch  depth 4 (acts_1-2-3-4): 45 edges
+2026-06-10 09:56  INFO  gryphius-horribilicribrifax-teutsch  depth 5 (acts_1-2-3-4-5): 57 edges
+2026-06-10 09:56  INFO  gryphius-leo-armenius-oder-fuersten-mord  depth 1 (acts_1): 19 edges
+2026-06-10 09:56  INFO  gryphius-leo-armenius-oder-fuersten-mord  depth 2 (acts_1-2): 99 edges
+2026-06-10 09:56  INFO  gryphius-leo-armenius-oder-fuersten-mord  depth 3 (acts_1-2-3): 111 edges
+2026-06-10 09:56  INFO  gryphius-leo-armenius-oder-fuersten-mord  depth 4 (acts_1-2-3-4): 154 edges
+2026-06-10 09:56  INFO  gryphius-leo-armenius-oder-fuersten-mord  depth 5 (acts_1-2-3-4-5): 178 edges
+2026-06-10 09:56  INFO  gryphius-papinianus  depth 1 (acts_1): 3 edges
+2026-06-10 09:56  INFO  gryphius-papinianus  depth 2 (acts_1-2): 29 edges
+2026-06-10 09:56  INFO  gryphius-papinianus  depth 3 (acts_1-2-3): 37 edges
+2026-06-10 09:56  INFO  gryphius-papinianus  depth 4 (acts_1-2-3-4): 48 edges
+2026-06-10 09:56  INFO  gryphius-papinianus  depth 5 (acts_1-2-3-4-5): 79 edges
+2026-06-10 09:56  INFO  gutzkow-das-urbild-des-tartueffe  depth 1 (acts_1): 14 edges
+2026-06-10 09:56  INFO  gutzkow-das-urbild-des-tartueffe  depth 2 (acts_1-2): 35 edges
+2026-06-10 09:56  INFO  gutzkow-das-urbild-des-tartueffe  depth 3 (acts_1-2-3): 61 edges
+2026-06-10 09:56  INFO  gutzkow-das-urbild-des-tartueffe  depth 4 (acts_1-2-3-4): 74 edges
+2026-06-10 09:56  INFO  gutzkow-das-urbild-des-tartueffe  depth 5 (acts_1-2-3-4-5): 81 edges
+2026-06-10 09:56  INFO  gutzkow-richard-savage  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  gutzkow-richard-savage  depth 2 (acts_1-2): 29 edges
+2026-06-10 09:56  INFO  gutzkow-richard-savage  depth 3 (acts_1-2-3): 34 edges
+2026-06-10 09:56  INFO  gutzkow-richard-savage  depth 4 (acts_1-2-3-4): 107 edges
+2026-06-10 09:56  INFO  gutzkow-richard-savage  depth 5 (acts_1-2-3-4-5): 116 edges
+2026-06-10 09:56  INFO  gutzkow-uriel-acosta  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  gutzkow-uriel-acosta  depth 2 (acts_1-2): 27 edges
+2026-06-10 09:56  INFO  gutzkow-uriel-acosta  depth 3 (acts_1-2-3): 38 edges
+2026-06-10 09:56  INFO  gutzkow-uriel-acosta  depth 4 (acts_1-2-3-4): 54 edges
+2026-06-10 09:56  INFO  gutzkow-uriel-acosta  depth 5 (acts_1-2-3-4-5): 56 edges
+2026-06-10 09:56  INFO  gutzkow-zopf-und-schwert  depth 1 (acts_1): 16 edges
+2026-06-10 09:56  INFO  gutzkow-zopf-und-schwert  depth 2 (acts_1-2): 42 edges
+2026-06-10 09:56  INFO  gutzkow-zopf-und-schwert  depth 3 (acts_1-2-3): 73 edges
+2026-06-10 09:56  INFO  gutzkow-zopf-und-schwert  depth 4 (acts_1-2-3-4): 97 edges
+2026-06-10 09:56  INFO  gutzkow-zopf-und-schwert  depth 5 (acts_1-2-3-4-5): 119 edges
+2026-06-10 09:56  INFO  hallmann-mariamne  depth 1 (acts_1): 28 edges
+2026-06-10 09:56  INFO  hallmann-mariamne  depth 2 (acts_1-2): 104 edges
+2026-06-10 09:56  INFO  hallmann-mariamne  depth 3 (acts_1-2-3): 117 edges
+2026-06-10 09:56  INFO  hallmann-mariamne  depth 4 (acts_1-2-3-4): 176 edges
+2026-06-10 09:56  INFO  hallmann-mariamne  depth 5 (acts_1-2-3-4-5): 364 edges
+2026-06-10 09:56  INFO  hartleben-rosenmontag  depth 1 (acts_1): 103 edges
+2026-06-10 09:56  INFO  hartleben-rosenmontag  depth 2 (acts_1-2): 124 edges
+2026-06-10 09:56  INFO  hartleben-rosenmontag  depth 3 (acts_1-2-3): 131 edges
+2026-06-10 09:56  INFO  hartleben-rosenmontag  depth 4 (acts_1-2-3-4): 135 edges
+2026-06-10 09:56  INFO  hartleben-rosenmontag  depth 5 (acts_1-2-3-4-5): 142 edges
+2026-06-10 09:56  INFO  hauptmann-carl-tobias-buntschuh  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  hauptmann-carl-tobias-buntschuh  depth 2 (acts_1-2): 20 edges
+2026-06-10 09:56  INFO  hauptmann-carl-tobias-buntschuh  depth 3 (acts_1-2-3): 62 edges
+2026-06-10 09:56  INFO  hauptmann-carl-tobias-buntschuh  depth 4 (acts_1-2-3-4): 67 edges
+2026-06-10 09:56  INFO  hauptmann-carl-tobias-buntschuh  depth 5 (acts_1-2-3-4-5): 68 edges
+2026-06-10 09:56  INFO  hauptmann-florian-geyer  depth 1 (acts_1): 465 edges
+2026-06-10 09:56  INFO  hauptmann-florian-geyer  depth 2 (acts_1-2): 806 edges
+2026-06-10 09:56  INFO  hauptmann-florian-geyer  depth 3 (acts_1-2-3): 882 edges
+2026-06-10 09:56  INFO  hauptmann-florian-geyer  depth 4 (acts_1-2-3-4): 1022 edges
+2026-06-10 09:56  INFO  hauptmann-florian-geyer  depth 5 (acts_1-2-3-4-5): 1182 edges
+2026-06-10 09:56  INFO  hebbel-agnes-bernauer  depth 1 (acts_1): 59 edges
+2026-06-10 09:56  INFO  hebbel-agnes-bernauer  depth 2 (acts_1-2): 60 edges
+2026-06-10 09:56  INFO  hebbel-agnes-bernauer  depth 3 (acts_1-2-3): 100 edges
+2026-06-10 09:56  INFO  hebbel-agnes-bernauer  depth 4 (acts_1-2-3-4): 124 edges
+2026-06-10 09:56  INFO  hebbel-agnes-bernauer  depth 5 (acts_1-2-3-4-5): 176 edges
+2026-06-10 09:56  INFO  hebbel-der-diamant  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  hebbel-der-diamant  depth 2 (acts_1-2): 17 edges
+2026-06-10 09:56  INFO  hebbel-der-diamant  depth 3 (acts_1-2-3): 27 edges
+2026-06-10 09:56  INFO  hebbel-der-diamant  depth 4 (acts_1-2-3-4): 39 edges
+2026-06-10 09:56  INFO  hebbel-der-diamant  depth 5 (acts_1-2-3-4-5): 80 edges
+2026-06-10 09:56  INFO  hebbel-genoveva  depth 1 (acts_1): 7 edges
+2026-06-10 09:56  INFO  hebbel-genoveva  depth 2 (acts_1-2): 30 edges
+2026-06-10 09:56  INFO  hebbel-genoveva  depth 3 (acts_1-2-3): 73 edges
+2026-06-10 09:56  INFO  hebbel-genoveva  depth 4 (acts_1-2-3-4): 80 edges
+2026-06-10 09:56  INFO  hebbel-genoveva  depth 5 (acts_1-2-3-4-5): 83 edges
+2026-06-10 09:56  INFO  hebbel-gyges-und-sein-ring  depth 1 (acts_1): 28 edges
+2026-06-10 09:56  INFO  hebbel-gyges-und-sein-ring  depth 2 (acts_1-2): 33 edges
+2026-06-10 09:56  INFO  hebbel-gyges-und-sein-ring  depth 3 (acts_1-2-3): 37 edges
+2026-06-10 09:56  INFO  hebbel-gyges-und-sein-ring  depth 4 (acts_1-2-3-4): 39 edges
+2026-06-10 09:56  INFO  hebbel-gyges-und-sein-ring  depth 5 (acts_1-2-3-4-5): 42 edges
+2026-06-10 09:56  INFO  hebbel-herodes-und-mariamne  depth 1 (acts_1): 21 edges
+2026-06-10 09:56  INFO  hebbel-herodes-und-mariamne  depth 2 (acts_1-2): 42 edges
+2026-06-10 09:56  INFO  hebbel-herodes-und-mariamne  depth 3 (acts_1-2-3): 53 edges
+2026-06-10 09:56  INFO  hebbel-herodes-und-mariamne  depth 4 (acts_1-2-3-4): 72 edges
+2026-06-10 09:56  INFO  hebbel-herodes-und-mariamne  depth 5 (acts_1-2-3-4-5): 113 edges
+2026-06-10 09:56  INFO  hebbel-judith  depth 1 (acts_1): 66 edges
+2026-06-10 09:56  INFO  hebbel-judith  depth 2 (acts_1-2): 69 edges
+2026-06-10 09:56  INFO  hebbel-judith  depth 3 (acts_1-2-3): 444 edges
+2026-06-10 09:56  INFO  hebbel-judith  depth 4 (acts_1-2-3-4): 459 edges
+2026-06-10 09:56  INFO  hebbel-judith  depth 5 (acts_1-2-3-4-5): 635 edges
+2026-06-10 09:56  INFO  hebbel-kriemhilds-rache  depth 1 (acts_1): 17 edges
+2026-06-10 09:56  INFO  hebbel-kriemhilds-rache  depth 2 (acts_1-2): 86 edges
+2026-06-10 09:56  INFO  hebbel-kriemhilds-rache  depth 3 (acts_1-2-3): 93 edges
+2026-06-10 09:56  INFO  hebbel-kriemhilds-rache  depth 4 (acts_1-2-3-4): 108 edges
+2026-06-10 09:56  INFO  hebbel-kriemhilds-rache  depth 5 (acts_1-2-3-4-5): 123 edges
+2026-06-10 09:56  INFO  hebbel-siegfrieds-tod  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  hebbel-siegfrieds-tod  depth 2 (acts_1-2): 39 edges
+2026-06-10 09:56  INFO  hebbel-siegfrieds-tod  depth 3 (acts_1-2-3): 48 edges
+2026-06-10 09:56  INFO  hebbel-siegfrieds-tod  depth 4 (acts_1-2-3-4): 58 edges
+2026-06-10 09:56  INFO  hebbel-siegfrieds-tod  depth 5 (acts_1-2-3-4-5): 90 edges
+2026-06-10 09:56  INFO  heiseler-die-kinder-godunofs  depth 1 (acts_1): 105 edges
+2026-06-10 09:56  INFO  heiseler-die-kinder-godunofs  depth 2 (acts_1-2): 156 edges
+2026-06-10 09:56  INFO  heiseler-die-kinder-godunofs  depth 3 (acts_1-2-3): 167 edges
+2026-06-10 09:56  INFO  heiseler-die-kinder-godunofs  depth 4 (acts_1-2-3-4): 203 edges
+2026-06-10 09:56  INFO  heiseler-die-kinder-godunofs  depth 5 (acts_1-2-3-4-5): 206 edges
+2026-06-10 09:56  INFO  heiseler-peter-und-alexej  depth 1 (acts_1): 36 edges
+2026-06-10 09:56  INFO  heiseler-peter-und-alexej  depth 2 (acts_1-2): 99 edges
+2026-06-10 09:56  INFO  heiseler-peter-und-alexej  depth 3 (acts_1-2-3): 181 edges
+2026-06-10 09:56  INFO  heiseler-peter-und-alexej  depth 4 (acts_1-2-3-4): 243 edges
+2026-06-10 09:56  INFO  heiseler-peter-und-alexej  depth 5 (acts_1-2-3-4-5): 243 edges
+2026-06-10 09:56  INFO  heyse-don-juans-ende  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  heyse-don-juans-ende  depth 2 (acts_1-2): 28 edges
+2026-06-10 09:56  INFO  heyse-don-juans-ende  depth 3 (acts_1-2-3): 29 edges
+2026-06-10 09:56  INFO  heyse-don-juans-ende  depth 4 (acts_1-2-3-4): 37 edges
+2026-06-10 09:56  INFO  heyse-don-juans-ende  depth 5 (acts_1-2-3-4-5): 57 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-turm  depth 1 (acts_1): 34 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-turm  depth 2 (acts_1-2): 191 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-turm  depth 3 (acts_1-2-3): 399 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-turm  depth 4 (acts_1-2-3-4): 1175 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-turm  depth 5 (acts_1-2-3-4-5): 1476 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-unbestechliche  depth 1 (acts_1): 35 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-unbestechliche  depth 2 (acts_1-2): 41 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-unbestechliche  depth 3 (acts_1-2-3): 44 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-unbestechliche  depth 4 (acts_1-2-3-4): 46 edges
+2026-06-10 09:56  INFO  hofmannsthal-der-unbestechliche  depth 5 (acts_1-2-3-4-5): 62 edges
+2026-06-10 09:56  INFO  holz-ignorabimus  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  holz-ignorabimus  depth 2 (acts_1-2): 13 edges
+2026-06-10 09:56  INFO  holz-ignorabimus  depth 3 (acts_1-2-3): 24 edges
+2026-06-10 09:56  INFO  holz-ignorabimus  depth 4 (acts_1-2-3-4): 25 edges
+2026-06-10 09:56  INFO  holz-ignorabimus  depth 5 (acts_1-2-3-4-5): 25 edges
+2026-06-10 09:56  INFO  holz-sonnenfinsternis  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  holz-sonnenfinsternis  depth 2 (acts_1-2): 12 edges
+2026-06-10 09:56  INFO  holz-sonnenfinsternis  depth 3 (acts_1-2-3): 16 edges
+2026-06-10 09:56  INFO  holz-sonnenfinsternis  depth 4 (acts_1-2-3-4): 16 edges
+2026-06-10 09:56  INFO  holz-sonnenfinsternis  depth 5 (acts_1-2-3-4-5): 18 edges
+2026-06-10 09:56  INFO  holz-sozialaristokraten  depth 1 (acts_1): 21 edges
+2026-06-10 09:56  INFO  holz-sozialaristokraten  depth 2 (acts_1-2): 47 edges
+2026-06-10 09:56  INFO  holz-sozialaristokraten  depth 3 (acts_1-2-3): 81 edges
+2026-06-10 09:56  INFO  holz-sozialaristokraten  depth 4 (acts_1-2-3-4): 88 edges
+2026-06-10 09:56  INFO  holz-sozialaristokraten  depth 5 (acts_1-2-3-4-5): 88 edges
+2026-06-10 09:56  INFO  iffland-das-gewissen  depth 1 (acts_1): 10 edges
+2026-06-10 09:56  INFO  iffland-das-gewissen  depth 2 (acts_1-2): 26 edges
+2026-06-10 09:56  INFO  iffland-das-gewissen  depth 3 (acts_1-2-3): 32 edges
+2026-06-10 09:56  INFO  iffland-das-gewissen  depth 4 (acts_1-2-3-4): 40 edges
+2026-06-10 09:56  INFO  iffland-das-gewissen  depth 5 (acts_1-2-3-4-5): 50 edges
+2026-06-10 09:56  INFO  iffland-figaro-in-deutschland  depth 1 (acts_1): 34 edges
+2026-06-10 09:56  INFO  iffland-figaro-in-deutschland  depth 2 (acts_1-2): 71 edges
+2026-06-10 09:56  INFO  iffland-figaro-in-deutschland  depth 3 (acts_1-2-3): 92 edges
+2026-06-10 09:56  INFO  iffland-figaro-in-deutschland  depth 4 (acts_1-2-3-4): 104 edges
+2026-06-10 09:56  INFO  iffland-figaro-in-deutschland  depth 5 (acts_1-2-3-4-5): 113 edges
+2026-06-10 09:56  INFO  immermann-andreas-hofer  depth 1 (acts_1): 36 edges
+2026-06-10 09:56  INFO  immermann-andreas-hofer  depth 2 (acts_1-2): 78 edges
+2026-06-10 09:56  INFO  immermann-andreas-hofer  depth 3 (acts_1-2-3): 81 edges
+2026-06-10 09:56  INFO  immermann-andreas-hofer  depth 4 (acts_1-2-3-4): 105 edges
+2026-06-10 09:56  INFO  immermann-andreas-hofer  depth 5 (acts_1-2-3-4-5): 110 edges
+2026-06-10 09:56  INFO  immermann-das-gericht-von-st-petersburg  depth 1 (acts_1): 42 edges
+2026-06-10 09:56  INFO  immermann-das-gericht-von-st-petersburg  depth 2 (acts_1-2): 52 edges
+2026-06-10 09:56  INFO  immermann-das-gericht-von-st-petersburg  depth 3 (acts_1-2-3): 58 edges
+2026-06-10 09:56  INFO  immermann-das-gericht-von-st-petersburg  depth 4 (acts_1-2-3-4): 160 edges
+2026-06-10 09:56  INFO  immermann-das-gericht-von-st-petersburg  depth 5 (acts_1-2-3-4-5): 178 edges
+2026-06-10 09:56  INFO  kleist-die-familie-schroffenstein  depth 1 (acts_1): 64 edges
+2026-06-10 09:56  INFO  kleist-die-familie-schroffenstein  depth 2 (acts_1-2): 79 edges
+2026-06-10 09:56  INFO  kleist-die-familie-schroffenstein  depth 3 (acts_1-2-3): 97 edges
+2026-06-10 09:56  INFO  kleist-die-familie-schroffenstein  depth 4 (acts_1-2-3-4): 114 edges
+2026-06-10 09:56  INFO  kleist-die-familie-schroffenstein  depth 5 (acts_1-2-3-4-5): 185 edges
+2026-06-10 09:56  INFO  klingemann-faust  depth 1 (acts_1): 10 edges
+2026-06-10 09:56  INFO  klingemann-faust  depth 2 (acts_1-2): 12 edges
+2026-06-10 09:56  INFO  klingemann-faust  depth 3 (acts_1-2-3): 32 edges
+2026-06-10 09:56  INFO  klingemann-faust  depth 4 (acts_1-2-3-4): 33 edges
+2026-06-10 09:56  INFO  klingemann-faust  depth 5 (acts_1-2-3-4-5): 53 edges
+2026-06-10 09:56  INFO  klinger-das-leidende-weib  depth 1 (acts_1): 75 edges
+2026-06-10 09:56  INFO  klinger-das-leidende-weib  depth 2 (acts_1-2): 81 edges
+2026-06-10 09:56  INFO  klinger-das-leidende-weib  depth 3 (acts_1-2-3): 83 edges
+2026-06-10 09:56  INFO  klinger-das-leidende-weib  depth 4 (acts_1-2-3-4): 87 edges
+2026-06-10 09:56  INFO  klinger-das-leidende-weib  depth 5 (acts_1-2-3-4-5): 97 edges
+2026-06-10 09:56  INFO  klinger-die-zwillinge  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  klinger-die-zwillinge  depth 2 (acts_1-2): 16 edges
+2026-06-10 09:56  INFO  klinger-die-zwillinge  depth 3 (acts_1-2-3): 16 edges
+2026-06-10 09:56  INFO  klinger-die-zwillinge  depth 4 (acts_1-2-3-4): 23 edges
+2026-06-10 09:56  INFO  klinger-die-zwillinge  depth 5 (acts_1-2-3-4-5): 23 edges
+2026-06-10 09:56  INFO  kotzebue-der-wirrwarr  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  kotzebue-der-wirrwarr  depth 2 (acts_1-2): 20 edges
+2026-06-10 09:56  INFO  kotzebue-der-wirrwarr  depth 3 (acts_1-2-3): 24 edges
+2026-06-10 09:56  INFO  kotzebue-der-wirrwarr  depth 4 (acts_1-2-3-4): 25 edges
+2026-06-10 09:56  INFO  kotzebue-der-wirrwarr  depth 5 (acts_1-2-3-4-5): 33 edges
+2026-06-10 09:56  INFO  kotzebue-die-spanier-in-peru  depth 1 (acts_1): 43 edges
+2026-06-10 09:56  INFO  kotzebue-die-spanier-in-peru  depth 2 (acts_1-2): 94 edges
+2026-06-10 09:56  INFO  kotzebue-die-spanier-in-peru  depth 3 (acts_1-2-3): 191 edges
+2026-06-10 09:56  INFO  kotzebue-die-spanier-in-peru  depth 4 (acts_1-2-3-4): 198 edges
+2026-06-10 09:56  INFO  kotzebue-die-spanier-in-peru  depth 5 (acts_1-2-3-4-5): 227 edges
+2026-06-10 09:56  INFO  kotzebue-pagenstreiche  depth 1 (acts_1): 64 edges
+2026-06-10 09:56  INFO  kotzebue-pagenstreiche  depth 2 (acts_1-2): 73 edges
+2026-06-10 09:56  INFO  kotzebue-pagenstreiche  depth 3 (acts_1-2-3): 83 edges
+2026-06-10 09:56  INFO  kotzebue-pagenstreiche  depth 4 (acts_1-2-3-4): 98 edges
+2026-06-10 09:56  INFO  kotzebue-pagenstreiche  depth 5 (acts_1-2-3-4-5): 112 edges
+2026-06-10 09:56  INFO  kraus-die-letzten-tage-der-menschheit  depth 1 (acts_1): 3243 edges
+2026-06-10 09:56  INFO  kraus-die-letzten-tage-der-menschheit  depth 2 (acts_1-2): 4132 edges
+2026-06-10 09:56  INFO  kraus-die-letzten-tage-der-menschheit  depth 3 (acts_1-2-3): 5062 edges
+2026-06-10 09:56  INFO  kraus-die-letzten-tage-der-menschheit  depth 4 (acts_1-2-3-4): 5679 edges
+2026-06-10 09:56  INFO  kraus-die-letzten-tage-der-menschheit  depth 5 (acts_1-2-3-4-5): 10904 edges
+2026-06-10 09:56  INFO  krueger-die-candidaten  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  krueger-die-candidaten  depth 2 (acts_1-2): 11 edges
+2026-06-10 09:56  INFO  krueger-die-candidaten  depth 3 (acts_1-2-3): 17 edges
+2026-06-10 09:56  INFO  krueger-die-candidaten  depth 4 (acts_1-2-3-4): 22 edges
+2026-06-10 09:56  INFO  krueger-die-candidaten  depth 5 (acts_1-2-3-4-5): 38 edges
+2026-06-10 09:56  INFO  koerner-zriny  depth 1 (acts_1): 37 edges
+2026-06-10 09:56  INFO  koerner-zriny  depth 2 (acts_1-2): 61 edges
+2026-06-10 09:56  INFO  koerner-zriny  depth 3 (acts_1-2-3): 75 edges
+2026-06-10 09:56  INFO  koerner-zriny  depth 4 (acts_1-2-3-4): 82 edges
+2026-06-10 09:56  INFO  koerner-zriny  depth 5 (acts_1-2-3-4-5): 87 edges
+2026-06-10 09:56  INFO  lasker-schueler-ichundich  depth 1 (acts_1): 120 edges
+2026-06-10 09:56  INFO  lasker-schueler-ichundich  depth 2 (acts_1-2): 153 edges
+2026-06-10 09:56  INFO  lasker-schueler-ichundich  depth 3 (acts_1-2-3): 159 edges
+2026-06-10 09:56  INFO  lasker-schueler-ichundich  depth 4 (acts_1-2-3-4): 270 edges
+2026-06-10 09:56  INFO  lasker-schueler-ichundich  depth 5 (acts_1-2-3-4-5): 282 edges
+2026-06-10 09:56  INFO  lassalle-franz-von-sickingen  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  lassalle-franz-von-sickingen  depth 2 (acts_1-2): 23 edges
+2026-06-10 09:56  INFO  lassalle-franz-von-sickingen  depth 3 (acts_1-2-3): 72 edges
+2026-06-10 09:56  INFO  lassalle-franz-von-sickingen  depth 4 (acts_1-2-3-4): 207 edges
+2026-06-10 09:56  INFO  lassalle-franz-von-sickingen  depth 5 (acts_1-2-3-4-5): 259 edges
+2026-06-10 09:56  INFO  laube-gottsched-und-gellert  depth 1 (acts_1): 25 edges
+2026-06-10 09:56  INFO  laube-gottsched-und-gellert  depth 2 (acts_1-2): 46 edges
+2026-06-10 09:56  INFO  laube-gottsched-und-gellert  depth 3 (acts_1-2-3): 58 edges
+2026-06-10 09:56  INFO  laube-gottsched-und-gellert  depth 4 (acts_1-2-3-4): 63 edges
+2026-06-10 09:56  INFO  laube-gottsched-und-gellert  depth 5 (acts_1-2-3-4-5): 108 edges
+2026-06-10 09:56  INFO  laube-monaldeschi  depth 1 (acts_1): 22 edges
+2026-06-10 09:56  INFO  laube-monaldeschi  depth 2 (acts_1-2): 39 edges
+2026-06-10 09:56  INFO  laube-monaldeschi  depth 3 (acts_1-2-3): 39 edges
+2026-06-10 09:56  INFO  laube-monaldeschi  depth 4 (acts_1-2-3-4): 43 edges
+2026-06-10 09:56  INFO  laube-monaldeschi  depth 5 (acts_1-2-3-4-5): 50 edges
+2026-06-10 09:56  INFO  laube-struensee  depth 1 (acts_1): 35 edges
+2026-06-10 09:56  INFO  laube-struensee  depth 2 (acts_1-2): 36 edges
+2026-06-10 09:56  INFO  laube-struensee  depth 3 (acts_1-2-3): 36 edges
+2026-06-10 09:56  INFO  laube-struensee  depth 4 (acts_1-2-3-4): 37 edges
+2026-06-10 09:56  INFO  laube-struensee  depth 5 (acts_1-2-3-4-5): 45 edges
+2026-06-10 09:56  INFO  leisewitz-julius-von-tarent  depth 1 (acts_1): 8 edges
+2026-06-10 09:56  INFO  leisewitz-julius-von-tarent  depth 2 (acts_1-2): 13 edges
+2026-06-10 09:56  INFO  leisewitz-julius-von-tarent  depth 3 (acts_1-2-3): 17 edges
+2026-06-10 09:56  INFO  leisewitz-julius-von-tarent  depth 4 (acts_1-2-3-4): 27 edges
+2026-06-10 09:56  INFO  leisewitz-julius-von-tarent  depth 5 (acts_1-2-3-4-5): 33 edges
+2026-06-10 09:56  INFO  lenz-der-hofmeister  depth 1 (acts_1): 11 edges
+2026-06-10 09:56  INFO  lenz-der-hofmeister  depth 2 (acts_1-2): 32 edges
+2026-06-10 09:56  INFO  lenz-der-hofmeister  depth 3 (acts_1-2-3): 39 edges
+2026-06-10 09:56  INFO  lenz-der-hofmeister  depth 4 (acts_1-2-3-4): 53 edges
+2026-06-10 09:56  INFO  lenz-der-hofmeister  depth 5 (acts_1-2-3-4-5): 67 edges
+2026-06-10 09:56  INFO  lenz-der-neue-menoza  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  lenz-der-neue-menoza  depth 2 (acts_1-2): 17 edges
+2026-06-10 09:56  INFO  lenz-der-neue-menoza  depth 3 (acts_1-2-3): 48 edges
+2026-06-10 09:56  INFO  lenz-der-neue-menoza  depth 4 (acts_1-2-3-4): 88 edges
+2026-06-10 09:56  INFO  lenz-der-neue-menoza  depth 5 (acts_1-2-3-4-5): 91 edges
+2026-06-10 09:56  INFO  lenz-die-freunde-machen-den-philosophen  depth 1 (acts_1): 10 edges
+2026-06-10 09:56  INFO  lenz-die-freunde-machen-den-philosophen  depth 2 (acts_1-2): 19 edges
+2026-06-10 09:56  INFO  lenz-die-freunde-machen-den-philosophen  depth 3 (acts_1-2-3): 63 edges
+2026-06-10 09:56  INFO  lenz-die-freunde-machen-den-philosophen  depth 4 (acts_1-2-3-4): 65 edges
+2026-06-10 09:56  INFO  lenz-die-freunde-machen-den-philosophen  depth 5 (acts_1-2-3-4-5): 67 edges
+2026-06-10 09:56  INFO  lessing-der-freigeist  depth 1 (acts_1): 5 edges
+2026-06-10 09:56  INFO  lessing-der-freigeist  depth 2 (acts_1-2): 14 edges
+2026-06-10 09:56  INFO  lessing-der-freigeist  depth 3 (acts_1-2-3): 18 edges
+2026-06-10 09:56  INFO  lessing-der-freigeist  depth 4 (acts_1-2-3-4): 25 edges
+2026-06-10 09:56  INFO  lessing-der-freigeist  depth 5 (acts_1-2-3-4-5): 37 edges
+2026-06-10 09:56  INFO  lessing-emilia-galotti  depth 1 (acts_1): 4 edges
+2026-06-10 09:56  INFO  lessing-emilia-galotti  depth 2 (acts_1-2): 15 edges
+2026-06-10 09:56  INFO  lessing-emilia-galotti  depth 3 (acts_1-2-3): 24 edges
+2026-06-10 09:56  INFO  lessing-emilia-galotti  depth 4 (acts_1-2-3-4): 30 edges
+2026-06-10 09:56  INFO  lessing-emilia-galotti  depth 5 (acts_1-2-3-4-5): 32 edges
+2026-06-10 09:56  INFO  lessing-minna-von-barnhelm  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  lessing-minna-von-barnhelm  depth 2 (acts_1-2): 19 edges
+2026-06-10 09:56  INFO  lessing-minna-von-barnhelm  depth 3 (acts_1-2-3): 24 edges
+2026-06-10 09:56  INFO  lessing-minna-von-barnhelm  depth 4 (acts_1-2-3-4): 27 edges
+2026-06-10 09:56  INFO  lessing-minna-von-barnhelm  depth 5 (acts_1-2-3-4-5): 42 edges
+2026-06-10 09:56  INFO  lessing-miss-sara-sampson  depth 1 (acts_1): 8 edges
+2026-06-10 09:56  INFO  lessing-miss-sara-sampson  depth 2 (acts_1-2): 16 edges
+2026-06-10 09:56  INFO  lessing-miss-sara-sampson  depth 3 (acts_1-2-3): 20 edges
+2026-06-10 09:56  INFO  lessing-miss-sara-sampson  depth 4 (acts_1-2-3-4): 21 edges
+2026-06-10 09:56  INFO  lessing-miss-sara-sampson  depth 5 (acts_1-2-3-4-5): 24 edges
+2026-06-10 09:56  INFO  linhart-miss-jenny-love  depth 1 (acts_1): 5 edges
+2026-06-10 09:56  INFO  linhart-miss-jenny-love  depth 2 (acts_1-2): 11 edges
+2026-06-10 09:56  INFO  linhart-miss-jenny-love  depth 3 (acts_1-2-3): 13 edges
+2026-06-10 09:56  INFO  linhart-miss-jenny-love  depth 4 (acts_1-2-3-4): 27 edges
+2026-06-10 09:56  INFO  linhart-miss-jenny-love  depth 5 (acts_1-2-3-4-5): 38 edges
+2026-06-10 09:56  INFO  ludwig-der-erbfoerster  depth 1 (acts_1): 38 edges
+2026-06-10 09:56  INFO  ludwig-der-erbfoerster  depth 2 (acts_1-2): 57 edges
+2026-06-10 09:56  INFO  ludwig-der-erbfoerster  depth 3 (acts_1-2-3): 73 edges
+2026-06-10 09:56  INFO  ludwig-der-erbfoerster  depth 4 (acts_1-2-3-4): 73 edges
+2026-06-10 09:56  INFO  ludwig-der-erbfoerster  depth 5 (acts_1-2-3-4-5): 78 edges
+2026-06-10 09:56  INFO  ludwig-die-makkabaeer  depth 1 (acts_1): 78 edges
+2026-06-10 09:56  INFO  ludwig-die-makkabaeer  depth 2 (acts_1-2): 181 edges
+2026-06-10 09:56  INFO  ludwig-die-makkabaeer  depth 3 (acts_1-2-3): 369 edges
+2026-06-10 09:56  INFO  ludwig-die-makkabaeer  depth 4 (acts_1-2-3-4): 388 edges
+2026-06-10 09:56  INFO  ludwig-die-makkabaeer  depth 5 (acts_1-2-3-4-5): 415 edges
+2026-06-10 09:56  INFO  moeller-der-graf-von-walltron-oder-die-subordination  depth 1 (acts_1): 35 edges
+2026-06-10 09:56  INFO  moeller-der-graf-von-walltron-oder-die-subordination  depth 2 (acts_1-2): 70 edges
+2026-06-10 09:56  INFO  moeller-der-graf-von-walltron-oder-die-subordination  depth 3 (acts_1-2-3): 83 edges
+2026-06-10 09:56  INFO  moeller-der-graf-von-walltron-oder-die-subordination  depth 4 (acts_1-2-3-4): 94 edges
+2026-06-10 09:56  INFO  moeller-der-graf-von-walltron-oder-die-subordination  depth 5 (acts_1-2-3-4-5): 109 edges
+2026-06-10 09:56  INFO  muellner-koenig-yngurd  depth 1 (acts_1): 39 edges
+2026-06-10 09:56  INFO  muellner-koenig-yngurd  depth 2 (acts_1-2): 88 edges
+2026-06-10 09:56  INFO  muellner-koenig-yngurd  depth 3 (acts_1-2-3): 129 edges
+2026-06-10 09:56  INFO  muellner-koenig-yngurd  depth 4 (acts_1-2-3-4): 151 edges
+2026-06-10 09:56  INFO  muellner-koenig-yngurd  depth 5 (acts_1-2-3-4-5): 191 edges
+2026-06-10 09:56  INFO  neuber-das-schaeferfest  depth 1 (acts_1): 11 edges
+2026-06-10 09:56  INFO  neuber-das-schaeferfest  depth 2 (acts_1-2): 28 edges
+2026-06-10 09:56  INFO  neuber-das-schaeferfest  depth 3 (acts_1-2-3): 34 edges
+2026-06-10 09:56  INFO  neuber-das-schaeferfest  depth 4 (acts_1-2-3-4): 45 edges
+2026-06-10 09:56  INFO  neuber-das-schaeferfest  depth 5 (acts_1-2-3-4-5): 94 edges
+2026-06-10 09:56  INFO  panizza-das-liebeskonzil  depth 1 (acts_1): 125 edges
+2026-06-10 09:56  INFO  panizza-das-liebeskonzil  depth 2 (acts_1-2): 261 edges
+2026-06-10 09:56  INFO  panizza-das-liebeskonzil  depth 3 (acts_1-2-3): 266 edges
+2026-06-10 09:56  INFO  panizza-das-liebeskonzil  depth 4 (acts_1-2-3-4): 269 edges
+2026-06-10 09:56  INFO  panizza-das-liebeskonzil  depth 5 (acts_1-2-3-4-5): 270 edges
+2026-06-10 09:56  INFO  panizza-nero  depth 1 (acts_1): 51 edges
+2026-06-10 09:56  INFO  panizza-nero  depth 2 (acts_1-2): 142 edges
+2026-06-10 09:56  INFO  panizza-nero  depth 3 (acts_1-2-3): 207 edges
+2026-06-10 09:56  INFO  panizza-nero  depth 4 (acts_1-2-3-4): 226 edges
+2026-06-10 09:56  INFO  panizza-nero  depth 5 (acts_1-2-3-4-5): 286 edges
+2026-06-10 09:56  INFO  pfeil-lucie-woodvil  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  pfeil-lucie-woodvil  depth 2 (acts_1-2): 17 edges
+2026-06-10 09:56  INFO  pfeil-lucie-woodvil  depth 3 (acts_1-2-3): 19 edges
+2026-06-10 09:56  INFO  pfeil-lucie-woodvil  depth 4 (acts_1-2-3-4): 21 edges
+2026-06-10 09:56  INFO  pfeil-lucie-woodvil  depth 5 (acts_1-2-3-4-5): 26 edges
+2026-06-10 09:56  INFO  platen-der-romantische-oedipus  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  platen-der-romantische-oedipus  depth 2 (acts_1-2): 42 edges
+2026-06-10 09:56  INFO  platen-der-romantische-oedipus  depth 3 (acts_1-2-3): 87 edges
+2026-06-10 09:56  INFO  platen-der-romantische-oedipus  depth 4 (acts_1-2-3-4): 102 edges
+2026-06-10 09:56  INFO  platen-der-romantische-oedipus  depth 5 (acts_1-2-3-4-5): 110 edges
+2026-06-10 09:56  INFO  platen-die-verhaengnisvolle-gabel  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  platen-die-verhaengnisvolle-gabel  depth 2 (acts_1-2): 9 edges
+2026-06-10 09:56  INFO  platen-die-verhaengnisvolle-gabel  depth 3 (acts_1-2-3): 18 edges
+2026-06-10 09:56  INFO  platen-die-verhaengnisvolle-gabel  depth 4 (acts_1-2-3-4): 19 edges
+2026-06-10 09:56  INFO  platen-die-verhaengnisvolle-gabel  depth 5 (acts_1-2-3-4-5): 23 edges
+2026-06-10 09:56  INFO  pollinger-antonio-del-bassanio  depth 1 (acts_1): 4 edges
+2026-06-10 09:56  INFO  pollinger-antonio-del-bassanio  depth 2 (acts_1-2): 19 edges
+2026-06-10 09:56  INFO  pollinger-antonio-del-bassanio  depth 3 (acts_1-2-3): 36 edges
+2026-06-10 09:56  INFO  pollinger-antonio-del-bassanio  depth 4 (acts_1-2-3-4): 36 edges
+2026-06-10 09:56  INFO  pollinger-antonio-del-bassanio  depth 5 (acts_1-2-3-4-5): 40 edges
+2026-06-10 09:56  INFO  quistorp-der-hypochondrist  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  quistorp-der-hypochondrist  depth 2 (acts_1-2): 11 edges
+2026-06-10 09:56  INFO  quistorp-der-hypochondrist  depth 3 (acts_1-2-3): 35 edges
+2026-06-10 09:56  INFO  quistorp-der-hypochondrist  depth 4 (acts_1-2-3-4): 36 edges
+2026-06-10 09:56  INFO  quistorp-der-hypochondrist  depth 5 (acts_1-2-3-4-5): 37 edges
+2026-06-10 09:56  INFO  reitzenstein-die-negersclaven  depth 1 (acts_1): 17 edges
+2026-06-10 09:56  INFO  reitzenstein-die-negersclaven  depth 2 (acts_1-2): 30 edges
+2026-06-10 09:56  INFO  reitzenstein-die-negersclaven  depth 3 (acts_1-2-3): 56 edges
+2026-06-10 09:56  INFO  reitzenstein-die-negersclaven  depth 4 (acts_1-2-3-4): 82 edges
+2026-06-10 09:56  INFO  reitzenstein-die-negersclaven  depth 5 (acts_1-2-3-4-5): 170 edges
+2026-06-10 09:56  INFO  sachs-ein-comedi-von-dem-reichen-sterbenden-menschen-der-hecastus-genannt  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  sachs-ein-comedi-von-dem-reichen-sterbenden-menschen-der-hecastus-genannt  depth 2 (acts_1-2): 40 edges
+2026-06-10 09:56  INFO  sachs-ein-comedi-von-dem-reichen-sterbenden-menschen-der-hecastus-genannt  depth 3 (acts_1-2-3): 63 edges
+2026-06-10 09:56  INFO  sachs-ein-comedi-von-dem-reichen-sterbenden-menschen-der-hecastus-genannt  depth 4 (acts_1-2-3-4): 78 edges
+2026-06-10 09:56  INFO  sachs-ein-comedi-von-dem-reichen-sterbenden-menschen-der-hecastus-genannt  depth 5 (acts_1-2-3-4-5): 138 edges
+2026-06-10 09:56  INFO  scheerbart-es-lebe-europa  depth 1 (acts_1): 10 edges
+2026-06-10 09:56  INFO  scheerbart-es-lebe-europa  depth 2 (acts_1-2): 11 edges
+2026-06-10 09:56  INFO  scheerbart-es-lebe-europa  depth 3 (acts_1-2-3): 20 edges
+2026-06-10 09:56  INFO  scheerbart-es-lebe-europa  depth 4 (acts_1-2-3-4): 20 edges
+2026-06-10 09:56  INFO  scheerbart-es-lebe-europa  depth 5 (acts_1-2-3-4-5): 25 edges
+2026-06-10 09:56  INFO  scheerbart-herr-kammerdiener-kneetschke  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  scheerbart-herr-kammerdiener-kneetschke  depth 2 (acts_1-2): 19 edges
+2026-06-10 09:56  INFO  scheerbart-herr-kammerdiener-kneetschke  depth 3 (acts_1-2-3): 24 edges
+2026-06-10 09:56  INFO  scheerbart-herr-kammerdiener-kneetschke  depth 4 (acts_1-2-3-4): 31 edges
+2026-06-10 09:56  INFO  scheerbart-herr-kammerdiener-kneetschke  depth 5 (acts_1-2-3-4-5): 31 edges
+2026-06-10 09:56  INFO  scheerbart-okurirasuna  depth 1 (acts_1): 28 edges
+2026-06-10 09:56  INFO  scheerbart-okurirasuna  depth 2 (acts_1-2): 33 edges
+2026-06-10 09:56  INFO  scheerbart-okurirasuna  depth 3 (acts_1-2-3): 35 edges
+2026-06-10 09:56  INFO  scheerbart-okurirasuna  depth 4 (acts_1-2-3-4): 44 edges
+2026-06-10 09:56  INFO  scheerbart-okurirasuna  depth 5 (acts_1-2-3-4-5): 53 edges
+2026-06-10 09:56  INFO  schiller-die-jungfrau-von-orleans  depth 1 (acts_1): 44 edges
+2026-06-10 09:56  INFO  schiller-die-jungfrau-von-orleans  depth 2 (acts_1-2): 84 edges
+2026-06-10 09:56  INFO  schiller-die-jungfrau-von-orleans  depth 3 (acts_1-2-3): 109 edges
+2026-06-10 09:56  INFO  schiller-die-jungfrau-von-orleans  depth 4 (acts_1-2-3-4): 145 edges
+2026-06-10 09:56  INFO  schiller-die-jungfrau-von-orleans  depth 5 (acts_1-2-3-4-5): 176 edges
+2026-06-10 09:56  INFO  schiller-die-verschwoerung-des-fiesco-zu-genua  depth 1 (acts_1): 34 edges
+2026-06-10 09:56  INFO  schiller-die-verschwoerung-des-fiesco-zu-genua  depth 2 (acts_1-2): 61 edges
+2026-06-10 09:56  INFO  schiller-die-verschwoerung-des-fiesco-zu-genua  depth 3 (acts_1-2-3): 74 edges
+2026-06-10 09:56  INFO  schiller-die-verschwoerung-des-fiesco-zu-genua  depth 4 (acts_1-2-3-4): 113 edges
+2026-06-10 09:56  INFO  schiller-die-verschwoerung-des-fiesco-zu-genua  depth 5 (acts_1-2-3-4-5): 144 edges
+2026-06-10 09:56  INFO  schiller-kabale-und-liebe  depth 1 (acts_1): 11 edges
+2026-06-10 09:56  INFO  schiller-kabale-und-liebe  depth 2 (acts_1-2): 30 edges
+2026-06-10 09:56  INFO  schiller-kabale-und-liebe  depth 3 (acts_1-2-3): 34 edges
+2026-06-10 09:56  INFO  schiller-kabale-und-liebe  depth 4 (acts_1-2-3-4): 49 edges
+2026-06-10 09:56  INFO  schiller-kabale-und-liebe  depth 5 (acts_1-2-3-4-5): 50 edges
+2026-06-10 09:56  INFO  schiller-maria-stuart  depth 1 (acts_1): 8 edges
+2026-06-10 09:56  INFO  schiller-maria-stuart  depth 2 (acts_1-2): 31 edges
+2026-06-10 09:56  INFO  schiller-maria-stuart  depth 3 (acts_1-2-3): 36 edges
+2026-06-10 09:56  INFO  schiller-maria-stuart  depth 4 (acts_1-2-3-4): 57 edges
+2026-06-10 09:56  INFO  schiller-maria-stuart  depth 5 (acts_1-2-3-4-5): 69 edges
+2026-06-10 09:56  INFO  schiller-wallensteins-tod  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  schiller-wallensteins-tod  depth 2 (acts_1-2): 23 edges
+2026-06-10 09:56  INFO  schiller-wallensteins-tod  depth 3 (acts_1-2-3): 66 edges
+2026-06-10 09:56  INFO  schiller-wallensteins-tod  depth 4 (acts_1-2-3-4): 85 edges
+2026-06-10 09:56  INFO  schiller-wallensteins-tod  depth 5 (acts_1-2-3-4-5): 142 edges
+2026-06-10 09:56  INFO  schlegel-dueval-und-charmille  depth 1 (acts_1): 10 edges
+2026-06-10 09:56  INFO  schlegel-dueval-und-charmille  depth 2 (acts_1-2): 14 edges
+2026-06-10 09:56  INFO  schlegel-dueval-und-charmille  depth 3 (acts_1-2-3): 16 edges
+2026-06-10 09:56  INFO  schlegel-dueval-und-charmille  depth 4 (acts_1-2-3-4): 19 edges
+2026-06-10 09:56  INFO  schlegel-dueval-und-charmille  depth 5 (acts_1-2-3-4-5): 26 edges
+2026-06-10 09:56  INFO  schlegel-canut  depth 1 (acts_1): 3 edges
+2026-06-10 09:56  INFO  schlegel-canut  depth 2 (acts_1-2): 6 edges
+2026-06-10 09:56  INFO  schlegel-canut  depth 3 (acts_1-2-3): 10 edges
+2026-06-10 09:56  INFO  schlegel-canut  depth 4 (acts_1-2-3-4): 13 edges
+2026-06-10 09:56  INFO  schlegel-canut  depth 5 (acts_1-2-3-4-5): 16 edges
+2026-06-10 09:56  INFO  schlegel-der-geschaeftige-muessiggaenger  depth 1 (acts_1): 5 edges
+2026-06-10 09:56  INFO  schlegel-der-geschaeftige-muessiggaenger  depth 2 (acts_1-2): 18 edges
+2026-06-10 09:56  INFO  schlegel-der-geschaeftige-muessiggaenger  depth 3 (acts_1-2-3): 37 edges
+2026-06-10 09:56  INFO  schlegel-der-geschaeftige-muessiggaenger  depth 4 (acts_1-2-3-4): 39 edges
+2026-06-10 09:56  INFO  schlegel-der-geschaeftige-muessiggaenger  depth 5 (acts_1-2-3-4-5): 53 edges
+2026-06-10 09:56  INFO  schlegel-der-triumph-der-guten-frauen  depth 1 (acts_1): 11 edges
+2026-06-10 09:56  INFO  schlegel-der-triumph-der-guten-frauen  depth 2 (acts_1-2): 15 edges
+2026-06-10 09:56  INFO  schlegel-der-triumph-der-guten-frauen  depth 3 (acts_1-2-3): 16 edges
+2026-06-10 09:56  INFO  schlegel-der-triumph-der-guten-frauen  depth 4 (acts_1-2-3-4): 16 edges
+2026-06-10 09:56  INFO  schlegel-der-triumph-der-guten-frauen  depth 5 (acts_1-2-3-4-5): 19 edges
+2026-06-10 09:56  INFO  schnitzler-professor-bernhardi  depth 1 (acts_1): 45 edges
+2026-06-10 09:56  INFO  schnitzler-professor-bernhardi  depth 2 (acts_1-2): 77 edges
+2026-06-10 09:56  INFO  schnitzler-professor-bernhardi  depth 3 (acts_1-2-3): 116 edges
+2026-06-10 09:56  INFO  schnitzler-professor-bernhardi  depth 4 (acts_1-2-3-4): 151 edges
+2026-06-10 09:56  INFO  schnitzler-professor-bernhardi  depth 5 (acts_1-2-3-4-5): 165 edges
+2026-06-10 09:56  INFO  schuecking-elisabeth  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  schuecking-elisabeth  depth 2 (acts_1-2): 21 edges
+2026-06-10 09:56  INFO  schuecking-elisabeth  depth 3 (acts_1-2-3): 35 edges
+2026-06-10 09:56  INFO  schuecking-elisabeth  depth 4 (acts_1-2-3-4): 36 edges
+2026-06-10 09:56  INFO  schuecking-elisabeth  depth 5 (acts_1-2-3-4-5): 40 edges
+2026-06-10 09:56  INFO  seume-miltiades  depth 1 (acts_1): 5 edges
+2026-06-10 09:56  INFO  seume-miltiades  depth 2 (acts_1-2): 13 edges
+2026-06-10 09:56  INFO  seume-miltiades  depth 3 (acts_1-2-3): 23 edges
+2026-06-10 09:56  INFO  seume-miltiades  depth 4 (acts_1-2-3-4): 38 edges
+2026-06-10 09:56  INFO  seume-miltiades  depth 5 (acts_1-2-3-4-5): 60 edges
+2026-06-10 09:56  INFO  steltzer-franziska-montenegro  depth 1 (acts_1): 11 edges
+2026-06-10 09:56  INFO  steltzer-franziska-montenegro  depth 2 (acts_1-2): 14 edges
+2026-06-10 09:56  INFO  steltzer-franziska-montenegro  depth 3 (acts_1-2-3): 22 edges
+2026-06-10 09:56  INFO  steltzer-franziska-montenegro  depth 4 (acts_1-2-3-4): 25 edges
+2026-06-10 09:56  INFO  steltzer-franziska-montenegro  depth 5 (acts_1-2-3-4-5): 27 edges
+2026-06-10 09:56  INFO  sturz-julie  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  sturz-julie  depth 2 (acts_1-2): 14 edges
+2026-06-10 09:56  INFO  sturz-julie  depth 3 (acts_1-2-3): 17 edges
+2026-06-10 09:56  INFO  sturz-julie  depth 4 (acts_1-2-3-4): 20 edges
+2026-06-10 09:56  INFO  sturz-julie  depth 5 (acts_1-2-3-4-5): 24 edges
+2026-06-10 09:56  INFO  sudermann-der-bettler-von-syrakus  depth 1 (acts_1): 25 edges
+2026-06-10 09:56  INFO  sudermann-der-bettler-von-syrakus  depth 2 (acts_1-2): 188 edges
+2026-06-10 09:56  INFO  sudermann-der-bettler-von-syrakus  depth 3 (acts_1-2-3): 214 edges
+2026-06-10 09:56  INFO  sudermann-der-bettler-von-syrakus  depth 4 (acts_1-2-3-4): 368 edges
+2026-06-10 09:56  INFO  sudermann-der-bettler-von-syrakus  depth 5 (acts_1-2-3-4-5): 382 edges
+2026-06-10 09:56  INFO  thon-adelheit-von-rastenberg  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  thon-adelheit-von-rastenberg  depth 2 (acts_1-2): 19 edges
+2026-06-10 09:56  INFO  thon-adelheit-von-rastenberg  depth 3 (acts_1-2-3): 23 edges
+2026-06-10 09:56  INFO  thon-adelheit-von-rastenberg  depth 4 (acts_1-2-3-4): 31 edges
+2026-06-10 09:56  INFO  thon-adelheit-von-rastenberg  depth 5 (acts_1-2-3-4-5): 38 edges
+2026-06-10 09:56  INFO  tieck-karl-von-berneck  depth 1 (acts_1): 58 edges
+2026-06-10 09:56  INFO  tieck-karl-von-berneck  depth 2 (acts_1-2): 93 edges
+2026-06-10 09:56  INFO  tieck-karl-von-berneck  depth 3 (acts_1-2-3): 98 edges
+2026-06-10 09:56  INFO  tieck-karl-von-berneck  depth 4 (acts_1-2-3-4): 115 edges
+2026-06-10 09:56  INFO  tieck-karl-von-berneck  depth 5 (acts_1-2-3-4-5): 116 edges
+2026-06-10 09:56  INFO  toerring-agnes-bernauerin  depth 1 (acts_1): 48 edges
+2026-06-10 09:56  INFO  toerring-agnes-bernauerin  depth 2 (acts_1-2): 91 edges
+2026-06-10 09:56  INFO  toerring-agnes-bernauerin  depth 3 (acts_1-2-3): 100 edges
+2026-06-10 09:56  INFO  toerring-agnes-bernauerin  depth 4 (acts_1-2-3-4): 112 edges
+2026-06-10 09:56  INFO  toerring-agnes-bernauerin  depth 5 (acts_1-2-3-4-5): 133 edges
+2026-06-10 09:56  INFO  uhland-ernst-herzog-von-schwaben  depth 1 (acts_1): 28 edges
+2026-06-10 09:56  INFO  uhland-ernst-herzog-von-schwaben  depth 2 (acts_1-2): 34 edges
+2026-06-10 09:56  INFO  uhland-ernst-herzog-von-schwaben  depth 3 (acts_1-2-3): 46 edges
+2026-06-10 09:56  INFO  uhland-ernst-herzog-von-schwaben  depth 4 (acts_1-2-3-4): 65 edges
+2026-06-10 09:56  INFO  uhland-ernst-herzog-von-schwaben  depth 5 (acts_1-2-3-4-5): 151 edges
+2026-06-10 09:56  INFO  voss-faust  depth 1 (acts_1): 43 edges
+2026-06-10 09:56  INFO  voss-faust  depth 2 (acts_1-2): 114 edges
+2026-06-10 09:56  INFO  voss-faust  depth 3 (acts_1-2-3): 128 edges
+2026-06-10 09:56  INFO  voss-faust  depth 4 (acts_1-2-3-4): 157 edges
+2026-06-10 09:56  INFO  voss-faust  depth 5 (acts_1-2-3-4-5): 217 edges
+2026-06-10 09:56  INFO  weise-masaniello  depth 1 (acts_1): 105 edges
+2026-06-10 09:56  INFO  weise-masaniello  depth 2 (acts_1-2): 312 edges
+2026-06-10 09:56  INFO  weise-masaniello  depth 3 (acts_1-2-3): 381 edges
+2026-06-10 09:56  INFO  weise-masaniello  depth 4 (acts_1-2-3-4): 430 edges
+2026-06-10 09:56  INFO  weise-masaniello  depth 5 (acts_1-2-3-4-5): 547 edges
+2026-06-10 09:56  INFO  weissenthurn-das-manuscript  depth 1 (acts_1): 9 edges
+2026-06-10 09:56  INFO  weissenthurn-das-manuscript  depth 2 (acts_1-2): 34 edges
+2026-06-10 09:56  INFO  weissenthurn-das-manuscript  depth 3 (acts_1-2-3): 38 edges
+2026-06-10 09:56  INFO  weissenthurn-das-manuscript  depth 4 (acts_1-2-3-4): 39 edges
+2026-06-10 09:56  INFO  weissenthurn-das-manuscript  depth 5 (acts_1-2-3-4-5): 47 edges
+2026-06-10 09:56  INFO  weissenthurn-welche-ist-die-braut  depth 1 (acts_1): 18 edges
+2026-06-10 09:56  INFO  weissenthurn-welche-ist-die-braut  depth 2 (acts_1-2): 46 edges
+2026-06-10 09:56  INFO  weissenthurn-welche-ist-die-braut  depth 3 (acts_1-2-3): 177 edges
+2026-06-10 09:56  INFO  weissenthurn-welche-ist-die-braut  depth 4 (acts_1-2-3-4): 179 edges
+2026-06-10 09:56  INFO  weissenthurn-welche-ist-die-braut  depth 5 (acts_1-2-3-4-5): 180 edges
+2026-06-10 09:56  INFO  wezel-der-graf-von-wickham  depth 1 (acts_1): 8 edges
+2026-06-10 09:56  INFO  wezel-der-graf-von-wickham  depth 2 (acts_1-2): 12 edges
+2026-06-10 09:56  INFO  wezel-der-graf-von-wickham  depth 3 (acts_1-2-3): 16 edges
+2026-06-10 09:56  INFO  wezel-der-graf-von-wickham  depth 4 (acts_1-2-3-4): 17 edges
+2026-06-10 09:56  INFO  wezel-der-graf-von-wickham  depth 5 (acts_1-2-3-4-5): 18 edges
+2026-06-10 09:56  INFO  wieland-lady-johanna-gray  depth 1 (acts_1): 4 edges
+2026-06-10 09:56  INFO  wieland-lady-johanna-gray  depth 2 (acts_1-2): 18 edges
+2026-06-10 09:56  INFO  wieland-lady-johanna-gray  depth 3 (acts_1-2-3): 20 edges
+2026-06-10 09:56  INFO  wieland-lady-johanna-gray  depth 4 (acts_1-2-3-4): 22 edges
+2026-06-10 09:56  INFO  wieland-lady-johanna-gray  depth 5 (acts_1-2-3-4-5): 24 edges
+2026-06-10 09:56  INFO  wilbrandt-gracchus-der-volkstribun  depth 1 (acts_1): 62 edges
+2026-06-10 09:56  INFO  wilbrandt-gracchus-der-volkstribun  depth 2 (acts_1-2): 93 edges
+2026-06-10 09:56  INFO  wilbrandt-gracchus-der-volkstribun  depth 3 (acts_1-2-3): 122 edges
+2026-06-10 09:56  INFO  wilbrandt-gracchus-der-volkstribun  depth 4 (acts_1-2-3-4): 150 edges
+2026-06-10 09:56  INFO  wilbrandt-gracchus-der-volkstribun  depth 5 (acts_1-2-3-4-5): 171 edges
+2026-06-10 09:56  INFO  wildgans-armut  depth 1 (acts_1): 6 edges
+2026-06-10 09:56  INFO  wildgans-armut  depth 2 (acts_1-2): 14 edges
+2026-06-10 09:56  INFO  wildgans-armut  depth 3 (acts_1-2-3): 17 edges
+2026-06-10 09:56  INFO  wildgans-armut  depth 4 (acts_1-2-3-4): 20 edges
+2026-06-10 09:56  INFO  wildgans-armut  depth 5 (acts_1-2-3-4-5): 37 edges
+2026-06-10 09:56  INFO  wildgans-dies-irae  depth 1 (acts_1): 15 edges
+2026-06-10 09:56  INFO  wildgans-dies-irae  depth 2 (acts_1-2): 20 edges
+2026-06-10 09:56  INFO  wildgans-dies-irae  depth 3 (acts_1-2-3): 34 edges
+2026-06-10 09:56  INFO  wildgans-dies-irae  depth 4 (acts_1-2-3-4): 34 edges
+2026-06-10 09:56  INFO  wildgans-dies-irae  depth 5 (acts_1-2-3-4-5): 52 edges
+2026-06-10 09:56  INFO  d-arien-natur-und-liebe-im-streit  depth 1 (acts_1): 12 edges
+2026-06-10 09:56  INFO  d-arien-natur-und-liebe-im-streit  depth 2 (acts_1-2): 26 edges
+2026-06-10 09:56  INFO  d-arien-natur-und-liebe-im-streit  depth 3 (acts_1-2-3): 32 edges
+2026-06-10 09:56  INFO  d-arien-natur-und-liebe-im-streit  depth 4 (acts_1-2-3-4): 46 edges
+2026-06-10 09:56  INFO  d-arien-natur-und-liebe-im-streit  depth 5 (acts_1-2-3-4-5): 64 edges
+2026-06-10 09:56  INFO  Cumulative metrics written to ger_out\gerdracor_cumulative_all_acts.csv (149 plays, depths 1, 2, 3, 4, 5)
+2026-06-10 09:56  INFO  Writing structural stats
+2026-06-10 09:56  INFO  Structural stats written to ger_out\gerdracor_content_stats.csv (149 plays)
+2026-06-10 09:56  INFO  Done
