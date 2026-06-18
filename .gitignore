@@ -1,3 +1,6 @@
 shake_data
 ger_data
 othello_acts
+
+__pycache__
+*.pyc
