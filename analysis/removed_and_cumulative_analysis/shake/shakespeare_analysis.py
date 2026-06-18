@@ -46,14 +46,14 @@ def _scene_edge_list(scene):
     return edges, lonely
 
 
-def build_shakespeare_networks(soups):
+def build_shakespeare_removed_networks(soups):
     """
     Build co-appearance networks for each play:
       - 'whole': all scenes across all acts
       - 'wo1'..'wo5': whole network with act N removed
     Returns a dict keyed by play name.
     """
-    G_list = {}
+    shake_networks = {}
 
     for name, soup in soups.items():
         edge_list = []
@@ -70,7 +70,7 @@ def build_shakespeare_networks(soups):
             if node not in whole.nodes:
                 whole.add_node(node)
 
-        G_list[name] = {
+        shake_networks[name] = {
             'whole': whole,
             'title_pretty': soup.find('title').get_text(strip=True),
             'kept_characters': ', '.join(list(whole.nodes())),
@@ -96,9 +96,9 @@ def build_shakespeare_networks(soups):
                 if node not in without_n.nodes:
                     without_n.add_node(node)
 
-            G_list[name]['wo' + str(n)] = without_n
+            shake_networks[name]['wo' + str(n)] = without_n
 
-    return G_list
+    return shake_networks
 
 
 def build_shakespeare_cumulative(soups, acts=None):
@@ -138,8 +138,6 @@ def build_shakespeare_cumulative(soups, acts=None):
             label = f"acts_{'-'.join(acts_included)}"
             cumulative_G_list[name]['title_pretty'] = soup.find('title').get_text(strip=True)
             cumulative_G_list[name][label] = network
-
-        logger.info('Cumulative networks built for %s (acts %s)', name, ', '.join(acts_included))
 
     return cumulative_G_list
 
@@ -214,6 +212,3 @@ def write_shakespeare_cumulative_csv(cumulative_G_list, filename, acts=None):
                 row[f'{variant}_average_clustering'] = nx.average_clustering(G)
 
             writer.writerow(row)
-
-    logger.info('Cumulative metrics written to %s (%d plays, acts %s)',
-                filename, len(cumulative_G_list), ', '.join(acts))

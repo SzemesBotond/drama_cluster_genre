@@ -9,13 +9,16 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 from dracor_input_handling.input_handler import yield_corpora_tei
 
 from fredracor_analysis import (
-    load_fredracor_metadata,
+    build_fre_removed_networks,
     load_fredracor_soups,
     build_fredracor_cumulative,
     write_fredracor_cumulative_csv,
 )
 
-from schemas_and_mappings import FREDRACOR_TEI_FILES, FREDRACOR_METADATA_PATH
+from schemas_and_mappings import FREDRACOR_CORPORA, FREDRACOR_METADATA_PATH
+
+from dracor_input_handling.dracor_metadata import load_genres_from_metadata
+from removed_and_cumulative_analysis.removed_act_analysis_utils import calculate_and_write_removed_csv
 
 ALL_ACTS = ['1', '2', '3', '4', '5']
 
@@ -53,7 +56,7 @@ def parse_args():
     parser = argparse.ArgumentParser(description='FreDracor co-appearance network analysis')
     parser.add_argument(
         '--input',
-        default=FREDRACOR_TEI_FILES,
+        default=FREDRACOR_CORPORA,
         help='Path or URL to FreDracor TEI files (default: %(default)s)',
     )
     parser.add_argument(
@@ -93,13 +96,18 @@ def main():
     logger.info('Output directory: %s', outputs_dir)
     logger.info('Log file: %s', log_file)
 
-    genres = load_fredracor_metadata(args.metadata, outputs_dir)
+    genres = load_genres_from_metadata(args.metadata, outputs_dir)
     logger.info('Metadata loaded: %d qualifying plays', len(genres))
 
     dracor_tei_generator = yield_corpora_tei(args.input)
     soups = load_fredracor_soups(dracor_tei_generator, genres)
     logger.info('Loaded %d plays', len(soups))
 
+    # Removed
+    fre_networks = build_fre_removed_networks(soups)
+    calculate_and_write_removed_csv(fre_networks, genres, outputs_dir / 'fredracor_removed.csv')
+
+    # Cumulative
     logger.info('Building cumulative networks')
     cumulative = build_fredracor_cumulative(soups, genres, acts=acts)
     write_fredracor_cumulative_csv(

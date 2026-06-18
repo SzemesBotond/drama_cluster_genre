@@ -33,24 +33,32 @@ TEI input: `/home/misinagy/Projects/shakedracor/tei`
 ---
 
 ### `ger/` — German DRaCor
-Builds cumulative co-appearance networks and structural stats for GerDracor plays (5-act, 5+ speakers, Comedy/Tragedy).
+Builds cumulative co-appearance networks, removed-act networks, and structural stats for GerDracor plays (5-act, 5+ speakers, Comedy/Tragedy).
 
-TEI input: `gerdracor/tei` (relative to working directory)
+`--input` — **(required)** path to GerDracor TEI files or DRaCor corpora API URL
+
+`--metadata` — path to GerDracor metadata CSV (default: `https://dracor.org/api/v1/corpora/ger/metadata/csv`)
+
+`--cumulative_acts` — comma-separated act numbers to include, e.g. `2,3,4,5` (default: `1,2,3,4,5`)
 
 `--output_dir` — directory where all output files are written (default: `ger/outputs/`)
+
+Outputs: `gerdracor_cumulative_<acts>.csv`, `gerdracor_removed.csv`, `gerdracor_content_stats.csv`, `dracor-metadata.csv`
 
 ---
 
 ### `fre/` — French DRaCor
-Builds cumulative co-appearance networks for FreDracor plays (5-act, 5+ speakers, Comedy/Tragedy).
+Builds cumulative co-appearance networks and removed-act networks for FreDracor plays (5-act, 5+ speakers, Comedy/Tragedy).
 
-`--input` — path or URL to TEI files (default: `/home/misinagy/Projects/fredracor/tei`)
+`--input` — path or URL to TEI files (default: `https://dracor.org/api/v1/corpora/fre`)
 
-`--metadata` — path to fredracor metadata CSV (default: `fredracor-metadata.csv`)
+`--metadata` — path to FreDracor metadata CSV (default: `https://dracor.org/api/v1/corpora/fre/metadata/csv`)
 
 `--cumulative_acts` — comma-separated act numbers to include, e.g. `2,3,4,5` (default: `1,2,3,4,5`)
 
 `--output_dir` — directory where all output files are written (default: `fre/outputs/`)
+
+Outputs: `fredracor_cumulative_<acts>.csv`, `fredracor_removed.csv`, `dracor-metadata.csv`
 
 Settings (blacklist, act/scene tag mappings, strict mode) are in `schemas_and_mappings.py`.
 

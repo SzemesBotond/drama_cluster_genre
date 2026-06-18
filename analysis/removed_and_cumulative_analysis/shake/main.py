@@ -4,13 +4,15 @@ import argparse
 from pathlib import Path
 from datetime import datetime
 
+from schemas_and_mappings import SHAKESPEAR_GENRES
+
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from dracor_input_handling.input_handler import yield_corpora_tei
-
+from removed_and_cumulative_analysis.removed_act_analysis_utils import calculate_and_write_removed_csv
 from shakespeare_analysis import (
     load_shakespeare_soups,
-    build_shakespeare_networks,
+    build_shakespeare_removed_networks,
     build_shakespeare_cumulative,
     write_shakespeare_removed_csv,
     write_shakespeare_cumulative_csv,
@@ -92,14 +94,16 @@ def main():
     logger.info('Loaded %d plays', len(soups))
 
     logger.info('Building removed-act networks')
-    G_list = build_shakespeare_networks(soups)
-    write_shakespeare_removed_csv(G_list, outputs_dir / 'shakedracor_removed_acts.csv')
+    shake_networks = build_shakespeare_removed_networks(soups)
+    calculate_and_write_removed_csv(shake_networks, SHAKESPEAR_GENRES, outputs_dir / 'shakedracor_removed_acts.csv')
+    logger.info(f'Wrote removed-act networks to {outputs_dir / "shakedracor_removed_acts.csv"}')
 
     logger.info('Building cumulative networks')
     cumulative = build_shakespeare_cumulative(soups, acts=acts)
     write_shakespeare_cumulative_csv(
         cumulative, outputs_dir / cumulative_filename(acts), acts=acts
     )
+    logger.info(f'Wrote cumulative networks analysis to {outputs_dir / cumulative_filename(acts)}')
 
     logger.info('Done')
 

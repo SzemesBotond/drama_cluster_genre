@@ -14,6 +14,6 @@ STRICT_ACTS = True
 
 SCENE_TAGS = ['scene', 'ecene', 'zcene', 'scne', 'type', 'ballet', 'marche', 'divertissement']
 
-FREDRACOR_TEI_FILES = '/home/misinagy/Projects/fredracor/tei'
+FREDRACOR_CORPORA = 'https://dracor.org/api/v1/corpora/fre'
 FREDRACOR_METADATA_PATH = 'https://dracor.org/api/v1/corpora/fre/metadata/csv'
 

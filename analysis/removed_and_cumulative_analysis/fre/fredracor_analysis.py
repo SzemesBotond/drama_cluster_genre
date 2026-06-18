@@ -7,6 +7,7 @@ from itertools import combinations
 import networkx as nx
 from bs4 import BeautifulSoup
 
+from removed_and_cumulative_analysis.removed_act_analysis_utils import (get_largest_G)
 from removed_and_cumulative_analysis.fre.schemas_and_mappings import FREDRACOR_METADATA_PATH
 from schemas_and_mappings import (
     BLACKLIST,
@@ -15,6 +16,8 @@ from schemas_and_mappings import (
     STRICT_ACTS,
     SCENE_TAGS,
 )
+
+from dracor_input_handling.dracor_metadata import load_genres_from_metadata
 
 logger = logging.getLogger(__name__)
 
@@ -58,18 +61,6 @@ def _one_unit_edge_list(unit, lonely_nodes):
     if len(characters) == 1:
         lonely_nodes.append(characters[0])
     return edges, lonely_nodes
-
-
-def get_largest_G(input_G, name=None):
-    """Extract the largest connected component of a networkx Graph."""
-    if len(input_G.nodes) == 0:
-        raise ValueError(f'ZERO NODE GRAPH PASSED TO get_largest_G - {input_G}: {name}')
-    if not nx.is_connected(input_G):
-        nodes_in_largest = max(nx.connected_components(input_G), key=len)
-        G_copy = input_G.copy()
-        G_copy.remove_nodes_from(set(input_G.nodes) - nodes_in_largest)
-        return G_copy
-    return input_G
 
 
 def _network_from_edges(edge_list, lonely_nodes):
@@ -243,3 +234,60 @@ def write_fredracor_cumulative_csv(cumulative_G_list, filename, acts=None):
 
     logger.info('Cumulative metrics written to %s (%d plays, depths %s)',
                 filename, len(cumulative_G_list), ', '.join(acts))
+
+
+
+def build_fre_removed_networks(soups):
+    """
+    Build co-appearance networks for each play:
+      - 'whole': all scenes across all acts
+      - 'wo1'..'wo5': whole network with act N removed
+    Returns a dict keyed by play name.
+    """
+    all_networks = {}
+
+    # First calculate for whole network
+    for name, (soup, _) in soups.items():
+        edge_list = []
+        lonely_nodes = []
+
+        for act in _collect_acts(soup):
+            edges, lonely, _ = _edge_list_extractor([act], name)
+            edge_list.extend(edges)
+            lonely_nodes.extend(lonely)
+
+        whole = nx.from_edgelist(set(edge_list))
+        for node in lonely_nodes:
+            if node not in whole.nodes:
+                whole.add_node(node)
+
+        all_networks[name] = {
+            'whole': whole,
+            'title_pretty': soup.find('title').get_text(strip=True),
+            'kept_characters': ', '.join(list(whole.nodes())),
+            'character_count': len(whole.nodes()),
+        }
+
+    for name, (soup, _) in soups.items():
+        for n in [1, 2, 3, 4, 5]:
+            edge_list = []
+            lonely_nodes = []
+
+            for act_n, act in enumerate(_collect_acts(soup)):
+
+                # skip 'nth' act - this is the heart of "removed" act analysis
+                if act_n == n:
+                    continue
+
+                edges, lonely, _ = _edge_list_extractor([act], name)
+                edge_list.extend(edges)
+                lonely_nodes.extend(lonely)
+
+            without_n = nx.from_edgelist(set(edge_list))
+            for node in lonely_nodes:
+                if node not in without_n.nodes:
+                    without_n.add_node(node)
+
+            all_networks[name]['wo' + str(n)] = without_n
+
+    return all_networks

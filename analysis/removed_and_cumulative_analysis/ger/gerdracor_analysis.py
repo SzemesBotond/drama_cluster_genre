@@ -97,6 +97,50 @@ def load_gerdracor_soups(dracor_tei_generator):
 
     return soups
 
+
+def ger_scenes_generator(act, name=''):
+    """This generator is the interpretation of what this codebase consideres scenes in the German TEI XML structures.
+    They are {div, type:scene}, {div, type:location}, {div, type: configuration}, or no embedded div at all.
+    """
+
+    configurations_in_act = act.find_all('div', {'type': 'configuration'})
+    locations_in_act = act.find_all('div', {'type': 'location'})
+    scenes_in_act = act.find_all('div', {'type': 'scene'})
+
+    division_types_present = [
+        len(configurations_in_act) > 0,
+        len(locations_in_act) > 0,
+        len(scenes_in_act) > 0,
+    ]
+    if sum(division_types_present) > 1:
+        raise ValueError(f'UNACCOUNTED STRUCTURE OF DRAMA - {name} ! {division_types_present}')
+
+    if len(scenes_in_act) > 0:
+        for scene in scenes_in_act:
+            if scene.find('div', {'type': 'scene'}) is not None:
+                # nested scenes — go one level deeper
+                for inner_scene in scene.find_all('div', {'type': 'scene'}):
+                    if inner_scene.find('div', {'type': 'scene'}):
+                        logger.warning('Scene within scene within scene in %s', name)
+                    yield inner_scene
+
+            else:
+                yield scene
+
+    elif len(locations_in_act) > 0:
+        for location in locations_in_act:
+            yield location
+
+    elif len(configurations_in_act) > 0:
+        for configuration in configurations_in_act:
+            yield configuration
+
+    else:
+        if act.find('div') is not None:
+            raise ValueError(f'Unaccounted div type in {name} !')
+        yield act
+
+
 def edge_list_extractor(list_of_soup_segments, name=None):
     """
     Extract co-appearance edge list from a list of act soup segments.
@@ -115,46 +159,9 @@ def edge_list_extractor(list_of_soup_segments, name=None):
             else:
                 raise ValueError(f'ACT {idx} IS NONE IN {name}')
 
-        configurations_in_act = act.find_all('div', {'type': 'configuration'})
-        locations_in_act = act.find_all('div', {'type': 'location'})
-        scenes_in_act = act.find_all('div', {'type': 'scene'})
-
-        division_types_present = [
-            len(configurations_in_act) > 0,
-            len(locations_in_act) > 0,
-            len(scenes_in_act) > 0,
-        ]
-        if sum(division_types_present) > 1:
-            raise ValueError(f'UNACCOUNTED STRUCTURE OF DRAMA - {name} ! {division_types_present}')
-
-        if len(scenes_in_act) > 0:
-            for scene in scenes_in_act:
-                if scene.find('div', {'type': 'scene'}) is not None:
-                    # nested scenes — go one level deeper
-                    for inner_scene in scene.find_all('div', {'type': 'scene'}):
-                        if inner_scene.find('div', {'type': 'scene'}):
-                            logger.warning('Scene within scene within scene in %s', name)
-                        scene_edges, lonely_nodes = one_appearance_unit_edge_list(inner_scene, lonely_nodes)
-                        edge_list += scene_edges
-                else:
-                    scene_edges, lonely_nodes = one_appearance_unit_edge_list(scene, lonely_nodes)
-                    edge_list += scene_edges
-
-        elif len(locations_in_act) > 0:
-            for location in locations_in_act:
-                loc_edges, lonely_nodes = one_appearance_unit_edge_list(location, lonely_nodes)
-                edge_list += loc_edges
-
-        elif len(configurations_in_act) > 0:
-            for configuration in configurations_in_act:
-                conf_edges, lonely_nodes = one_appearance_unit_edge_list(configuration, lonely_nodes)
-                edge_list += conf_edges
-
-        else:
-            if act.find('div') is not None:
-                raise ValueError(f'Unaccounted div type in {name} !')
-            act_edges, lonely_nodes = one_appearance_unit_edge_list(act, lonely_nodes)
-            edge_list += act_edges
+        for scene in ger_scenes_generator(act, name):
+            scene_edges, lonely_nodes = one_appearance_unit_edge_list(scene, lonely_nodes)
+            edge_list += scene_edges
 
     return edge_list, lonely_nodes
 
@@ -287,3 +294,61 @@ def write_gerdracor_stats_csv(soups, filename):
             writer.writerow(row)
 
     logger.info('Structural stats written to %s (%d plays)', filename, len(soups))
+
+
+def build_ger_removed_networks(soups):
+    """
+    Build co-appearance networks for each play:
+      - 'whole': all scenes across all acts
+      - 'wo1'..'wo5': whole network with act N removed
+    Returns a dict keyed by play name.
+    """
+    all_networks = {}
+
+    # First calculate for whole network
+    for name, soup in soups.items():
+        edge_list = []
+        lonely_nodes = []
+
+        for act in soup.find_all('div', {'type': 'act'}):
+            for scene in ger_scenes_generator(act, name):
+                edges, lonely_nodes = one_appearance_unit_edge_list(scene, lonely_nodes)
+                edge_list.extend(edges)
+
+        whole = nx.from_edgelist(set(edge_list))
+        for node in lonely_nodes:
+            if node not in whole.nodes:
+                whole.add_node(node)
+
+        all_networks[name] = {
+            'whole': whole,
+            'title_pretty': soup.find('title').get_text(strip=True),
+            'kept_characters': ', '.join(list(whole.nodes())),
+            'character_count': len(whole.nodes()),
+        }
+
+    for name, soup in soups.items():
+        for n in [1, 2, 3, 4, 5]:
+            edge_list = []
+            lonely_nodes = []
+
+            all_acts = soup.find_all('div', {'type': 'act'})
+
+            for act_n, act in enumerate(all_acts):
+
+                # skip 'nth' act - this is the heart of "removed" act analysis
+                if act_n == n:
+                    continue
+
+                for scene in ger_scenes_generator(act, name):
+                    edges, lonely_nodes = one_appearance_unit_edge_list(scene, lonely_nodes)
+                    edge_list.extend(edges)
+
+            without_n = nx.from_edgelist(set(edge_list))
+            for node in lonely_nodes:
+                if node not in without_n.nodes:
+                    without_n.add_node(node)
+
+            all_networks[name]['wo' + str(n)] = without_n
+
+    return all_networks
