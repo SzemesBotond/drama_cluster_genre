@@ -154,7 +154,7 @@ def write_shakespeare_removed_csv(G_list, filename):
         for metric in metric_names:
             column_names.append(f'{variant}_{metric}')
 
-    with open(filename, 'w', newline='') as csvfile:
+    with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=column_names)
         writer.writeheader()
 
@@ -195,7 +195,7 @@ def write_shakespeare_cumulative_csv(cumulative_G_list, filename, acts=None):
         for metric in metric_names:
             column_names.append(f'{variant}_{metric}')
 
-    with open(filename, 'w', newline='') as csvfile:
+    with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=column_names)
         writer.writeheader()
 

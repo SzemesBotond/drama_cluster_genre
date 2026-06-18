@@ -8,7 +8,6 @@ import networkx as nx
 from bs4 import BeautifulSoup
 
 from removed_and_cumulative_analysis.removed_act_analysis_utils import (get_largest_G)
-from removed_and_cumulative_analysis.fre.schemas_and_mappings import FREDRACOR_METADATA_PATH
 from schemas_and_mappings import (
     BLACKLIST,
     ACT_TAGS,
@@ -16,8 +15,6 @@ from schemas_and_mappings import (
     STRICT_ACTS,
     SCENE_TAGS,
 )
-
-from dracor_input_handling.dracor_metadata import load_genres_from_metadata
 
 logger = logging.getLogger(__name__)
 
@@ -211,7 +208,7 @@ def write_fredracor_cumulative_csv(cumulative_G_list, filename, acts=None):
         for metric in metric_names:
             column_names.append(f'{label}_{metric}')
 
-    with open(filename, 'w', newline='') as csvfile:
+    with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=column_names)
         writer.writeheader()
 
