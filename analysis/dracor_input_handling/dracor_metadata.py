@@ -18,7 +18,7 @@ def load_genres_from_metadata(metadata_filepath, outputs_dir):
         logging.info(f'METADATA: {metadata_filepath} has been downloaded from api.')
 
     genres = {}
-    with open(metadata_filepath) as csvfile:
+    with open(metadata_filepath,  newline="", encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             if row['normalizedGenre'] in ['Tragedy', 'Comedy'] and int(row['numOfSpeakers']) > 5:
